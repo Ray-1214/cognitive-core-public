@@ -1,0 +1,65 @@
+{
+  "probes_sha": "b152c8802f304fdf",
+  "baseline": {
+    "n": 400,
+    "accuracy": 0.6992481203007519,
+    "error_rate": 0.3007518796992481,
+    "n_judgeable": 399,
+    "none": 1,
+    "diff": 0.07168341708542714,
+    "by_stratum": {
+      "dominant": 0.735,
+      "non_dominant": 0.6633165829145728
+    },
+    "position_effect": {
+      "diff": 0.058643216080402016,
+      "se": 0.045815710135039295,
+      "p": 0.20055199009931357,
+      "implied_noise": 0.029321608040201008,
+      "acc_gold_a": 0.7286432160804021,
+      "acc_gold_b": 0.67
+    }
+  },
+  "judge_validation": {
+    "n": 20,
+    "judge_vs_human": 0.75,
+    "human_vs_gold": 0.9,
+    "judge_vs_gold": 0.7,
+    "both_plausible_rate": 0.15,
+    "contaminated": false
+  },
+  "auc": {},
+  "required_auc": null,
+  "ceilings": {
+    "S1_polysemy": 0.9435,
+    "S2_subject_ellipsis": 0.9254,
+    "S3_syntactic_complexity": 0.9787,
+    "S4_cultural": 0.5197,
+    "S5_llm_direct": 0.9097,
+    "S6_roundtrip": 1.0,
+    "S7_n_readings": 0.7645,
+    "S8_semantic_entropy": 0.9009,
+    "raw_length": 0.9758
+  },
+  "lost_in_the_middle": {
+    "頭": {
+      "baseline": 0.0,
+      "memory": 1.0
+    },
+    "中": {
+      "baseline": 0.0,
+      "memory": 1.0
+    },
+    "尾": {
+      "baseline": 1.0,
+      "memory": 1.0
+    }
+  },
+  "file_sha": {
+    "wsd_baseline400.json": "45cc78d07042dc28",
+    "signals_all.json": "33c83ef6c025b94a",
+    "judge_validation_r2.json": "2cc90556c0e8d124",
+    "signal_preregistration.json": "b53de178ad5afa23",
+    "lost_in_the_middle.json": "207f012f06181c59"
+  }
+}

@@ -1,0 +1,1940 @@
+{
+ "recorded_at": "2026-08-27T16:35:30+08:00",
+ "commit": "99d9fba90a8f",
+ "sentences": [
+  "這個人很有意思",
+  "報告我下週一交給你",
+  "那位客人的東西還沒拿走",
+  "小王把整鍋湯都端上來了",
+  "他的話裡有話"
+ ],
+ "profiles": [
+  "cross_en_ja",
+  "same_en",
+  "single_ja"
+ ],
+ "note": "離線模式播放用的預錄結果。⚠️ 這是錄影不是即時執行——介面必須明示這一點。",
+ "entries": {
+  "cross_en_ja|這個人很有意思": {
+   "text": "這個人很有意思",
+   "profile": "cross_en_ja",
+   "timeline": [
+    {
+     "step": 1,
+     "node": "route",
+     "label": "訊號量測",
+     "detail": {
+      "path": "slow",
+      "ambiguity_score": null,
+      "reason": "router_stub",
+      "signals": {
+       "S1_polysemy": 0.367,
+       "S2_subject_ellipsis": 0.2,
+       "S3_syntactic_complexity": 0.125,
+       "S4_cultural": 0.0
+      },
+      "triggered": [
+       "S1_polysemy",
+       "S2_subject_ellipsis",
+       "S3_syntactic_complexity",
+       "S4_cultural"
+      ]
+     },
+     "cost": {}
+    },
+    {
+     "step": 2,
+     "node": "build_anchor",
+     "label": "錨點建構",
+     "detail": {
+      "tier": 1,
+      "n_readings": 2,
+      "unknown_scalars": [
+       "agent",
+       "time",
+       "social_relation"
+      ],
+      "text_determinable": false,
+      "self_report_agrees": true,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 3,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "en",
+       "ja"
+      ],
+      "n_samples": 2
+     },
+     "cost": {}
+    },
+    {
+     "step": 4,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "cross_en_ja",
+      "mode": "cross_lingual",
+      "detector_score": 0.9437951110345827,
+      "consistency": 0.9877357556658252,
+      "passed": true,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 5,
+     "node": "write_memory",
+     "label": "輸出組裝",
+     "detail": {
+      "stub": true,
+      "high_uncertainty": true
+     },
+     "cost": {}
+    }
+   ],
+   "translations": {
+    "en": "This person is quite interesting.",
+    "ja": "この人は面白いです。"
+   },
+   "clarifications": [
+    "稱讚的是談吐還是動機？"
+   ],
+   "readings": [
+    "風趣有趣",
+    "別有居心"
+   ],
+   "unknown_scalars": [
+    "agent",
+    "time",
+    "social_relation"
+   ],
+   "high_uncertainty": true,
+   "cost": {
+    "run_id": "20260827-163450-demo-f31032",
+    "calls": 7,
+    "cache_hits": 7,
+    "errors": 0,
+    "total_tokens": 12149,
+    "wall_s": 1.8,
+    "path": "runs\\20260827-163450-demo-f31032.jsonl"
+   }
+  },
+  "cross_en_ja|報告我下週一交給你": {
+   "text": "報告我下週一交給你",
+   "profile": "cross_en_ja",
+   "timeline": [
+    {
+     "step": 1,
+     "node": "route",
+     "label": "訊號量測",
+     "detail": {
+      "path": "slow",
+      "ambiguity_score": null,
+      "reason": "router_stub",
+      "signals": {
+       "S1_polysemy": 1.0,
+       "S2_subject_ellipsis": 0.25,
+       "S3_syntactic_complexity": 0.142,
+       "S4_cultural": 0.0
+      },
+      "triggered": [
+       "S1_polysemy",
+       "S2_subject_ellipsis",
+       "S3_syntactic_complexity",
+       "S4_cultural"
+      ]
+     },
+     "cost": {}
+    },
+    {
+     "step": 2,
+     "node": "build_anchor",
+     "label": "錨點建構",
+     "detail": {
+      "tier": 1,
+      "n_readings": 3,
+      "unknown_scalars": [
+       "agent",
+       "social_relation"
+      ],
+      "text_determinable": false,
+      "self_report_agrees": true,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 3,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "en",
+       "ja"
+      ],
+      "n_samples": 2
+     },
+     "cost": {}
+    },
+    {
+     "step": 4,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "cross_en_ja",
+      "mode": "cross_lingual",
+      "detector_score": 0.8955835157848617,
+      "consistency": 0.9157630063185214,
+      "passed": true,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 5,
+     "node": "write_memory",
+     "label": "輸出組裝",
+     "detail": {
+      "stub": true,
+      "high_uncertainty": true
+     },
+     "cost": {}
+    }
+   ],
+   "translations": {
+    "en": "I will submit the report to you next Monday.",
+    "ja": "来週月曜日にご報告いたします。"
+   },
+   "clarifications": [
+    "說話者與受話者的職級或上下關係為何？",
+    "是否有先前約定或共識需完成報告？"
+   ],
+   "readings": [
+    "命令式報告",
+    "請求式報告",
+    "提議式報告"
+   ],
+   "unknown_scalars": [
+    "agent",
+    "social_relation"
+   ],
+   "high_uncertainty": true,
+   "cost": {
+    "run_id": "20260827-163452-demo-3e92e7",
+    "calls": 7,
+    "cache_hits": 7,
+    "errors": 0,
+    "total_tokens": 12277,
+    "wall_s": 1.8,
+    "path": "runs\\20260827-163452-demo-3e92e7.jsonl"
+   }
+  },
+  "cross_en_ja|那位客人的東西還沒拿走": {
+   "text": "那位客人的東西還沒拿走",
+   "profile": "cross_en_ja",
+   "timeline": [
+    {
+     "step": 1,
+     "node": "route",
+     "label": "訊號量測",
+     "detail": {
+      "path": "slow",
+      "ambiguity_score": null,
+      "reason": "router_stub",
+      "signals": {
+       "S1_polysemy": 0.433,
+       "S2_subject_ellipsis": 0.125,
+       "S3_syntactic_complexity": 0.158,
+       "S4_cultural": 0.0
+      },
+      "triggered": [
+       "S1_polysemy",
+       "S2_subject_ellipsis",
+       "S3_syntactic_complexity",
+       "S4_cultural"
+      ]
+     },
+     "cost": {}
+    },
+    {
+     "step": 2,
+     "node": "build_anchor",
+     "label": "錨點建構",
+     "detail": {
+      "tier": 1,
+      "n_readings": 2,
+      "unknown_scalars": [
+       "agent",
+       "time",
+       "social_relation"
+      ],
+      "text_determinable": false,
+      "self_report_agrees": true,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 3,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "en",
+       "ja"
+      ],
+      "n_samples": 2
+     },
+     "cost": {}
+    },
+    {
+     "step": 4,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "cross_en_ja",
+      "mode": "cross_lingual",
+      "detector_score": 0.8343437110114489,
+      "consistency": 0.7237434365863057,
+      "passed": false,
+      "n_differences": 2
+     },
+     "cost": {}
+    },
+    {
+     "step": 5,
+     "node": "reflect",
+     "label": "反思修正",
+     "detail": {
+      "tier": 1,
+      "revision": 1,
+      "unknown_before": [
+       "agent",
+       "time",
+       "social_relation"
+      ],
+      "unknown_after": [
+       "agent",
+       "time",
+       "register",
+       "social_relation"
+      ],
+      "n_readings": 4,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 6,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "en",
+       "ja"
+      ],
+      "n_samples": 2
+     },
+     "cost": {}
+    },
+    {
+     "step": 7,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "cross_en_ja",
+      "mode": "cross_lingual",
+      "detector_score": 0.8343437110114489,
+      "consistency": 0.8343834864497195,
+      "passed": true,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 8,
+     "node": "write_memory",
+     "label": "輸出組裝",
+     "detail": {
+      "stub": true,
+      "high_uncertainty": true
+     },
+     "cost": {}
+    }
+   ],
+   "translations": {
+    "en": "The customer's belongings are still here.",
+    "ja": "客人の荷物がまだ取られていません。"
+   },
+   "clarifications": [
+    "客人當時是否已離開現場？",
+    "「東西」指的是隨身物品還是行李？"
+   ],
+   "readings": [
+    "物品未取",
+    "行李未取",
+    "仍在現場",
+    "未被取走"
+   ],
+   "unknown_scalars": [
+    "agent",
+    "time",
+    "register",
+    "social_relation"
+   ],
+   "high_uncertainty": true,
+   "cost": {
+    "run_id": "20260827-163454-demo-8e2958",
+    "calls": 15,
+    "cache_hits": 15,
+    "errors": 0,
+    "total_tokens": 26089,
+    "wall_s": 4.0,
+    "path": "runs\\20260827-163454-demo-8e2958.jsonl"
+   }
+  },
+  "cross_en_ja|小王把整鍋湯都端上來了": {
+   "text": "小王把整鍋湯都端上來了",
+   "profile": "cross_en_ja",
+   "timeline": [
+    {
+     "step": 1,
+     "node": "route",
+     "label": "訊號量測",
+     "detail": {
+      "path": "slow",
+      "ambiguity_score": null,
+      "reason": "router_stub",
+      "signals": {
+       "S1_polysemy": 1.0,
+       "S2_subject_ellipsis": 0.6,
+       "S3_syntactic_complexity": 0.158,
+       "S4_cultural": 0.0
+      },
+      "triggered": [
+       "S1_polysemy",
+       "S2_subject_ellipsis",
+       "S3_syntactic_complexity",
+       "S4_cultural"
+      ]
+     },
+     "cost": {}
+    },
+    {
+     "step": 2,
+     "node": "build_anchor",
+     "label": "錨點建構",
+     "detail": {
+      "tier": 1,
+      "n_readings": 2,
+      "unknown_scalars": [
+       "time",
+       "social_relation"
+      ],
+      "text_determinable": false,
+      "self_report_agrees": false,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 3,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "en",
+       "ja"
+      ],
+      "n_samples": 2
+     },
+     "cost": {}
+    },
+    {
+     "step": 4,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "cross_en_ja",
+      "mode": "cross_lingual",
+      "detector_score": 0.9290506675688023,
+      "consistency": 0.9102636737406139,
+      "passed": true,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 5,
+     "node": "write_memory",
+     "label": "輸出組裝",
+     "detail": {
+      "stub": true,
+      "high_uncertainty": true
+     },
+     "cost": {}
+    }
+   ],
+   "translations": {
+    "en": "Xiao Wang brought out the whole pot of soup.",
+    "ja": "小王が鍋ごとスープを運んできました。"
+   },
+   "clarifications": [
+    "這件事發生在什麼時候？",
+    "這句話是對上司、同事還是朋友說的？"
+   ],
+   "readings": [
+    "完整湯品",
+    "多餘份量"
+   ],
+   "unknown_scalars": [
+    "time",
+    "social_relation"
+   ],
+   "high_uncertainty": true,
+   "cost": {
+    "run_id": "20260827-163458-demo-0ecba7",
+    "calls": 7,
+    "cache_hits": 7,
+    "errors": 0,
+    "total_tokens": 12131,
+    "wall_s": 1.8,
+    "path": "runs\\20260827-163458-demo-0ecba7.jsonl"
+   }
+  },
+  "cross_en_ja|他的話裡有話": {
+   "text": "他的話裡有話",
+   "profile": "cross_en_ja",
+   "timeline": [
+    {
+     "step": 1,
+     "node": "route",
+     "label": "訊號量測",
+     "detail": {
+      "path": "slow",
+      "ambiguity_score": null,
+      "reason": "router_stub",
+      "signals": {
+       "S1_polysemy": 0.0,
+       "S2_subject_ellipsis": 0.0,
+       "S3_syntactic_complexity": 0.117,
+       "S4_cultural": 0.5
+      },
+      "triggered": [
+       "S1_polysemy",
+       "S2_subject_ellipsis",
+       "S3_syntactic_complexity",
+       "S4_cultural"
+      ]
+     },
+     "cost": {}
+    },
+    {
+     "step": 2,
+     "node": "build_anchor",
+     "label": "錨點建構",
+     "detail": {
+      "tier": 1,
+      "n_readings": 2,
+      "unknown_scalars": [
+       "agent",
+       "time",
+       "social_relation"
+      ],
+      "text_determinable": false,
+      "self_report_agrees": true,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 3,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "en",
+       "ja"
+      ],
+      "n_samples": 2
+     },
+     "cost": {}
+    },
+    {
+     "step": 4,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "cross_en_ja",
+      "mode": "cross_lingual",
+      "detector_score": 0.6852011336302454,
+      "consistency": 0.7179975657400867,
+      "passed": false,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 5,
+     "node": "reflect",
+     "label": "反思修正",
+     "detail": {
+      "tier": 2,
+      "revision": 1,
+      "unknown_before": [
+       "agent",
+       "time",
+       "social_relation"
+      ],
+      "unknown_after": [
+       "agent",
+       "time",
+       "register",
+       "social_relation"
+      ],
+      "n_readings": 3,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 6,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "en",
+       "ja"
+      ],
+      "n_samples": 2
+     },
+     "cost": {}
+    },
+    {
+     "step": 7,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "cross_en_ja",
+      "mode": "cross_lingual",
+      "detector_score": 0.743244556532781,
+      "consistency": 0.743244556532781,
+      "passed": false,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 8,
+     "node": "reflect",
+     "label": "反思修正",
+     "detail": {
+      "tier": 2,
+      "revision": 2,
+      "unknown_before": [
+       "agent",
+       "time",
+       "register",
+       "social_relation"
+      ],
+      "unknown_after": [
+       "agent",
+       "time",
+       "register",
+       "social_relation"
+      ],
+      "n_readings": 3,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 9,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "en",
+       "ja"
+      ],
+      "n_samples": 2
+     },
+     "cost": {}
+    },
+    {
+     "step": 10,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "cross_en_ja",
+      "mode": "cross_lingual",
+      "detector_score": 0.743244556532781,
+      "consistency": 0.743244556532781,
+      "passed": false,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 11,
+     "node": "reflect",
+     "label": "反思修正",
+     "detail": {
+      "tier": 2,
+      "revision": 3,
+      "unknown_before": [
+       "agent",
+       "time",
+       "register",
+       "social_relation"
+      ],
+      "unknown_after": [
+       "agent",
+       "time",
+       "register",
+       "social_relation"
+      ],
+      "n_readings": 3,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 12,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "en",
+       "ja"
+      ],
+      "n_samples": 2
+     },
+     "cost": {}
+    },
+    {
+     "step": 13,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "cross_en_ja",
+      "mode": "cross_lingual",
+      "detector_score": 0.743244556532781,
+      "consistency": 0.743244556532781,
+      "passed": false,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 14,
+     "node": "write_memory",
+     "label": "輸出組裝",
+     "detail": {
+      "stub": true,
+      "high_uncertainty": true
+     },
+     "cost": {}
+    }
+   ],
+   "translations": {
+    "en": "There's more to what he said.",
+    "ja": "彼の言葉に含みがある。"
+   },
+   "clarifications": [
+    "是否有特定語境暗示言外之意？",
+    "說話者是否有批評或暗示的意圖？"
+   ],
+   "readings": [
+    "隱含深意",
+    "言不由衷",
+    "字面意思"
+   ],
+   "unknown_scalars": [
+    "agent",
+    "time",
+    "register",
+    "social_relation"
+   ],
+   "high_uncertainty": true,
+   "cost": {
+    "run_id": "20260827-163459-demo-faec8e",
+    "calls": 35,
+    "cache_hits": 30,
+    "errors": 0,
+    "total_tokens": 61714,
+    "wall_s": 11.4,
+    "path": "runs\\20260827-163459-demo-faec8e.jsonl"
+   }
+  },
+  "same_en|這個人很有意思": {
+   "text": "這個人很有意思",
+   "profile": "same_en",
+   "timeline": [
+    {
+     "step": 1,
+     "node": "route",
+     "label": "訊號量測",
+     "detail": {
+      "path": "slow",
+      "ambiguity_score": null,
+      "reason": "router_stub",
+      "signals": {
+       "S1_polysemy": 0.367,
+       "S2_subject_ellipsis": 0.2,
+       "S3_syntactic_complexity": 0.125,
+       "S4_cultural": 0.0
+      },
+      "triggered": [
+       "S1_polysemy",
+       "S2_subject_ellipsis",
+       "S3_syntactic_complexity",
+       "S4_cultural"
+      ]
+     },
+     "cost": {}
+    },
+    {
+     "step": 2,
+     "node": "build_anchor",
+     "label": "錨點建構",
+     "detail": {
+      "tier": 1,
+      "n_readings": 2,
+      "unknown_scalars": [
+       "agent",
+       "time",
+       "social_relation"
+      ],
+      "text_determinable": false,
+      "self_report_agrees": true,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 3,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "en#1",
+       "en#2",
+       "en#3",
+       "en#4"
+      ],
+      "n_samples": 4
+     },
+     "cost": {}
+    },
+    {
+     "step": 4,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "same_en",
+      "mode": "same_language",
+      "detector_score": 0.9438656521492026,
+      "consistency": 0.9999999999999999,
+      "passed": true,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 5,
+     "node": "write_memory",
+     "label": "輸出組裝",
+     "detail": {
+      "stub": true,
+      "high_uncertainty": true
+     },
+     "cost": {}
+    }
+   ],
+   "translations": {
+    "en#1": "This person is quite interesting.",
+    "en#2": "This person is quite interesting.",
+    "en#3": "This person is quite interesting.",
+    "en#4": "This person is interesting."
+   },
+   "clarifications": [
+    "稱讚的是談吐還是動機？"
+   ],
+   "readings": [
+    "風趣有趣",
+    "別有居心"
+   ],
+   "unknown_scalars": [
+    "agent",
+    "time",
+    "social_relation"
+   ],
+   "high_uncertainty": true,
+   "cost": {
+    "run_id": "20260827-163511-demo-8b3fa6",
+    "calls": 7,
+    "cache_hits": 5,
+    "errors": 0,
+    "total_tokens": 10310,
+    "wall_s": 2.1,
+    "path": "runs\\20260827-163511-demo-8b3fa6.jsonl"
+   }
+  },
+  "same_en|報告我下週一交給你": {
+   "text": "報告我下週一交給你",
+   "profile": "same_en",
+   "timeline": [
+    {
+     "step": 1,
+     "node": "route",
+     "label": "訊號量測",
+     "detail": {
+      "path": "slow",
+      "ambiguity_score": null,
+      "reason": "router_stub",
+      "signals": {
+       "S1_polysemy": 1.0,
+       "S2_subject_ellipsis": 0.25,
+       "S3_syntactic_complexity": 0.142,
+       "S4_cultural": 0.0
+      },
+      "triggered": [
+       "S1_polysemy",
+       "S2_subject_ellipsis",
+       "S3_syntactic_complexity",
+       "S4_cultural"
+      ]
+     },
+     "cost": {}
+    },
+    {
+     "step": 2,
+     "node": "build_anchor",
+     "label": "錨點建構",
+     "detail": {
+      "tier": 1,
+      "n_readings": 3,
+      "unknown_scalars": [
+       "agent",
+       "social_relation"
+      ],
+      "text_determinable": false,
+      "self_report_agrees": true,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 3,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "en#1",
+       "en#2",
+       "en#3",
+       "en#4"
+      ],
+      "n_samples": 4
+     },
+     "cost": {}
+    },
+    {
+     "step": 4,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "same_en",
+      "mode": "same_language",
+      "detector_score": 0.9159414904129916,
+      "consistency": 0.9484693317670893,
+      "passed": true,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 5,
+     "node": "write_memory",
+     "label": "輸出組裝",
+     "detail": {
+      "stub": true,
+      "high_uncertainty": true
+     },
+     "cost": {}
+    }
+   ],
+   "translations": {
+    "en#1": "The report will be submitted to you next Monday.",
+    "en#2": "I will submit the report to you next Monday.",
+    "en#3": "Report back to me by next Monday.",
+    "en#4": "The report will be submitted to you next Monday."
+   },
+   "clarifications": [
+    "說話者與受話者的職級或上下關係為何？",
+    "是否有先前約定或共識需完成報告？"
+   ],
+   "readings": [
+    "命令式報告",
+    "請求式報告",
+    "提議式報告"
+   ],
+   "unknown_scalars": [
+    "agent",
+    "social_relation"
+   ],
+   "high_uncertainty": true,
+   "cost": {
+    "run_id": "20260827-163513-demo-b93f4c",
+    "calls": 7,
+    "cache_hits": 4,
+    "errors": 0,
+    "total_tokens": 10450,
+    "wall_s": 2.0,
+    "path": "runs\\20260827-163513-demo-b93f4c.jsonl"
+   }
+  },
+  "same_en|那位客人的東西還沒拿走": {
+   "text": "那位客人的東西還沒拿走",
+   "profile": "same_en",
+   "timeline": [
+    {
+     "step": 1,
+     "node": "route",
+     "label": "訊號量測",
+     "detail": {
+      "path": "slow",
+      "ambiguity_score": null,
+      "reason": "router_stub",
+      "signals": {
+       "S1_polysemy": 0.433,
+       "S2_subject_ellipsis": 0.125,
+       "S3_syntactic_complexity": 0.158,
+       "S4_cultural": 0.0
+      },
+      "triggered": [
+       "S1_polysemy",
+       "S2_subject_ellipsis",
+       "S3_syntactic_complexity",
+       "S4_cultural"
+      ]
+     },
+     "cost": {}
+    },
+    {
+     "step": 2,
+     "node": "build_anchor",
+     "label": "錨點建構",
+     "detail": {
+      "tier": 1,
+      "n_readings": 2,
+      "unknown_scalars": [
+       "agent",
+       "time",
+       "social_relation"
+      ],
+      "text_determinable": false,
+      "self_report_agrees": true,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 3,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "en#1",
+       "en#2",
+       "en#3",
+       "en#4"
+      ],
+      "n_samples": 4
+     },
+     "cost": {}
+    },
+    {
+     "step": 4,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "same_en",
+      "mode": "same_language",
+      "detector_score": 0.8732509667326668,
+      "consistency": 0.9072385207999586,
+      "passed": true,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 5,
+     "node": "write_memory",
+     "label": "輸出組裝",
+     "detail": {
+      "stub": true,
+      "high_uncertainty": true
+     },
+     "cost": {}
+    }
+   ],
+   "translations": {
+    "en#1": "The guest has not yet taken their belongings.",
+    "en#2": "That customer hasn't taken their belongings yet.",
+    "en#3": "The guest's belongings are still here.",
+    "en#4": "The customer's belongings haven't been taken away yet."
+   },
+   "clarifications": [
+    "是指客人的物品還在原處未被取走嗎？",
+    "還是指客人本人尚未離開現場？"
+   ],
+   "readings": [
+    "物品未被取走",
+    "客人尚未離開"
+   ],
+   "unknown_scalars": [
+    "agent",
+    "time",
+    "social_relation"
+   ],
+   "high_uncertainty": true,
+   "cost": {
+    "run_id": "20260827-163515-demo-06300f",
+    "calls": 7,
+    "cache_hits": 2,
+    "errors": 0,
+    "total_tokens": 10385,
+    "wall_s": 2.0,
+    "path": "runs\\20260827-163515-demo-06300f.jsonl"
+   }
+  },
+  "same_en|小王把整鍋湯都端上來了": {
+   "text": "小王把整鍋湯都端上來了",
+   "profile": "same_en",
+   "timeline": [
+    {
+     "step": 1,
+     "node": "route",
+     "label": "訊號量測",
+     "detail": {
+      "path": "slow",
+      "ambiguity_score": null,
+      "reason": "router_stub",
+      "signals": {
+       "S1_polysemy": 1.0,
+       "S2_subject_ellipsis": 0.6,
+       "S3_syntactic_complexity": 0.158,
+       "S4_cultural": 0.0
+      },
+      "triggered": [
+       "S1_polysemy",
+       "S2_subject_ellipsis",
+       "S3_syntactic_complexity",
+       "S4_cultural"
+      ]
+     },
+     "cost": {}
+    },
+    {
+     "step": 2,
+     "node": "build_anchor",
+     "label": "錨點建構",
+     "detail": {
+      "tier": 1,
+      "n_readings": 2,
+      "unknown_scalars": [
+       "time",
+       "social_relation"
+      ],
+      "text_determinable": false,
+      "self_report_agrees": false,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 3,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "en#1",
+       "en#2",
+       "en#3",
+       "en#4"
+      ],
+      "n_samples": 4
+     },
+     "cost": {}
+    },
+    {
+     "step": 4,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "same_en",
+      "mode": "same_language",
+      "detector_score": 0.9622111524660721,
+      "consistency": 0.9802462466812085,
+      "passed": true,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 5,
+     "node": "write_memory",
+     "label": "輸出組裝",
+     "detail": {
+      "stub": true,
+      "high_uncertainty": true
+     },
+     "cost": {}
+    }
+   ],
+   "translations": {
+    "en#1": "Xiao Wang brought out the whole pot of soup.",
+    "en#2": "Xiao Wang brought the whole pot of soup out.",
+    "en#3": "Xiao Wang brought the whole pot of soup to the table.",
+    "en#4": "Wang brought out the whole pot of soup."
+   },
+   "clarifications": [
+    "這件事發生在什麼時候？",
+    "這句話是對上司、同事還是朋友說的？"
+   ],
+   "readings": [
+    "完整湯品",
+    "多餘份量"
+   ],
+   "unknown_scalars": [
+    "time",
+    "social_relation"
+   ],
+   "high_uncertainty": true,
+   "cost": {
+    "run_id": "20260827-163517-demo-ab9327",
+    "calls": 7,
+    "cache_hits": 3,
+    "errors": 0,
+    "total_tokens": 10350,
+    "wall_s": 2.0,
+    "path": "runs\\20260827-163517-demo-ab9327.jsonl"
+   }
+  },
+  "same_en|他的話裡有話": {
+   "text": "他的話裡有話",
+   "profile": "same_en",
+   "timeline": [
+    {
+     "step": 1,
+     "node": "route",
+     "label": "訊號量測",
+     "detail": {
+      "path": "slow",
+      "ambiguity_score": null,
+      "reason": "router_stub",
+      "signals": {
+       "S1_polysemy": 0.0,
+       "S2_subject_ellipsis": 0.0,
+       "S3_syntactic_complexity": 0.117,
+       "S4_cultural": 0.5
+      },
+      "triggered": [
+       "S1_polysemy",
+       "S2_subject_ellipsis",
+       "S3_syntactic_complexity",
+       "S4_cultural"
+      ]
+     },
+     "cost": {}
+    },
+    {
+     "step": 2,
+     "node": "build_anchor",
+     "label": "錨點建構",
+     "detail": {
+      "tier": 1,
+      "n_readings": 2,
+      "unknown_scalars": [
+       "agent",
+       "time",
+       "social_relation"
+      ],
+      "text_determinable": false,
+      "self_report_agrees": true,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 3,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "en#1",
+       "en#2",
+       "en#3",
+       "en#4"
+      ],
+      "n_samples": 4
+     },
+     "cost": {}
+    },
+    {
+     "step": 4,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "same_en",
+      "mode": "same_language",
+      "detector_score": 0.743244556532781,
+      "consistency": 0.8090724831313573,
+      "passed": true,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 5,
+     "node": "write_memory",
+     "label": "輸出組裝",
+     "detail": {
+      "stub": true,
+      "high_uncertainty": true
+     },
+     "cost": {}
+    }
+   ],
+   "translations": {
+    "en#1": "There is more to what he said.",
+    "en#2": "His words carried hidden meaning.",
+    "en#3": "His words carry hidden meaning.",
+    "en#4": "He has more to say than meets the ear."
+   },
+   "clarifications": [
+    "是否有隱含的意思需要表達？",
+    "是否在暗示某些未明說的內容？"
+   ],
+   "readings": [
+    "言外之意",
+    "字面意思"
+   ],
+   "unknown_scalars": [
+    "agent",
+    "time",
+    "social_relation"
+   ],
+   "high_uncertainty": true,
+   "cost": {
+    "run_id": "20260827-163519-demo-8f9bfa",
+    "calls": 7,
+    "cache_hits": 3,
+    "errors": 0,
+    "total_tokens": 10370,
+    "wall_s": 3.1,
+    "path": "runs\\20260827-163519-demo-8f9bfa.jsonl"
+   }
+  },
+  "single_ja|這個人很有意思": {
+   "text": "這個人很有意思",
+   "profile": "single_ja",
+   "timeline": [
+    {
+     "step": 1,
+     "node": "route",
+     "label": "訊號量測",
+     "detail": {
+      "path": "slow",
+      "ambiguity_score": null,
+      "reason": "router_stub",
+      "signals": {
+       "S1_polysemy": 0.367,
+       "S2_subject_ellipsis": 0.2,
+       "S3_syntactic_complexity": 0.125,
+       "S4_cultural": 0.0
+      },
+      "triggered": [
+       "S1_polysemy",
+       "S2_subject_ellipsis",
+       "S3_syntactic_complexity",
+       "S4_cultural"
+      ]
+     },
+     "cost": {}
+    },
+    {
+     "step": 2,
+     "node": "build_anchor",
+     "label": "錨點建構",
+     "detail": {
+      "tier": 1,
+      "n_readings": 2,
+      "unknown_scalars": [
+       "agent",
+       "time",
+       "social_relation"
+      ],
+      "text_determinable": false,
+      "self_report_agrees": true,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 3,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "ja"
+      ],
+      "n_samples": 1
+     },
+     "cost": {}
+    },
+    {
+     "step": 4,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "single_ja",
+      "mode": "single_probe",
+      "detector_score": 0.9999999999999999,
+      "consistency": null,
+      "passed": true,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 5,
+     "node": "write_memory",
+     "label": "輸出組裝",
+     "detail": {
+      "stub": true,
+      "high_uncertainty": true
+     },
+     "cost": {}
+    }
+   ],
+   "translations": {
+    "ja": "この人は面白いです。"
+   },
+   "clarifications": [
+    "稱讚的是談吐還是動機？"
+   ],
+   "readings": [
+    "風趣有趣",
+    "別有居心"
+   ],
+   "unknown_scalars": [
+    "agent",
+    "time",
+    "social_relation"
+   ],
+   "high_uncertainty": true,
+   "cost": {
+    "run_id": "20260827-163522-demo-34aded",
+    "calls": 4,
+    "cache_hits": 4,
+    "errors": 0,
+    "total_tokens": 7210,
+    "wall_s": 1.2,
+    "path": "runs\\20260827-163522-demo-34aded.jsonl"
+   }
+  },
+  "single_ja|報告我下週一交給你": {
+   "text": "報告我下週一交給你",
+   "profile": "single_ja",
+   "timeline": [
+    {
+     "step": 1,
+     "node": "route",
+     "label": "訊號量測",
+     "detail": {
+      "path": "slow",
+      "ambiguity_score": null,
+      "reason": "router_stub",
+      "signals": {
+       "S1_polysemy": 1.0,
+       "S2_subject_ellipsis": 0.25,
+       "S3_syntactic_complexity": 0.142,
+       "S4_cultural": 0.0
+      },
+      "triggered": [
+       "S1_polysemy",
+       "S2_subject_ellipsis",
+       "S3_syntactic_complexity",
+       "S4_cultural"
+      ]
+     },
+     "cost": {}
+    },
+    {
+     "step": 2,
+     "node": "build_anchor",
+     "label": "錨點建構",
+     "detail": {
+      "tier": 1,
+      "n_readings": 3,
+      "unknown_scalars": [
+       "agent",
+       "social_relation"
+      ],
+      "text_determinable": false,
+      "self_report_agrees": true,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 3,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "ja"
+      ],
+      "n_samples": 1
+     },
+     "cost": {}
+    },
+    {
+     "step": 4,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "single_ja",
+      "mode": "single_probe",
+      "detector_score": 0.8955767963008046,
+      "consistency": null,
+      "passed": true,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 5,
+     "node": "write_memory",
+     "label": "輸出組裝",
+     "detail": {
+      "stub": true,
+      "high_uncertainty": true
+     },
+     "cost": {}
+    }
+   ],
+   "translations": {
+    "ja": "来週月曜日にご報告いたします。"
+   },
+   "clarifications": [
+    "說話者與受話者的職級或上下關係為何？",
+    "是否有先前約定或共識需完成報告？"
+   ],
+   "readings": [
+    "命令式報告",
+    "請求式報告",
+    "提議式報告"
+   ],
+   "unknown_scalars": [
+    "agent",
+    "social_relation"
+   ],
+   "high_uncertainty": true,
+   "cost": {
+    "run_id": "20260827-163523-demo-201f55",
+    "calls": 4,
+    "cache_hits": 4,
+    "errors": 0,
+    "total_tokens": 7304,
+    "wall_s": 1.1,
+    "path": "runs\\20260827-163523-demo-201f55.jsonl"
+   }
+  },
+  "single_ja|那位客人的東西還沒拿走": {
+   "text": "那位客人的東西還沒拿走",
+   "profile": "single_ja",
+   "timeline": [
+    {
+     "step": 1,
+     "node": "route",
+     "label": "訊號量測",
+     "detail": {
+      "path": "slow",
+      "ambiguity_score": null,
+      "reason": "router_stub",
+      "signals": {
+       "S1_polysemy": 0.433,
+       "S2_subject_ellipsis": 0.125,
+       "S3_syntactic_complexity": 0.158,
+       "S4_cultural": 0.0
+      },
+      "triggered": [
+       "S1_polysemy",
+       "S2_subject_ellipsis",
+       "S3_syntactic_complexity",
+       "S4_cultural"
+      ]
+     },
+     "cost": {}
+    },
+    {
+     "step": 2,
+     "node": "build_anchor",
+     "label": "錨點建構",
+     "detail": {
+      "tier": 1,
+      "n_readings": 2,
+      "unknown_scalars": [
+       "agent",
+       "time",
+       "social_relation"
+      ],
+      "text_determinable": false,
+      "self_report_agrees": true,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 3,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "ja"
+      ],
+      "n_samples": 1
+     },
+     "cost": {}
+    },
+    {
+     "step": 4,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "single_ja",
+      "mode": "single_probe",
+      "detector_score": 0.8904191693474779,
+      "consistency": null,
+      "passed": true,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 5,
+     "node": "write_memory",
+     "label": "輸出組裝",
+     "detail": {
+      "stub": true,
+      "high_uncertainty": true
+     },
+     "cost": {}
+    }
+   ],
+   "translations": {
+    "ja": "そのお客様のお荷物はまだお持ちになっておりません。"
+   },
+   "clarifications": [
+    "是指客人的物品還在原處未被取走嗎？",
+    "還是指客人本人尚未離開現場？"
+   ],
+   "readings": [
+    "物品未被取走",
+    "客人尚未離開"
+   ],
+   "unknown_scalars": [
+    "agent",
+    "time",
+    "social_relation"
+   ],
+   "high_uncertainty": true,
+   "cost": {
+    "run_id": "20260827-163524-demo-a28f28",
+    "calls": 4,
+    "cache_hits": 4,
+    "errors": 0,
+    "total_tokens": 7267,
+    "wall_s": 1.1,
+    "path": "runs\\20260827-163524-demo-a28f28.jsonl"
+   }
+  },
+  "single_ja|小王把整鍋湯都端上來了": {
+   "text": "小王把整鍋湯都端上來了",
+   "profile": "single_ja",
+   "timeline": [
+    {
+     "step": 1,
+     "node": "route",
+     "label": "訊號量測",
+     "detail": {
+      "path": "slow",
+      "ambiguity_score": null,
+      "reason": "router_stub",
+      "signals": {
+       "S1_polysemy": 1.0,
+       "S2_subject_ellipsis": 0.6,
+       "S3_syntactic_complexity": 0.158,
+       "S4_cultural": 0.0
+      },
+      "triggered": [
+       "S1_polysemy",
+       "S2_subject_ellipsis",
+       "S3_syntactic_complexity",
+       "S4_cultural"
+      ]
+     },
+     "cost": {}
+    },
+    {
+     "step": 2,
+     "node": "build_anchor",
+     "label": "錨點建構",
+     "detail": {
+      "tier": 1,
+      "n_readings": 2,
+      "unknown_scalars": [
+       "time",
+       "social_relation"
+      ],
+      "text_determinable": false,
+      "self_report_agrees": false,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 3,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "ja"
+      ],
+      "n_samples": 1
+     },
+     "cost": {}
+    },
+    {
+     "step": 4,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "single_ja",
+      "mode": "single_probe",
+      "detector_score": 0.9290869381972032,
+      "consistency": null,
+      "passed": true,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 5,
+     "node": "write_memory",
+     "label": "輸出組裝",
+     "detail": {
+      "stub": true,
+      "high_uncertainty": true
+     },
+     "cost": {}
+    }
+   ],
+   "translations": {
+    "ja": "小王が鍋ごとスープを運んできました。"
+   },
+   "clarifications": [
+    "這件事發生在什麼時候？",
+    "這句話是對上司、同事還是朋友說的？"
+   ],
+   "readings": [
+    "完整湯品",
+    "多餘份量"
+   ],
+   "unknown_scalars": [
+    "time",
+    "social_relation"
+   ],
+   "high_uncertainty": true,
+   "cost": {
+    "run_id": "20260827-163526-demo-dd8e0b",
+    "calls": 4,
+    "cache_hits": 4,
+    "errors": 0,
+    "total_tokens": 7203,
+    "wall_s": 1.1,
+    "path": "runs\\20260827-163526-demo-dd8e0b.jsonl"
+   }
+  },
+  "single_ja|他的話裡有話": {
+   "text": "他的話裡有話",
+   "profile": "single_ja",
+   "timeline": [
+    {
+     "step": 1,
+     "node": "route",
+     "label": "訊號量測",
+     "detail": {
+      "path": "slow",
+      "ambiguity_score": null,
+      "reason": "router_stub",
+      "signals": {
+       "S1_polysemy": 0.0,
+       "S2_subject_ellipsis": 0.0,
+       "S3_syntactic_complexity": 0.117,
+       "S4_cultural": 0.5
+      },
+      "triggered": [
+       "S1_polysemy",
+       "S2_subject_ellipsis",
+       "S3_syntactic_complexity",
+       "S4_cultural"
+      ]
+     },
+     "cost": {}
+    },
+    {
+     "step": 2,
+     "node": "build_anchor",
+     "label": "錨點建構",
+     "detail": {
+      "tier": 1,
+      "n_readings": 2,
+      "unknown_scalars": [
+       "agent",
+       "time",
+       "social_relation"
+      ],
+      "text_determinable": false,
+      "self_report_agrees": true,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 3,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "ja"
+      ],
+      "n_samples": 1
+     },
+     "cost": {}
+    },
+    {
+     "step": 4,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "single_ja",
+      "mode": "single_probe",
+      "detector_score": 0.6852484868438802,
+      "consistency": null,
+      "passed": false,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 5,
+     "node": "reflect",
+     "label": "反思修正",
+     "detail": {
+      "tier": 2,
+      "revision": 1,
+      "unknown_before": [
+       "agent",
+       "time",
+       "social_relation"
+      ],
+      "unknown_after": [
+       "agent",
+       "time",
+       "register",
+       "social_relation"
+      ],
+      "n_readings": 3,
+      "n_format_violations": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 6,
+     "node": "translate_multi",
+     "label": "平行翻譯",
+     "detail": {
+      "languages": [
+       "ja"
+      ],
+      "n_samples": 1
+     },
+     "cost": {}
+    },
+    {
+     "step": 7,
+     "node": "verify",
+     "label": "回譯比對",
+     "detail": {
+      "profile": "single_ja",
+      "mode": "single_probe",
+      "detector_score": 0.8661949868933864,
+      "consistency": null,
+      "passed": true,
+      "n_differences": 0
+     },
+     "cost": {}
+    },
+    {
+     "step": 8,
+     "node": "write_memory",
+     "label": "輸出組裝",
+     "detail": {
+      "stub": true,
+      "high_uncertainty": true
+     },
+     "cost": {}
+    }
+   ],
+   "translations": {
+    "ja": "彼の言葉に含みがある。"
+   },
+   "clarifications": [
+    "是否有特定語境暗示言外之意？",
+    "說話者是否有批評或暗示的意圖？"
+   ],
+   "readings": [
+    "隱含深意",
+    "言不由衷",
+    "字面意思"
+   ],
+   "unknown_scalars": [
+    "agent",
+    "time",
+    "register",
+    "social_relation"
+   ],
+   "high_uncertainty": true,
+   "cost": {
+    "run_id": "20260827-163527-demo-f90547",
+    "calls": 9,
+    "cache_hits": 9,
+    "errors": 0,
+    "total_tokens": 17127,
+    "wall_s": 2.8,
+    "path": "runs\\20260827-163527-demo-f90547.jsonl"
+   }
+  }
+ }
+}

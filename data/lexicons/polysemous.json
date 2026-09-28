@@ -1,0 +1,574 @@
+{
+ "name": "polysemous",
+ "source": "lopentu/Chinese-Wordnet-SemCor（由資料集推導，非外部詞表）",
+ "license": "MIT",
+ "note": "該資料集收錄的目標詞即為 CWN 2.0 中義項數 >10 的「難詞」。max_senses_in_one_lemma 為同讀音下的義項數，跨 lemma 的多義是同形異音詞，讀出來就消歧，不計入。",
+ "n_words": 113,
+ "entries": {
+  "死": {
+   "n_senses": 18,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 18
+  },
+  "於": {
+   "n_senses": 9,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 9
+  },
+  "比": {
+   "n_senses": 10,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 10
+  },
+  "跟": {
+   "n_senses": 11,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 11
+  },
+  "做": {
+   "n_senses": 20,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 20
+  },
+  "本": {
+   "n_senses": 11,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 9
+  },
+  "高": {
+   "n_senses": 25,
+   "n_lemmas": 5,
+   "max_senses_in_one_lemma": 18
+  },
+  "大": {
+   "n_senses": 23,
+   "n_lemmas": 3,
+   "max_senses_in_one_lemma": 20
+  },
+  "錢": {
+   "n_senses": 8,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 7
+  },
+  "來": {
+   "n_senses": 19,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 19
+  },
+  "抽": {
+   "n_senses": 20,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 20
+  },
+  "才": {
+   "n_senses": 12,
+   "n_lemmas": 3,
+   "max_senses_in_one_lemma": 5
+  },
+  "日": {
+   "n_senses": 13,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 10
+  },
+  "法": {
+   "n_senses": 12,
+   "n_lemmas": 3,
+   "max_senses_in_one_lemma": 7
+  },
+  "中": {
+   "n_senses": 34,
+   "n_lemmas": 4,
+   "max_senses_in_one_lemma": 22
+  },
+  "後": {
+   "n_senses": 17,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 17
+  },
+  "條": {
+   "n_senses": 31,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 31
+  },
+  "天": {
+   "n_senses": 10,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 10
+  },
+  "用": {
+   "n_senses": 14,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 14
+  },
+  "打": {
+   "n_senses": 124,
+   "n_lemmas": 3,
+   "max_senses_in_one_lemma": 121
+  },
+  "點": {
+   "n_senses": 26,
+   "n_lemmas": 3,
+   "max_senses_in_one_lemma": 24
+  },
+  "拉": {
+   "n_senses": 22,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 21
+  },
+  "就": {
+   "n_senses": 19,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 14
+  },
+  "卡": {
+   "n_senses": 22,
+   "n_lemmas": 8,
+   "max_senses_in_one_lemma": 11
+  },
+  "部": {
+   "n_senses": 10,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 10
+  },
+  "新": {
+   "n_senses": 5,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 5
+  },
+  "言": {
+   "n_senses": 9,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 9
+  },
+  "歲": {
+   "n_senses": 4,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 4
+  },
+  "支": {
+   "n_senses": 13,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 13
+  },
+  "分": {
+   "n_senses": 29,
+   "n_lemmas": 4,
+   "max_senses_in_one_lemma": 10
+  },
+  "發": {
+   "n_senses": 40,
+   "n_lemmas": 3,
+   "max_senses_in_one_lemma": 21
+  },
+  "去": {
+   "n_senses": 21,
+   "n_lemmas": 3,
+   "max_senses_in_one_lemma": 19
+  },
+  "邊": {
+   "n_senses": 16,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 15
+  },
+  "下": {
+   "n_senses": 49,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 46
+  },
+  "對": {
+   "n_senses": 20,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 20
+  },
+  "重": {
+   "n_senses": 17,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 14
+  },
+  "回": {
+   "n_senses": 10,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 9
+  },
+  "拍": {
+   "n_senses": 21,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 17
+  },
+  "字": {
+   "n_senses": 11,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 11
+  },
+  "行": {
+   "n_senses": 24,
+   "n_lemmas": 5,
+   "max_senses_in_one_lemma": 13
+  },
+  "道": {
+   "n_senses": 21,
+   "n_lemmas": 5,
+   "max_senses_in_one_lemma": 11
+  },
+  "強": {
+   "n_senses": 12,
+   "n_lemmas": 3,
+   "max_senses_in_one_lemma": 10
+  },
+  "片": {
+   "n_senses": 20,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 20
+  },
+  "帶": {
+   "n_senses": 37,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 25
+  },
+  "會": {
+   "n_senses": 12,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 11
+  },
+  "吃": {
+   "n_senses": 28,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 28
+  },
+  "起": {
+   "n_senses": 28,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 28
+  },
+  "上": {
+   "n_senses": 45,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 43
+  },
+  "老": {
+   "n_senses": 17,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 17
+  },
+  "看": {
+   "n_senses": 13,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 12
+  },
+  "那": {
+   "n_senses": 10,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 6
+  },
+  "低": {
+   "n_senses": 14,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 14
+  },
+  "細": {
+   "n_senses": 22,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 22
+  },
+  "前": {
+   "n_senses": 16,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 16
+  },
+  "得": {
+   "n_senses": 13,
+   "n_lemmas": 3,
+   "max_senses_in_one_lemma": 9
+  },
+  "掛": {
+   "n_senses": 18,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 18
+  },
+  "拿": {
+   "n_senses": 13,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 13
+  },
+  "從": {
+   "n_senses": 10,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 10
+  },
+  "間": {
+   "n_senses": 11,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 9
+  },
+  "花": {
+   "n_senses": 13,
+   "n_lemmas": 3,
+   "max_senses_in_one_lemma": 11
+  },
+  "頭": {
+   "n_senses": 19,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 19
+  },
+  "股": {
+   "n_senses": 12,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 12
+  },
+  "面": {
+   "n_senses": 11,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 11
+  },
+  "轉": {
+   "n_senses": 25,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 23
+  },
+  "還": {
+   "n_senses": 7,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 7
+  },
+  "空": {
+   "n_senses": 43,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 35
+  },
+  "層": {
+   "n_senses": 11,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 11
+  },
+  "包": {
+   "n_senses": 23,
+   "n_lemmas": 3,
+   "max_senses_in_one_lemma": 21
+  },
+  "熱": {
+   "n_senses": 22,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 22
+  },
+  "度": {
+   "n_senses": 27,
+   "n_lemmas": 3,
+   "max_senses_in_one_lemma": 20
+  },
+  "破": {
+   "n_senses": 29,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 29
+  },
+  "心": {
+   "n_senses": 12,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 12
+  },
+  "口": {
+   "n_senses": 13,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 13
+  },
+  "長": {
+   "n_senses": 25,
+   "n_lemmas": 3,
+   "max_senses_in_one_lemma": 15
+  },
+  "收": {
+   "n_senses": 22,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 22
+  },
+  "坐": {
+   "n_senses": 12,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 12
+  },
+  "明": {
+   "n_senses": 24,
+   "n_lemmas": 3,
+   "max_senses_in_one_lemma": 20
+  },
+  "過": {
+   "n_senses": 14,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 11
+  },
+  "畫": {
+   "n_senses": 15,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 15
+  },
+  "活": {
+   "n_senses": 15,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 15
+  },
+  "當": {
+   "n_senses": 14,
+   "n_lemmas": 6,
+   "max_senses_in_one_lemma": 7
+  },
+  "散": {
+   "n_senses": 23,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 15
+  },
+  "使": {
+   "n_senses": 9,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 9
+  },
+  "叫": {
+   "n_senses": 12,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 10
+  },
+  "小": {
+   "n_senses": 10,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 9
+  },
+  "生": {
+   "n_senses": 26,
+   "n_lemmas": 4,
+   "max_senses_in_one_lemma": 18
+  },
+  "約": {
+   "n_senses": 11,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 10
+  },
+  "人": {
+   "n_senses": 11,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 11
+  },
+  "代": {
+   "n_senses": 15,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 10
+  },
+  "正": {
+   "n_senses": 27,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 26
+  },
+  "粗": {
+   "n_senses": 19,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 19
+  },
+  "平": {
+   "n_senses": 34,
+   "n_lemmas": 4,
+   "max_senses_in_one_lemma": 30
+  },
+  "投": {
+   "n_senses": 30,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 29
+  },
+  "場": {
+   "n_senses": 13,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 13
+  },
+  "好": {
+   "n_senses": 17,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 15
+  },
+  "要": {
+   "n_senses": 11,
+   "n_lemmas": 3,
+   "max_senses_in_one_lemma": 8
+  },
+  "子": {
+   "n_senses": 21,
+   "n_lemmas": 4,
+   "max_senses_in_one_lemma": 16
+  },
+  "格": {
+   "n_senses": 15,
+   "n_lemmas": 5,
+   "max_senses_in_one_lemma": 9
+  },
+  "季": {
+   "n_senses": 8,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 8
+  },
+  "深": {
+   "n_senses": 15,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 15
+  },
+  "作": {
+   "n_senses": 24,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 23
+  },
+  "壓": {
+   "n_senses": 22,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 22
+  },
+  "水": {
+   "n_senses": 7,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 7
+  },
+  "說": {
+   "n_senses": 16,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 15
+  },
+  "線": {
+   "n_senses": 17,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 17
+  },
+  "打開": {
+   "n_senses": 23,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 23
+  },
+  "真": {
+   "n_senses": 12,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 12
+  },
+  "放": {
+   "n_senses": 37,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 37
+  },
+  "折": {
+   "n_senses": 17,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 14
+  },
+  "清": {
+   "n_senses": 33,
+   "n_lemmas": 2,
+   "max_senses_in_one_lemma": 30
+  },
+  "鐵": {
+   "n_senses": 7,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 7
+  },
+  "落": {
+   "n_senses": 21,
+   "n_lemmas": 3,
+   "max_senses_in_one_lemma": 16
+  },
+  "開": {
+   "n_senses": 81,
+   "n_lemmas": 1,
+   "max_senses_in_one_lemma": 81
+  }
+ }
+}

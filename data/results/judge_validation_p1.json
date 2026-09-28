@@ -1,0 +1,100 @@
+{
+  "n": 20,
+  "judge_vs_human": 0.5,
+  "human_vs_gold": 0.75,
+  "judge_vs_gold": 0.65,
+  "judge_vs_human_ci": [
+    0.2992949144298199,
+    0.70070508557018
+  ],
+  "judge_model": "ithu/gpt-oss-120b",
+  "none": {
+    "both": 0,
+    "judge_only": 3,
+    "human_only": 2
+  },
+  "disagreements": [
+    {
+      "n": 3,
+      "probe_id": "wsd-強-7c81",
+      "word": "強",
+      "human": "09250305",
+      "judge": "NONE",
+      "gold": "09250305"
+    },
+    {
+      "n": 4,
+      "probe_id": "wsd-收-ea9a",
+      "word": "收",
+      "human": "03039303",
+      "judge": "03039301",
+      "gold": "03039303"
+    },
+    {
+      "n": 8,
+      "probe_id": "wsd-掛-3cf0",
+      "word": "掛",
+      "human": "06701402",
+      "judge": "06701401",
+      "gold": "06701401"
+    },
+    {
+      "n": 10,
+      "probe_id": "wsd-去-bdaa",
+      "word": "去",
+      "human": "06559204",
+      "judge": "06559201",
+      "gold": "06559201"
+    },
+    {
+      "n": 12,
+      "probe_id": "wsd-條-2146",
+      "word": "條",
+      "human": "NONE",
+      "judge": "06585929",
+      "gold": "06585929"
+    },
+    {
+      "n": 16,
+      "probe_id": "wsd-拿-7496",
+      "word": "拿",
+      "human": "04011205",
+      "judge": "04011201",
+      "gold": "04011205"
+    },
+    {
+      "n": 17,
+      "probe_id": "wsd-深-55e4",
+      "word": "深",
+      "human": "06663313",
+      "judge": "06663316",
+      "gold": "06663313"
+    },
+    {
+      "n": 18,
+      "probe_id": "wsd-去-6d5f",
+      "word": "去",
+      "human": "06559205",
+      "judge": "NONE",
+      "gold": "06559205"
+    },
+    {
+      "n": 19,
+      "probe_id": "wsd-當-d0c0",
+      "word": "當",
+      "human": "NONE",
+      "judge": "04013907",
+      "gold": "04013901"
+    },
+    {
+      "n": 20,
+      "probe_id": "wsd-條-63fe",
+      "word": "條",
+      "human": "06585924",
+      "judge": "NONE",
+      "gold": "06585906"
+    }
+  ],
+  "contaminated": true,
+  "contamination_note": "這 20 筆已用於診斷 judge 的錯誤並據以改寫 prompt v2，因此不再是獨立驗證集。需要一組新題目的盲標。"
+}

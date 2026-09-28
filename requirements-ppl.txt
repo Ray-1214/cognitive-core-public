@@ -1,0 +1,15 @@
+# Cognitive-Core — ppl extra：dev30 階段的本地 PPL 基準
+#
+# 只有 scripts/ppl_baseline.py 與 scripts/ppl_variants.py 需要（技術設計文件 §8.7）。
+# **不在 reproduce.py 主流程內**——重現主結果不必安裝。
+# 約 2.5 GB，是主線所有套件加起來的十幾倍，故獨立成檔。
+#
+# CPU 版（本專案只做單次前向，不需要 GPU）：
+#
+#   pip install -r requirements-ppl.txt --index-url https://download.pytorch.org/whl/cpu \
+#               --extra-index-url https://pypi.org/simple
+#
+# 版本由 conda 環境 `cognitive-core`（Python 3.12.14, win-64）於 2026-08-23 實測凍結。
+
+torch==2.13.0+cpu
+transformers==5.15.1

@@ -1,0 +1,155 @@
+[
+  {
+    "step": 1,
+    "label": "建立探針",
+    "cmd": "python scripts/build_probes.py --total 400",
+    "seconds": 35.1,
+    "returncode": 0,
+    "stdout_tail": [
+      "",
+      "  句長分布：≤10 130　11-20 204　21-30 50　>30 16",
+      "  句長 平均 14.7，範圍 4–80",
+      "  非主流層的 gold_rank：中位數 3，範圍 2–18",
+      "",
+      "  C:\\dev\\cognitive-core\\data\\probes\\wsd_probes.yaml"
+    ],
+    "stderr_tail": [
+      "Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads."
+    ]
+  },
+  {
+    "step": 2,
+    "label": "建立詞表",
+    "cmd": "python scripts/build_lexicons.py",
+    "seconds": 29.3,
+    "returncode": 0,
+    "stdout_tail": [
+      "建立詞表 …",
+      "  成語：30895 → 轉繁去重後 30813 條",
+      "  多義詞：113 個，同 lemma 義項數中位數 15",
+      "",
+      "  C:\\dev\\cognitive-core\\data\\lexicons\\README.md"
+    ],
+    "stderr_tail": [
+      "Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads."
+    ]
+  },
+  {
+    "step": 3,
+    "label": "主基準 400 筆",
+    "cmd": "python scripts/run_wsd.py --n 400 --out data/results/wsd_baseline400.md",
+    "seconds": 259.2,
+    "returncode": 0,
+    "stdout_tail": [
+      "  non_dominant   n=199 正確率 0.663 [0.595, 0.725]",
+      "兩層之差 +7.2pp  CI [-1.9, +16.2]pp",
+      "",
+      "停止判準：✅ 全部未觸發",
+      "",
+      "data\\results\\wsd_baseline400.md"
+    ],
+    "stderr_tail": []
+  },
+  {
+    "step": 4,
+    "label": "judge 驗證",
+    "cmd": "python scripts/judge_validate.py _r2",
+    "seconds": 20.9,
+    "returncode": 0,
+    "stdout_tail": [
+      "  judge vs gold    14/20 =  70.0%  95% CI [48, 85]%　（隨機基準 50%）",
+      "",
+      "  兩個都說得通：3/20 = 15%　→ 天花板約 92%",
+      "  不一致 5 筆，逐筆列於 C:\\dev\\cognitive-core\\data\\results\\judge_validation_r2.md",
+      "",
+      "  判準：⚠️ 60–85%，粗跑可繼續，AUC 閘門仍關閉"
+    ],
+    "stderr_tail": []
+  },
+  {
+    "step": 5,
+    "label": "訊號值",
+    "cmd": "python scripts/run_signals.py --n 400",
+    "seconds": 1194.4,
+    "returncode": 0,
+    "stdout_tail": [
+      "  S5_llm_direct              平均 0.509　非零 400/400",
+      "  S6_roundtrip               平均 0.139　非零 400/400",
+      "  S7_n_readings              平均 0.119　非零 163/400",
+      "  S8_semantic_entropy        平均 0.300　非零 239/400",
+      "",
+      "  C:\\dev\\cognitive-core\\data\\results\\signals_all.md"
+    ],
+    "stderr_tail": []
+  },
+  {
+    "step": 6,
+    "label": "訊號預先登記",
+    "cmd": "python scripts/preregister_signals.py",
+    "seconds": 0.7,
+    "returncode": 0,
+    "stdout_tail": [
+      "  S7_n_readings                 4      59%   0.764  ",
+      "  S8_semantic_entropy          21      40%   0.901  ",
+      "  raw_length                   38       8%   0.976  ",
+      "",
+      "  C:\\dev\\cognitive-core\\data\\results\\signal_preregistration.md",
+      "  commit a1e25a2e1395"
+    ],
+    "stderr_tail": []
+  },
+  {
+    "step": 7,
+    "label": "AUC 表",
+    "cmd": "python scripts/run_signals.py --n 400 --auc --reuse",
+    "seconds": 11.4,
+    "returncode": 2,
+    "stdout_tail": [],
+    "stderr_tail": [
+      "🔴 AUC 閘門未開：最佳未污染一致率 75%（judge_validation_r2.json）低於門檻 85%",
+      "",
+      "在 judge 的標籤站穩之前，AUC 會被噪音壓向 0.5，",
+      "「訊號無效」與「標籤太吵」在數字上無法分辨。"
+    ]
+  },
+  {
+    "step": 8,
+    "label": "Lost-in-the-Middle",
+    "cmd": "python scripts/lost_in_the_middle.py --n 10",
+    "seconds": 23.3,
+    "returncode": 0,
+    "stdout_tail": [
+      "  中            0%      100%",
+      "  尾          100%      100%",
+      "",
+      "  C:\\dev\\cognitive-core\\data\\results\\lost_in_the_middle.md"
+    ],
+    "stderr_tail": []
+  },
+  {
+    "step": 9,
+    "label": "NONE 分布",
+    "cmd": "python scripts/analyze_none.py",
+    "seconds": 10.5,
+    "returncode": 0,
+    "stdout_tail": [
+      "",
+      "  功能詞／量詞 NONE 率 9%  vs  實詞 3%　差 +6pp",
+      "",
+      "  C:\\dev\\cognitive-core\\data\\results\\none_analysis.md"
+    ],
+    "stderr_tail": []
+  },
+  {
+    "step": 10,
+    "label": "技術報告",
+    "cmd": "python scripts/build_report.py",
+    "seconds": 11.4,
+    "returncode": 0,
+    "stdout_tail": [
+      "C:\\dev\\cognitive-core\\docs\\技術報告.md",
+      "  317 行，22 處待你撰寫論述"
+    ],
+    "stderr_tail": []
+  }
+]

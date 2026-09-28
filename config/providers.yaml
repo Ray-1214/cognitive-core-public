@@ -1,0 +1,117 @@
+# Provider 設定（litellm 格式）— 技術設計文件 §5.1
+#
+# 校內端點本身就是 LiteLLM proxy（錯誤訊息含 litellm.InternalServerError /
+# litellm.main.completion()），故 client 端用同一套 litellm 直接對接，
+# 不再自寫四家 SDK 的 adapter。
+#
+# capabilities 由 §5.0 / §8.2 實測填入，不是推測值。
+
+defaults:
+  timeout: 180
+  max_retries: 3
+  # 併發上限：RateLimiter 只控速率不控併發。8 worker × timeout=300 ×
+  # max_tokens=1200 會長時間佔住後端推論槽，2026-08-14 的服務失聯即在此後發生。
+  max_concurrency: 3
+
+cache:
+  enabled: true
+  type: disk
+  path: .cache/litellm
+  # ⚠️ 快取鍵必須含取樣參數。校內端點自身的快取會讓相同請求即使 temperature=1.5
+  # 也回傳同一份回應（實測重送 4 次僅得 1 種），導致 n=k 重取樣靜默失效。
+  # 本地快取若重蹈覆轍會讓問題更難察覺。回歸測試見 tests/test_cache_key.py
+  key_includes: [model, messages, temperature, top_p, n, seed, response_format]
+
+providers:
+  ithu:
+    litellm_prefix: openai          # OpenAI 相容端點
+    api_base_env: ITHU_API_BASE
+    api_key_env: ITHU_API_KEY
+    api_base_suffix: /v1
+    rate_limit: { rpm: 240 }        # 名目上限 1200，取 1/5
+    models:
+      mistral-small-4:
+        capabilities: { json_schema: false, json_object: true, temperature: true }
+        role_default: [translate, backtrans, router]
+      gpt-oss-120b:
+        capabilities: { json_schema: true, json_object: true, temperature: true }
+        role_default: [reflect, verify]
+      llama4scout:
+        capabilities: { json_schema: true, json_object: true, temperature: true }
+      nemotron-3-ultra:
+        capabilities: { json_schema: false, json_object: true, temperature: true }
+        reasoning: true             # 內容在 reasoning_content，需加大 max_tokens
+        max_tokens_floor: 4000
+      ornith-35b:
+        capabilities: { json_schema: false, json_object: true, temperature: true }
+        reasoning: true
+        max_tokens_floor: 4000
+      diffusiongemma-26b:
+        # 不接受 temperature / seed / logit_bias 等取樣參數
+        capabilities: { json_schema: false, json_object: false, temperature: false }
+      # 以下三個是目前金鑰唯一可存取的模型（2026-08-14 實測）。
+      # 研究模型全部 403，需向系上申請權限。暫作基礎設施驗證用。
+      vibe:
+        capabilities: { json_schema: false, json_object: true, temperature: true }
+        reasoning: true             # 實測會先輸出思考，token 不足時回「已達 token 上限」
+        max_tokens_floor: 3000
+      vibecode:
+        capabilities: { json_schema: false, json_object: true, temperature: true }
+        reasoning: true
+        max_tokens_floor: 3000
+      office:
+        capabilities: { json_schema: false, json_object: true, temperature: true }
+        reasoning: true
+        max_tokens_floor: 3000
+      bge-m3-embedding:
+        kind: embedding
+        dim: 1024
+      bge-m3-reranker:
+        kind: rerank
+
+  gemini:
+    litellm_prefix: gemini
+    api_key_env: GOOGLE_API_KEY
+    # 免費層。實測 rpm=9 仍會撞 429（每分鐘限流，非日配額——15 秒後重試即成功），
+    # 故降為 5（12 秒間隔）。日配額另有上限，見 §5.1 規劃。
+    rate_limit: { rpm: 5 }
+    models:
+      gemini-flash-latest:
+        capabilities: { json_schema: true, json_object: true, temperature: true }
+
+# 角色 → provider/model 綁定
+roles:
+  router:    { provider: ithu, model: mistral-small-4 }
+  translate: { provider: ithu, model: mistral-small-4 }
+  backtrans: { provider: ithu, model: mistral-small-4 }
+  reflect:   { provider: ithu, model: gpt-oss-120b }    # §8.2 Open Q I
+  verify:    { provider: ithu, model: gpt-oss-120b }
+  # judge：Gemini 免費層日配額不足以支撐主實驗（30 筆第 1 題即耗盡），
+  # 改用 gpt-oss-120b。judge_cross 的實質由**不同訓練來源**保住：
+  #   翻譯 mistral-small-4（Mistral）　vs　judge gpt-oss-120b（OpenAI 血統）
+  # 兩者部署於同一機構端點，但模型權重與訓練資料獨立。
+  # 且 gpt-oss-120b 是校內唯一支援 tier1 嚴格 json_schema 的模型，
+  # judge 需要穩定結構化輸出，比 Gemini 走 tier2/tier3 更可靠。
+  judge:     { provider: ithu, model: gpt-oss-120b }
+  embed:     { provider: ithu, model: bge-m3-embedding }
+  rerank:    { provider: ithu, model: bge-m3-reranker }
+
+# 跨模型對比：換 profile 重跑（§5.1、M8）
+experiment_profiles:
+  # 基礎設施驗證用：目前金鑰只能存取 vibe 系列
+  smoke:        { _all: { provider: ithu, model: vibe } }
+
+  all_mistral:  { _all: { provider: ithu, model: mistral-small-4 } }
+  all_gptoss:   { _all: { provider: ithu, model: gpt-oss-120b } }
+  all_scout:    { _all: { provider: ithu, model: llama4scout } }
+  all_nemotron: { _all: { provider: ithu, model: nemotron-3-ultra } }
+  judge_cross:                       # 避免球員兼裁判（§7.5）
+    _all: { provider: ithu, model: mistral-small-4 }
+    judge: { provider: ithu, model: gpt-oss-120b }
+
+  # 評審間一致性檢驗用：同一批題目讓 Gemini 再判一次，算兩位評審的一致率。
+  # 這比全部用單一評審更有說服力——直接回應「LLM-as-a-Judge 是否客觀」。
+  # 受限於免費層日配額，只跑部分樣本。
+  judge_gemini:
+    _all: { provider: ithu, model: mistral-small-4 }
+    judge: { provider: gemini, model: gemini-flash-latest }

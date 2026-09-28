@@ -1,0 +1,229 @@
+{
+  "seed": 20260821,
+  "excluded_probe_ids": [
+    "wsd-低-a891",
+    "wsd-做-862f",
+    "wsd-去-6d5f",
+    "wsd-去-bdaa",
+    "wsd-強-7c81",
+    "wsd-心-4a0f",
+    "wsd-心-f1e9",
+    "wsd-折-eb31",
+    "wsd-拿-7496",
+    "wsd-掛-3cf0",
+    "wsd-收-ea9a",
+    "wsd-條-2146",
+    "wsd-條-63fe",
+    "wsd-死-f145",
+    "wsd-深-55e4",
+    "wsd-當-d0c0",
+    "wsd-破-6095",
+    "wsd-粗-a2fc",
+    "wsd-頭-79fa",
+    "wsd-高-f62e"
+  ],
+  "note": "研究者標完 judge_manual.md 之前不要開啟本檔",
+  "design": "binary_forced_choice",
+  "items": [
+    {
+      "n": 1,
+      "probe_id": "wsd-空-43b7",
+      "stratum": "dominant",
+      "gold_sense_id": "07114607",
+      "distractor_sense_id": "07114604",
+      "gold_first": true,
+      "gold_letter": "A",
+      "translation_sha": "1d11574607b2"
+    },
+    {
+      "n": 2,
+      "probe_id": "wsd-收-74d5",
+      "stratum": "non_dominant",
+      "gold_sense_id": "03039313",
+      "distractor_sense_id": "03039303",
+      "gold_first": true,
+      "gold_letter": "A",
+      "translation_sha": "e462591b9555"
+    },
+    {
+      "n": 3,
+      "probe_id": "wsd-人-9047",
+      "stratum": "dominant",
+      "gold_sense_id": "05231101",
+      "distractor_sense_id": "05231109",
+      "gold_first": false,
+      "gold_letter": "B",
+      "translation_sha": "554bb4b7728a"
+    },
+    {
+      "n": 4,
+      "probe_id": "wsd-歲-1d48",
+      "stratum": "dominant",
+      "gold_sense_id": "06559405",
+      "distractor_sense_id": "06559404",
+      "gold_first": true,
+      "gold_letter": "A",
+      "translation_sha": "958d055c9a18"
+    },
+    {
+      "n": 5,
+      "probe_id": "wsd-叫-2b66",
+      "stratum": "dominant",
+      "gold_sense_id": "04010206",
+      "distractor_sense_id": "04010201",
+      "gold_first": false,
+      "gold_letter": "B",
+      "translation_sha": "03153da52eef"
+    },
+    {
+      "n": 6,
+      "probe_id": "wsd-熱-fafd",
+      "stratum": "non_dominant",
+      "gold_sense_id": "05228709",
+      "distractor_sense_id": "05228701",
+      "gold_first": false,
+      "gold_letter": "B",
+      "translation_sha": "6ba75b9353b2"
+    },
+    {
+      "n": 7,
+      "probe_id": "wsd-條-8075",
+      "stratum": "non_dominant",
+      "gold_sense_id": "06585910",
+      "distractor_sense_id": "06585924",
+      "gold_first": true,
+      "gold_letter": "A",
+      "translation_sha": "e7acb46e6b8a"
+    },
+    {
+      "n": 8,
+      "probe_id": "wsd-條-6af3",
+      "stratum": "non_dominant",
+      "gold_sense_id": "06585906",
+      "distractor_sense_id": "06585924",
+      "gold_first": false,
+      "gold_letter": "B",
+      "translation_sha": "eff83c86797b"
+    },
+    {
+      "n": 9,
+      "probe_id": "wsd-條-50d4",
+      "stratum": "non_dominant",
+      "gold_sense_id": "06585906",
+      "distractor_sense_id": "06585924",
+      "gold_first": true,
+      "gold_letter": "A",
+      "translation_sha": "9356d7fbe299"
+    },
+    {
+      "n": 10,
+      "probe_id": "wsd-就-1455",
+      "stratum": "non_dominant",
+      "gold_sense_id": "05198313",
+      "distractor_sense_id": "05198301",
+      "gold_first": false,
+      "gold_letter": "B",
+      "translation_sha": "d954635e4b1d"
+    },
+    {
+      "n": 11,
+      "probe_id": "wsd-發-400e",
+      "stratum": "non_dominant",
+      "gold_sense_id": "06724102",
+      "distractor_sense_id": "06724101",
+      "gold_first": true,
+      "gold_letter": "A",
+      "translation_sha": "ceb79d39cf1f"
+    },
+    {
+      "n": 12,
+      "probe_id": "wsd-明-9c84",
+      "stratum": "dominant",
+      "gold_sense_id": "06685401",
+      "distractor_sense_id": "06685411",
+      "gold_first": true,
+      "gold_letter": "A",
+      "translation_sha": "fcea1c79a7bd"
+    },
+    {
+      "n": 13,
+      "probe_id": "wsd-股-32a8",
+      "stratum": "dominant",
+      "gold_sense_id": "03015710",
+      "distractor_sense_id": "03015702",
+      "gold_first": false,
+      "gold_letter": "B",
+      "translation_sha": "20f0b37f7977"
+    },
+    {
+      "n": 14,
+      "probe_id": "wsd-起-98e1",
+      "stratum": "non_dominant",
+      "gold_sense_id": "04004803",
+      "distractor_sense_id": "04004801",
+      "gold_first": false,
+      "gold_letter": "B",
+      "translation_sha": "f95c1e323df3"
+    },
+    {
+      "n": 15,
+      "probe_id": "wsd-會-f21d",
+      "stratum": "dominant",
+      "gold_sense_id": "04143405",
+      "distractor_sense_id": "04143406",
+      "gold_first": true,
+      "gold_letter": "A",
+      "translation_sha": "fe3cd17779a4"
+    },
+    {
+      "n": 16,
+      "probe_id": "wsd-就-d690",
+      "stratum": "non_dominant",
+      "gold_sense_id": "05198313",
+      "distractor_sense_id": "05198301",
+      "gold_first": true,
+      "gold_letter": "A",
+      "translation_sha": "222edf375ce9"
+    },
+    {
+      "n": 17,
+      "probe_id": "wsd-明-3724",
+      "stratum": "dominant",
+      "gold_sense_id": "07003501",
+      "distractor_sense_id": "07003502",
+      "gold_first": false,
+      "gold_letter": "B",
+      "translation_sha": "51dec4928871"
+    },
+    {
+      "n": 18,
+      "probe_id": "wsd-支-77e3",
+      "stratum": "non_dominant",
+      "gold_sense_id": "03056204",
+      "distractor_sense_id": "03056210",
+      "gold_first": false,
+      "gold_letter": "B",
+      "translation_sha": "5784ccaffbf1"
+    },
+    {
+      "n": 19,
+      "probe_id": "wsd-字-c8e1",
+      "stratum": "dominant",
+      "gold_sense_id": "06584502",
+      "distractor_sense_id": "06584501",
+      "gold_first": true,
+      "gold_letter": "A",
+      "translation_sha": "44ef49a4f3f9"
+    },
+    {
+      "n": 20,
+      "probe_id": "wsd-行-a94f",
+      "stratum": "dominant",
+      "gold_sense_id": "06775711",
+      "distractor_sense_id": "06775704",
+      "gold_first": false,
+      "gold_letter": "B",
+      "translation_sha": "8ef1b5817ac1"
+    }
+  ]
+}

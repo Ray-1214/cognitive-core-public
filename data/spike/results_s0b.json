@@ -1,0 +1,1205 @@
+{
+  "runs": [
+    [
+      {
+        "id": "amb-01",
+        "group": "ambiguous",
+        "text": "方便的話明天再說吧",
+        "trans_en": "Feel free to discuss it tomorrow.",
+        "trans_ja": "明日の都合が良ければ、その時にしましょう。",
+        "back_en": "歡迎明天再討論。",
+        "back_ja": "如果明天方便的話，到時候再說吧。",
+        "V1_biencoder_pair": 0.8462575828384422,
+        "V2_biencoder_vs_src": 0.869399648544504,
+        "V3_crossencoder": 0.92206234,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-02",
+        "group": "ambiguous",
+        "text": "這件事你看著辦",
+        "trans_en": "Handle this as you see fit.",
+        "trans_ja": "その件は任せる",
+        "back_en": "視情況處理即可。",
+        "back_ja": "這件事就交給你了",
+        "V1_biencoder_pair": 0.6490435880073857,
+        "V2_biencoder_vs_src": 0.7279346714577429,
+        "V3_crossencoder": 0.062103126,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-03",
+        "group": "ambiguous",
+        "text": "他這個人挺有意思的",
+        "trans_en": "He's quite an interesting person.",
+        "trans_ja": "彼の人はいい味をしている",
+        "back_en": "他真是個有趣的人。",
+        "back_ja": "他的氣質很獨特",
+        "V1_biencoder_pair": 0.7809741485525439,
+        "V2_biencoder_vs_src": 0.8022466122432106,
+        "V3_crossencoder": 0.91383046,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-04",
+        "group": "ambiguous",
+        "text": "我改天請你吃飯",
+        "trans_en": "I'll treat you to a meal sometime.",
+        "trans_ja": "いつかご馳走します。",
+        "back_en": "改天我請你吃頓飯。",
+        "back_ja": "改天我請客。",
+        "V1_biencoder_pair": 0.8926426210506079,
+        "V2_biencoder_vs_src": 0.9073467876383216,
+        "V3_crossencoder": 0.9851003,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-05",
+        "group": "ambiguous",
+        "text": "老師沒有批評小明，因為他表現很好",
+        "trans_en": "The teacher did not criticize Xiao Ming because he performed very well.",
+        "trans_ja": "先生は小明を叱らなかった、なぜなら彼の成績がとても良かったからだ。",
+        "back_en": "老師沒有批評小明，因為他表現得非常好。",
+        "back_ja": "老師沒有責罵小明，因為他的成績非常優秀。",
+        "V1_biencoder_pair": 0.9622068897014184,
+        "V2_biencoder_vs_src": 0.9410763916709087,
+        "V3_crossencoder": 0.9998795,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-06",
+        "group": "ambiguous",
+        "text": "他說他不去",
+        "trans_en": "He said he wouldn't go.",
+        "trans_ja": "彼は行かないと言いました。",
+        "back_en": "他說他不會去。",
+        "back_ja": "他說他不會去。",
+        "V1_biencoder_pair": 1.0000000000000002,
+        "V2_biencoder_vs_src": 0.9344542416110964,
+        "V3_crossencoder": 0.99988675,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-07",
+        "group": "ambiguous",
+        "text": "意思意思就好了",
+        "trans_en": "A little is enough.",
+        "trans_ja": "そんなもんです。",
+        "back_en": "一點兒就夠了。",
+        "back_ja": "就是這樣囉。",
+        "V1_biencoder_pair": 0.6015369781483076,
+        "V2_biencoder_vs_src": 0.6037570692053522,
+        "V3_crossencoder": 0.27678826,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-08",
+        "group": "ambiguous",
+        "text": "這個價錢還可以",
+        "trans_en": "This price is acceptable.",
+        "trans_ja": "この価格ならまあまあです",
+        "back_en": "此價格可以接受。",
+        "back_ja": "這個價格的話，還算可以。",
+        "V1_biencoder_pair": 0.8878624822974364,
+        "V2_biencoder_vs_src": 0.8954239048878276,
+        "V3_crossencoder": 0.9932025,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-09",
+        "group": "ambiguous",
+        "text": "你怎麼才來",
+        "trans_en": "How come you're just here now?",
+        "trans_ja": "どうして今頃来たの",
+        "back_en": "你怎麼現在才到？",
+        "back_ja": "你現在才來幹嘛？",
+        "V1_biencoder_pair": 0.8048921834013152,
+        "V2_biencoder_vs_src": 0.8217473095932016,
+        "V3_crossencoder": 0.8975158,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-10",
+        "group": "ambiguous",
+        "text": "我等你消息",
+        "trans_en": "I'll wait for your message.",
+        "trans_ja": "あなたのご返事をお待ちしています。",
+        "back_en": "我會等你的消息。",
+        "back_ja": "我正在等待您的回覆。",
+        "V1_biencoder_pair": 0.8454196221951444,
+        "V2_biencoder_vs_src": 0.8155160913384104,
+        "V3_crossencoder": 0.9967649,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "ctl-01",
+        "group": "control",
+        "text": "我明天早上九點會在辦公室等你",
+        "trans_en": "I will be waiting for you in the office at 9 AM tomorrow.",
+        "trans_ja": "明日の朝9時にオフィスで待っている。",
+        "back_en": "我明天早上九點會在辦公室等你。",
+        "back_ja": "明天早上九點會在辦公室等你。",
+        "V1_biencoder_pair": 0.9860466554272055,
+        "V2_biencoder_vs_src": 0.9766095307359697,
+        "V3_crossencoder": 0.9998969,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "ctl-02",
+        "group": "control",
+        "text": "這本書總共有三百二十頁",
+        "trans_en": "This book has a total of 320 pages.",
+        "trans_ja": "この本は全部で三百二十ページあります。",
+        "back_en": "本書總共320頁。",
+        "back_ja": "這本書總共有三百二十頁。",
+        "V1_biencoder_pair": 0.8582289374992187,
+        "V2_biencoder_vs_src": 0.8181026105701086,
+        "V3_crossencoder": 0.8597815,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "ctl-03",
+        "group": "control",
+        "text": "請把窗戶關上，外面很吵",
+        "trans_en": "Please close the window; it's very noisy outside.",
+        "trans_ja": "窓を閉めてください。外がうるさいです。",
+        "back_en": "請把窗戶關上，外面太吵了。",
+        "back_ja": "請把窗戶關上。外面太吵了。",
+        "V1_biencoder_pair": 0.9952222780089116,
+        "V2_biencoder_vs_src": 0.9845605343057854,
+        "V3_crossencoder": 0.9999788,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "ctl-04",
+        "group": "control",
+        "text": "他去年從台北搬到台中",
+        "trans_en": "He moved from Taipei to Taichung last year.",
+        "trans_ja": "彼は昨年台北から台中に引っ越した。",
+        "back_en": "他去年從台北搬到台中。",
+        "back_ja": "他去年從台北搬到台中。",
+        "V1_biencoder_pair": 1.0,
+        "V2_biencoder_vs_src": 0.9850254361630034,
+        "V3_crossencoder": 0.999979,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "ctl-05",
+        "group": "control",
+        "text": "會議改到下週三下午兩點舉行",
+        "trans_en": "The meeting has been rescheduled to next Wednesday at 2:00 PM.",
+        "trans_ja": "来週水曜日の午後2時に会議を変更します",
+        "back_en": "會議已改期至下週三下午兩點舉行。",
+        "back_ja": "下週三下午兩點改開會",
+        "V1_biencoder_pair": 0.9106276799310173,
+        "V2_biencoder_vs_src": 0.9319068939131951,
+        "V3_crossencoder": 0.99783427,
+        "V4_llm_intent_same": 1.0
+      }
+    ],
+    [
+      {
+        "id": "amb-01",
+        "group": "ambiguous",
+        "text": "方便的話明天再說吧",
+        "trans_en": "Feel free to discuss it tomorrow.",
+        "trans_ja": "明日の都合が良ければ、その時にしましょう。",
+        "back_en": "歡迎明天再討論。",
+        "back_ja": "如果明天方便的話，到時候再說吧。",
+        "V1_biencoder_pair": 0.8462575828384422,
+        "V2_biencoder_vs_src": 0.869399648544504,
+        "V3_crossencoder": 0.92206234,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-02",
+        "group": "ambiguous",
+        "text": "這件事你看著辦",
+        "trans_en": "Handle this as you see fit.",
+        "trans_ja": "その件は任せる",
+        "back_en": "視情況處理即可。",
+        "back_ja": "這件事就交給你了",
+        "V1_biencoder_pair": 0.6490435880073857,
+        "V2_biencoder_vs_src": 0.7279346714577429,
+        "V3_crossencoder": 0.062103126,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-03",
+        "group": "ambiguous",
+        "text": "他這個人挺有意思的",
+        "trans_en": "He's quite an interesting person.",
+        "trans_ja": "彼の人はいい味をしている",
+        "back_en": "他真是個有趣的人。",
+        "back_ja": "他的氣質很獨特",
+        "V1_biencoder_pair": 0.7809741485525439,
+        "V2_biencoder_vs_src": 0.8022466122432106,
+        "V3_crossencoder": 0.91383046,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-04",
+        "group": "ambiguous",
+        "text": "我改天請你吃飯",
+        "trans_en": "I'll treat you to a meal sometime.",
+        "trans_ja": "いつかご馳走します。",
+        "back_en": "改天我請你吃頓飯。",
+        "back_ja": "改天我請客。",
+        "V1_biencoder_pair": 0.8926426210506079,
+        "V2_biencoder_vs_src": 0.9073467876383216,
+        "V3_crossencoder": 0.9851003,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-05",
+        "group": "ambiguous",
+        "text": "老師沒有批評小明，因為他表現很好",
+        "trans_en": "The teacher did not criticize Xiao Ming because he performed very well.",
+        "trans_ja": "先生は小明を叱らなかった、なぜなら彼の成績がとても良かったからだ。",
+        "back_en": "老師沒有批評小明，因為他表現得非常好。",
+        "back_ja": "老師沒有責罵小明，因為他的成績非常優秀。",
+        "V1_biencoder_pair": 0.9622068897014184,
+        "V2_biencoder_vs_src": 0.9410763916709087,
+        "V3_crossencoder": 0.9998795,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-06",
+        "group": "ambiguous",
+        "text": "他說他不去",
+        "trans_en": "He said he wouldn't go.",
+        "trans_ja": "彼は行かないと言いました。",
+        "back_en": "他說他不會去。",
+        "back_ja": "他說他不會去。",
+        "V1_biencoder_pair": 1.0000000000000002,
+        "V2_biencoder_vs_src": 0.9344542416110964,
+        "V3_crossencoder": 0.99988675,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-07",
+        "group": "ambiguous",
+        "text": "意思意思就好了",
+        "trans_en": "A little is enough.",
+        "trans_ja": "そんなもんです。",
+        "back_en": "一點兒就夠了。",
+        "back_ja": "就是這樣囉。",
+        "V1_biencoder_pair": 0.6015369781483076,
+        "V2_biencoder_vs_src": 0.6037570692053522,
+        "V3_crossencoder": 0.27678826,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-08",
+        "group": "ambiguous",
+        "text": "這個價錢還可以",
+        "trans_en": "This price is acceptable.",
+        "trans_ja": "この価格ならまあまあです",
+        "back_en": "此價格可以接受。",
+        "back_ja": "這個價格的話，還算可以。",
+        "V1_biencoder_pair": 0.8878624822974364,
+        "V2_biencoder_vs_src": 0.8954239048878276,
+        "V3_crossencoder": 0.9932025,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-09",
+        "group": "ambiguous",
+        "text": "你怎麼才來",
+        "trans_en": "How come you're just here now?",
+        "trans_ja": "どうして今頃来たの",
+        "back_en": "你怎麼現在才到？",
+        "back_ja": "你現在才來幹嘛？",
+        "V1_biencoder_pair": 0.8048921834013152,
+        "V2_biencoder_vs_src": 0.8217473095932016,
+        "V3_crossencoder": 0.8975158,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-10",
+        "group": "ambiguous",
+        "text": "我等你消息",
+        "trans_en": "I'll wait for your message.",
+        "trans_ja": "あなたのご返事をお待ちしています。",
+        "back_en": "我會等你的消息。",
+        "back_ja": "我正在等待您的回覆。",
+        "V1_biencoder_pair": 0.8454196221951444,
+        "V2_biencoder_vs_src": 0.8155160913384104,
+        "V3_crossencoder": 0.9967649,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "ctl-01",
+        "group": "control",
+        "text": "我明天早上九點會在辦公室等你",
+        "trans_en": "I will be waiting for you in the office at 9 AM tomorrow.",
+        "trans_ja": "明日の朝9時にオフィスで待っている。",
+        "back_en": "我明天早上九點會在辦公室等你。",
+        "back_ja": "明天早上九點會在辦公室等你。",
+        "V1_biencoder_pair": 0.9860466554272055,
+        "V2_biencoder_vs_src": 0.9766095307359697,
+        "V3_crossencoder": 0.9998969,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "ctl-02",
+        "group": "control",
+        "text": "這本書總共有三百二十頁",
+        "trans_en": "This book has a total of 320 pages.",
+        "trans_ja": "この本は全部で三百二十ページあります。",
+        "back_en": "本書總共320頁。",
+        "back_ja": "這本書總共有三百二十頁。",
+        "V1_biencoder_pair": 0.8582289374992187,
+        "V2_biencoder_vs_src": 0.8181026105701086,
+        "V3_crossencoder": 0.8597815,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "ctl-03",
+        "group": "control",
+        "text": "請把窗戶關上，外面很吵",
+        "trans_en": "Please close the window; it's very noisy outside.",
+        "trans_ja": "窓を閉めてください。外がうるさいです。",
+        "back_en": "請把窗戶關上，外面太吵了。",
+        "back_ja": "請把窗戶關上。外面太吵了。",
+        "V1_biencoder_pair": 0.9952222780089116,
+        "V2_biencoder_vs_src": 0.9845605343057854,
+        "V3_crossencoder": 0.9999788,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "ctl-04",
+        "group": "control",
+        "text": "他去年從台北搬到台中",
+        "trans_en": "He moved from Taipei to Taichung last year.",
+        "trans_ja": "彼は昨年台北から台中に引っ越した。",
+        "back_en": "他去年從台北搬到台中。",
+        "back_ja": "他去年從台北搬到台中。",
+        "V1_biencoder_pair": 1.0,
+        "V2_biencoder_vs_src": 0.9850254361630034,
+        "V3_crossencoder": 0.999979,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "ctl-05",
+        "group": "control",
+        "text": "會議改到下週三下午兩點舉行",
+        "trans_en": "The meeting has been rescheduled to next Wednesday at 2:00 PM.",
+        "trans_ja": "来週水曜日の午後2時に会議を変更します",
+        "back_en": "會議已改期至下週三下午兩點舉行。",
+        "back_ja": "下週三下午兩點改開會",
+        "V1_biencoder_pair": 0.9106276799310173,
+        "V2_biencoder_vs_src": 0.9319068939131951,
+        "V3_crossencoder": 0.99783427,
+        "V4_llm_intent_same": 1.0
+      }
+    ],
+    [
+      {
+        "id": "amb-01",
+        "group": "ambiguous",
+        "text": "方便的話明天再說吧",
+        "trans_en": "Feel free to discuss it tomorrow.",
+        "trans_ja": "明日の都合が良ければ、その時にしましょう。",
+        "back_en": "歡迎明天再討論。",
+        "back_ja": "如果明天方便的話，到時候再說吧。",
+        "V1_biencoder_pair": 0.8462575828384422,
+        "V2_biencoder_vs_src": 0.869399648544504,
+        "V3_crossencoder": 0.92206234,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-02",
+        "group": "ambiguous",
+        "text": "這件事你看著辦",
+        "trans_en": "Handle this as you see fit.",
+        "trans_ja": "その件は任せる",
+        "back_en": "視情況處理即可。",
+        "back_ja": "這件事就交給你了",
+        "V1_biencoder_pair": 0.6490435880073857,
+        "V2_biencoder_vs_src": 0.7279346714577429,
+        "V3_crossencoder": 0.062103126,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-03",
+        "group": "ambiguous",
+        "text": "他這個人挺有意思的",
+        "trans_en": "He's quite an interesting person.",
+        "trans_ja": "彼の人はいい味をしている",
+        "back_en": "他真是個有趣的人。",
+        "back_ja": "他的氣質很獨特",
+        "V1_biencoder_pair": 0.7809741485525439,
+        "V2_biencoder_vs_src": 0.8022466122432106,
+        "V3_crossencoder": 0.91383046,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-04",
+        "group": "ambiguous",
+        "text": "我改天請你吃飯",
+        "trans_en": "I'll treat you to a meal sometime.",
+        "trans_ja": "いつかご馳走します。",
+        "back_en": "改天我請你吃頓飯。",
+        "back_ja": "改天我請客。",
+        "V1_biencoder_pair": 0.8926426210506079,
+        "V2_biencoder_vs_src": 0.9073467876383216,
+        "V3_crossencoder": 0.9851003,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-05",
+        "group": "ambiguous",
+        "text": "老師沒有批評小明，因為他表現很好",
+        "trans_en": "The teacher did not criticize Xiao Ming because he performed very well.",
+        "trans_ja": "先生は小明を叱らなかった、なぜなら彼の成績がとても良かったからだ。",
+        "back_en": "老師沒有批評小明，因為他表現得非常好。",
+        "back_ja": "老師沒有責罵小明，因為他的成績非常優秀。",
+        "V1_biencoder_pair": 0.9622068897014184,
+        "V2_biencoder_vs_src": 0.9410763916709087,
+        "V3_crossencoder": 0.9998795,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-06",
+        "group": "ambiguous",
+        "text": "他說他不去",
+        "trans_en": "He said he wouldn't go.",
+        "trans_ja": "彼は行かないと言いました。",
+        "back_en": "他說他不會去。",
+        "back_ja": "他說他不會去。",
+        "V1_biencoder_pair": 1.0000000000000002,
+        "V2_biencoder_vs_src": 0.9344542416110964,
+        "V3_crossencoder": 0.99988675,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-07",
+        "group": "ambiguous",
+        "text": "意思意思就好了",
+        "trans_en": "A little is enough.",
+        "trans_ja": "そんなもんです。",
+        "back_en": "一點兒就夠了。",
+        "back_ja": "就是這樣囉。",
+        "V1_biencoder_pair": 0.6015369781483076,
+        "V2_biencoder_vs_src": 0.6037570692053522,
+        "V3_crossencoder": 0.27678826,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-08",
+        "group": "ambiguous",
+        "text": "這個價錢還可以",
+        "trans_en": "This price is acceptable.",
+        "trans_ja": "この価格ならまあまあです",
+        "back_en": "此價格可以接受。",
+        "back_ja": "這個價格的話，還算可以。",
+        "V1_biencoder_pair": 0.8878624822974364,
+        "V2_biencoder_vs_src": 0.8954239048878276,
+        "V3_crossencoder": 0.9932025,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-09",
+        "group": "ambiguous",
+        "text": "你怎麼才來",
+        "trans_en": "How come you're just here now?",
+        "trans_ja": "どうして今頃来たの",
+        "back_en": "你怎麼現在才到？",
+        "back_ja": "你現在才來幹嘛？",
+        "V1_biencoder_pair": 0.8048921834013152,
+        "V2_biencoder_vs_src": 0.8217473095932016,
+        "V3_crossencoder": 0.8975158,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "amb-10",
+        "group": "ambiguous",
+        "text": "我等你消息",
+        "trans_en": "I'll wait for your message.",
+        "trans_ja": "あなたのご返事をお待ちしています。",
+        "back_en": "我會等你的消息。",
+        "back_ja": "我正在等待您的回覆。",
+        "V1_biencoder_pair": 0.8454196221951444,
+        "V2_biencoder_vs_src": 0.8155160913384104,
+        "V3_crossencoder": 0.9967649,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "ctl-01",
+        "group": "control",
+        "text": "我明天早上九點會在辦公室等你",
+        "trans_en": "I will be waiting for you in the office at 9 AM tomorrow.",
+        "trans_ja": "明日の朝9時にオフィスで待っている。",
+        "back_en": "我明天早上九點會在辦公室等你。",
+        "back_ja": "明天早上九點會在辦公室等你。",
+        "V1_biencoder_pair": 0.9860466554272055,
+        "V2_biencoder_vs_src": 0.9766095307359697,
+        "V3_crossencoder": 0.9998969,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "ctl-02",
+        "group": "control",
+        "text": "這本書總共有三百二十頁",
+        "trans_en": "This book has a total of 320 pages.",
+        "trans_ja": "この本は全部で三百二十ページあります。",
+        "back_en": "本書總共320頁。",
+        "back_ja": "這本書總共有三百二十頁。",
+        "V1_biencoder_pair": 0.8582289374992187,
+        "V2_biencoder_vs_src": 0.8181026105701086,
+        "V3_crossencoder": 0.8597815,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "ctl-03",
+        "group": "control",
+        "text": "請把窗戶關上，外面很吵",
+        "trans_en": "Please close the window; it's very noisy outside.",
+        "trans_ja": "窓を閉めてください。外がうるさいです。",
+        "back_en": "請把窗戶關上，外面太吵了。",
+        "back_ja": "請把窗戶關上。外面太吵了。",
+        "V1_biencoder_pair": 0.9952222780089116,
+        "V2_biencoder_vs_src": 0.9845605343057854,
+        "V3_crossencoder": 0.9999788,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "ctl-04",
+        "group": "control",
+        "text": "他去年從台北搬到台中",
+        "trans_en": "He moved from Taipei to Taichung last year.",
+        "trans_ja": "彼は昨年台北から台中に引っ越した。",
+        "back_en": "他去年從台北搬到台中。",
+        "back_ja": "他去年從台北搬到台中。",
+        "V1_biencoder_pair": 1.0,
+        "V2_biencoder_vs_src": 0.9850254361630034,
+        "V3_crossencoder": 0.999979,
+        "V4_llm_intent_same": 1.0
+      },
+      {
+        "id": "ctl-05",
+        "group": "control",
+        "text": "會議改到下週三下午兩點舉行",
+        "trans_en": "The meeting has been rescheduled to next Wednesday at 2:00 PM.",
+        "trans_ja": "来週水曜日の午後2時に会議を変更します",
+        "back_en": "會議已改期至下週三下午兩點舉行。",
+        "back_ja": "下週三下午兩點改開會",
+        "V1_biencoder_pair": 0.9106276799310173,
+        "V2_biencoder_vs_src": 0.9319068939131951,
+        "V3_crossencoder": 0.99783427,
+        "V4_llm_intent_same": 1.0
+      }
+    ]
+  ],
+  "s5": [
+    {
+      "model": "mistral-small-4",
+      "repeat": 0,
+      "rows": [
+        {
+          "id": "amb-01",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-02",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-03",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-04",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 0.0
+        },
+        {
+          "id": "amb-05",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-06",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-07",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-08",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 0.0
+        },
+        {
+          "id": "amb-09",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-10",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 0.0
+        },
+        {
+          "id": "ctl-01",
+          "group": "control",
+          "model": "mistral-small-4",
+          "score": 0.0
+        },
+        {
+          "id": "ctl-02",
+          "group": "control",
+          "model": "mistral-small-4",
+          "score": 0.0
+        },
+        {
+          "id": "ctl-03",
+          "group": "control",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "ctl-04",
+          "group": "control",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "ctl-05",
+          "group": "control",
+          "model": "mistral-small-4",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "model": "gpt-oss-120b",
+      "repeat": 0,
+      "rows": [
+        {
+          "id": "amb-01",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-02",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-03",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-04",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 0.0
+        },
+        {
+          "id": "amb-05",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-06",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-07",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-08",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 0.0
+        },
+        {
+          "id": "amb-09",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-10",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 0.0
+        },
+        {
+          "id": "ctl-01",
+          "group": "control",
+          "model": "gpt-oss-120b",
+          "score": 0.0
+        },
+        {
+          "id": "ctl-02",
+          "group": "control",
+          "model": "gpt-oss-120b",
+          "score": 0.0
+        },
+        {
+          "id": "ctl-03",
+          "group": "control",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "ctl-04",
+          "group": "control",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "ctl-05",
+          "group": "control",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "model": "mistral-small-4",
+      "repeat": 1,
+      "rows": [
+        {
+          "id": "amb-01",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-02",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-03",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-04",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 0.0
+        },
+        {
+          "id": "amb-05",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-06",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-07",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-08",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 0.0
+        },
+        {
+          "id": "amb-09",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-10",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 0.0
+        },
+        {
+          "id": "ctl-01",
+          "group": "control",
+          "model": "mistral-small-4",
+          "score": 0.0
+        },
+        {
+          "id": "ctl-02",
+          "group": "control",
+          "model": "mistral-small-4",
+          "score": 0.0
+        },
+        {
+          "id": "ctl-03",
+          "group": "control",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "ctl-04",
+          "group": "control",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "ctl-05",
+          "group": "control",
+          "model": "mistral-small-4",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "model": "gpt-oss-120b",
+      "repeat": 1,
+      "rows": [
+        {
+          "id": "amb-01",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-02",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-03",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-04",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 0.0
+        },
+        {
+          "id": "amb-05",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-06",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-07",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-08",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 0.0
+        },
+        {
+          "id": "amb-09",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-10",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 0.0
+        },
+        {
+          "id": "ctl-01",
+          "group": "control",
+          "model": "gpt-oss-120b",
+          "score": 0.0
+        },
+        {
+          "id": "ctl-02",
+          "group": "control",
+          "model": "gpt-oss-120b",
+          "score": 0.0
+        },
+        {
+          "id": "ctl-03",
+          "group": "control",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "ctl-04",
+          "group": "control",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "ctl-05",
+          "group": "control",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "model": "mistral-small-4",
+      "repeat": 2,
+      "rows": [
+        {
+          "id": "amb-01",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-02",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-03",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-04",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 0.0
+        },
+        {
+          "id": "amb-05",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-06",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-07",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-08",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 0.0
+        },
+        {
+          "id": "amb-09",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "amb-10",
+          "group": "ambiguous",
+          "model": "mistral-small-4",
+          "score": 0.0
+        },
+        {
+          "id": "ctl-01",
+          "group": "control",
+          "model": "mistral-small-4",
+          "score": 0.0
+        },
+        {
+          "id": "ctl-02",
+          "group": "control",
+          "model": "mistral-small-4",
+          "score": 0.0
+        },
+        {
+          "id": "ctl-03",
+          "group": "control",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "ctl-04",
+          "group": "control",
+          "model": "mistral-small-4",
+          "score": 1.0
+        },
+        {
+          "id": "ctl-05",
+          "group": "control",
+          "model": "mistral-small-4",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "model": "gpt-oss-120b",
+      "repeat": 2,
+      "rows": [
+        {
+          "id": "amb-01",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-02",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-03",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-04",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 0.0
+        },
+        {
+          "id": "amb-05",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-06",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-07",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-08",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 0.0
+        },
+        {
+          "id": "amb-09",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "amb-10",
+          "group": "ambiguous",
+          "model": "gpt-oss-120b",
+          "score": 0.0
+        },
+        {
+          "id": "ctl-01",
+          "group": "control",
+          "model": "gpt-oss-120b",
+          "score": 0.0
+        },
+        {
+          "id": "ctl-02",
+          "group": "control",
+          "model": "gpt-oss-120b",
+          "score": 0.0
+        },
+        {
+          "id": "ctl-03",
+          "group": "control",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "ctl-04",
+          "group": "control",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        },
+        {
+          "id": "ctl-05",
+          "group": "control",
+          "model": "gpt-oss-120b",
+          "score": 1.0
+        }
+      ]
+    }
+  ],
+  "auc": {
+    "V1_biencoder_pair": [
+      0.82,
+      0.82,
+      0.82
+    ],
+    "V2_biencoder_vs_src": [
+      0.84,
+      0.84,
+      0.84
+    ],
+    "V3_crossencoder": [
+      0.8,
+      0.8,
+      0.8
+    ],
+    "V4_llm_intent_same": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "S5_direct_mistral-small-4": [
+      0.55,
+      0.55,
+      0.55
+    ],
+    "S5_direct_gpt-oss-120b": [
+      0.55,
+      0.55,
+      0.55
+    ]
+  }
+}

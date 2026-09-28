@@ -1,0 +1,39 @@
+{
+  "n": 30,
+  "accuracy": 0.6666666666666666,
+  "n_correct": 16,
+  "n_judgeable": 24,
+  "translation_failed": 0,
+  "none": 6,
+  "error": 0,
+  "by_stratum": {
+    "dominant": {
+      "n": 13,
+      "correct": 10,
+      "acc": 0.7692307692307693,
+      "ci": [
+        0.49743126004873084,
+        0.918206209075343
+      ]
+    },
+    "non_dominant": {
+      "n": 11,
+      "correct": 6,
+      "acc": 0.5454545454545454,
+      "ci": [
+        0.2800877556899882,
+        0.7872904245601196
+      ]
+    }
+  },
+  "diff": 0.22377622377622386,
+  "diff_ci": [
+    -0.1398601398601398,
+    0.5734265734265734
+  ],
+  "p": 0.2594,
+  "aborted": null,
+  "judge_model": "ithu/gpt-oss-120b",
+  "translate_model": "ithu/mistral-small-4",
+  "judge_profile": "(default)"
+}

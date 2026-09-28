@@ -1,0 +1,107 @@
+# ─── 機密：最優先 ───────────────────────────────
+# provider 金鑰（Anthropic / OpenAI / Google / 校內地端）
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.yaml
+
+# 本機工具設定（每台機器不同，不該共用）
+.claude/settings.local.json
+
+# ─── 研究文件 ─────────────────────────────────
+# C802 摘要表等含個資的表單；LaTeX 產出的 PDF 也視為建置產物。
+# 確認無個資後要納管，用：git add -f docs/檔名.pdf
+docs/*.pdf
+
+# 引用文獻的 PDF 本身有著作權，不散布；只用 references.bib 記錄書目
+papers/*.pdf
+
+# LaTeX 中間檔（研究計畫書.tex 編譯用）
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# ─── Python ───────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# ─── Node / Electron（desktop/）────────────────
+node_modules/
+dist/
+out/
+build/
+.vite/
+*.tsbuildinfo
+
+# ─── 模型與資料（體積大，不進 Git）──────────────
+*.gguf
+*.bin
+*.safetensors
+models/
+
+# 向量庫、實驗輸出、快取（可重建）
+data/chroma/
+data/cache/
+runs/
+.cache/
+*.sqlite3
+
+# CAD-100 的原始標註可進 Git，但中間產物不要
+data/**/tmp/
+
+# ─── 作業系統 / 編輯器 ─────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# 執行產物（改以明確列檔，不再 git add -A）
+*.log
+data/**/collect_run.log
+
+# 隔離區內容不得在凍結前被工具讀取
+data/dev30/_quarantine/*.json
+data/dev30/_quarantine/*.md
+!data/dev30/_quarantine/README.md
+!data/dev30/_quarantine/MANIFEST.json
+
+# litellm 快取與 run 記錄（產物，不進版控）
+.cache/
+runs/
+
+# 外部 repo（不進本專案版控）。
+# ⚠️ 必須加前導斜線限定根目錄——寫成 external/ 會連 data/external/ 一起排除。
+/external/
+
+# 原始成語檔 10MB，不進版控。build_lexicons.py 會在缺少時自動下載
+# （2026-08-22 的從零重現驗證抓到：註解原本寫成「可由 build_lexicons.py
+#   重建」，方向剛好相反——是那支腳本消費它，於是乾淨 clone 跑不起來）
+data/lexicons/idiom_xinhua_raw.json
+data/results/run200.log
+
+# Streamlit 執行期產物
+.streamlit/
+
+# 打包產物
+repro.zip
+*.egg-info/
+build/
+dist/

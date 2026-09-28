@@ -1,0 +1,18 @@
+{
+  "quarantined_at": "2026-08-14T03:48:07+08:00",
+  "reason": "三輪 collect_readings 的部分產物。dev-30 v1 凍結前不得開啟。",
+  "files": {
+    "collect_run.log": {
+      "sha256": "39cbdb35d1607abdf1661159de756bf219f832a6ef6d1d27d88eb06b2ed6c3dd",
+      "bytes": 628
+    },
+    "readings_union.json": {
+      "sha256": "585dbd7f4e33c89beda2007e259dc2f9cb60f852b0203224b674841e0f90e7d8",
+      "bytes": 46278
+    },
+    "readings_union.md": {
+      "sha256": "a046032856de1d65756a21dfb9c3013f9134aac8c27f17965f70aa497740d7ef",
+      "bytes": 16568
+    }
+  }
+}

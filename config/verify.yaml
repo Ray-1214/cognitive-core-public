@@ -1,0 +1,62 @@
+# 驗證配置（實作規格書 §A-2、技術設計文件 §4.2.1）
+#
+# 四種 profile 必須是同一條程式碼路徑的不同設定，不是四份實作。
+# mode 只有三種，profile 是 mode + 參數的組合。
+
+profiles:
+  cross_en_ja:
+    mode: cross_lingual
+    languages: [en, ja]
+    note: 預設。計畫書 §4.4 的日英兩語三角測量
+
+  cross_en_de:
+    mode: cross_lingual
+    languages: [en, de]
+    note: 換一組語言對，檢驗是否日英專屬
+
+  same_en:
+    mode: same_language
+    language: en
+    n: 4
+    temperature: 0.7
+    note: >
+      同語言重取樣對照。⚠️ 必須用單一請求的 n=k 取樣——校內端點會快取相同請求，
+      重複呼叫即使 temperature=1.5 也只會拿到同一份回應（實測重送 4 次僅 1 種），
+      S0c 初版即因此作廢。
+
+  same_ja:
+    mode: same_language
+    language: ja
+    n: 4
+    temperature: 0.7
+
+  single_ja:
+    mode: single_probe
+    language: ja
+    note: E1-d 消融。偵測用，不做 IdentifyDiff
+
+  single_en:
+    mode: single_probe
+    language: en
+
+# §4.2.1 偵測／診斷分離
+# 原設計把最貴的操作（多視角平行翻譯）放在偵測階段，等於每句都付診斷成本。
+detector: single_probe        # 便宜偵測：單探針往返保真度，與原文比
+diagnoser: cross_en_ja        # 昂貴診斷：多視角 IdentifyDiff，只在慢速通道跑
+
+# 留出語言：只用於量測，全程不進反思迴圈，避免循環論證（地雷 2）
+holdout_languages: [de]
+
+thresholds:
+  # ⚠️ 這些是**初始值**，不是調校過的閾值。
+  # 訊號分布重疊，單一 τ 必然誤判 → 正式評測改報 ROC/AUC，不報固定閾值下的準確率。
+  # 不得在 dev-30 上擬合這些值（dev/test 洩漏）。
+  consistency_pass: 0.75      # 一致性 ≥ 此值視為收斂
+  detector_slow_path: 0.85    # 單探針保真度 < 此值走慢速通道
+  max_revisions: 3            # 反思迴圈上限 R
+
+similarity:
+  # 回譯與原文比（V2 比法），取各語言的最小值——最壞情況才是訊號
+  detector_metric: min_vs_source
+  # 樣本間一致性：平均成對餘弦。⚠️ 僅作收斂診斷，不得當勝負依據（地雷 2）
+  consistency_metric: mean_pairwise

@@ -1,0 +1,1005 @@
+meta:
+  name: dev-30
+  purpose: tuning
+  created: 2026-08-09
+  ai_drafted: true
+  reviewed: false
+  reviewer: null
+  distribution:
+    LEXICAL: 9
+    REFERENTIAL: 9
+    PRAGMATIC: 12
+  overlaps_with_spike: false
+  overlaps_with_cad100: false
+  review_round: 1
+  review_r1_summary:
+    keep: 19
+    applied: 2
+    deferred: 9
+items:
+- id: dev-lex-01
+  text: 這個人很難說
+  ambiguity_type: LEXICAL
+  expected_route: slow
+  licensed_readings:
+  - reading: 此人的為人難以評斷
+    speaker_intent: EVALUATE
+    licensed_when: 討論對象是第三者的人格特質
+  - reading: 此人不好溝通、講不通道理
+    speaker_intent: COMPLAIN
+    licensed_when: 先前提及與此人交涉受阻
+  text_determinable: false
+  field_determinable:
+    agent: false
+    tense: true
+    register: true
+    social_relation: false
+    speaker_intent: false
+  spurious_readings:
+  - 此人說話有口吃或發音困難
+  - 此人的名字很難念
+  required_clarifications:
+  - speaker_intent
+  minimal_pair:
+    id: dev-lex-01d
+    text: 此人難以評斷
+    edit: 難說 → 難以評斷（等長替換）
+    resolves_to: 此人的為人難以評斷
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep
+- id: dev-lex-02
+  text: 他終於放下了
+  ambiguity_type: LEXICAL
+  expected_route: slow
+  licensed_readings:
+  - reading: 他終於釋懷、不再執著
+    speaker_intent: NARRATE
+    licensed_when: 先前提及情感或心結
+  - reading: 他終於把手上的東西放下
+    speaker_intent: NARRATE
+    licensed_when: 先前提及他拿著某物
+  - reading: 他終於卸下職務
+    speaker_intent: NARRATE
+    licensed_when: 先前提及職位或責任
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: true
+    register: true
+    social_relation: false
+    speaker_intent: true
+  spurious_readings:
+  - 他放棄了生命
+  - 他降價了
+  required_clarifications: []
+  minimal_pair:
+    id: dev-lex-02d
+    text: 他終於釋懷了
+    edit: 放下 → 釋懷（同長度替換）
+    resolves_to: 他終於釋懷、不再執著
+  review_r1:
+    verdict: fix
+    note: 放棄生命感覺是拔管 但是也不太會有人這樣說 降價是最不可能的
+    status: deferred
+    defer_reason: 指出某 spurious_reading 不合理，但「刪除」與「其實是合法讀法」兩種處理相反
+- id: dev-lex-03
+  text: 我們研究研究
+  ambiguity_type: LEXICAL
+  expected_route: slow
+  licensed_readings:
+  - reading: 我們實際進行研議
+    speaker_intent: COMMIT
+    licensed_when: 說話者具決策權且情境正式
+  - reading: 拖延推託的官場套語，實則不打算處理
+    speaker_intent: SOFT_REFUSAL
+    licensed_when: 對方提出請託，說話者無意應允
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: true
+    register: false
+    social_relation: false
+    speaker_intent: false
+  spurious_readings:
+  - 我們去做學術研究
+  - 我們互相研究對方
+  required_clarifications:
+  - speaker_intent
+  - social_relation
+  minimal_pair:
+    id: dev-lex-03d
+    text: 我們實際研議
+    edit: 研究研究 → 實際研議（等長替換）
+    resolves_to: 我們實際進行研議
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep
+- id: dev-lex-04
+  text: 那家店關門了
+  ambiguity_type: LEXICAL
+  expected_route: slow
+  licensed_readings:
+  - reading: 該店今日已打烊
+    speaker_intent: INFORM
+    licensed_when: 談論當下營業時間
+  - reading: 該店已永久歇業
+    speaker_intent: INFORM
+    licensed_when: 談論店家經營狀況
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: true
+    register: true
+    social_relation: false
+    speaker_intent: true
+  spurious_readings:
+  - 店員把門關上了
+  - 那家店被查封
+  required_clarifications: []
+  minimal_pair:
+    id: dev-lex-04d
+    text: 那家店歇業了
+    edit: 關門 → 歇業（同長度替換，鎖定永久義）
+    resolves_to: 該店已永久歇業
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep
+- id: dev-lex-05
+  text: 他很會做人
+  ambiguity_type: LEXICAL
+  expected_route: slow
+  licensed_readings:
+  - reading: 他善於處世、人際圓融（褒義）
+    speaker_intent: PRAISE
+    licensed_when: 說話者對其持正面評價
+  - reading: 他八面玲瓏、只顧經營關係（貶義）
+    speaker_intent: CRITICIZE
+    licensed_when: 說話者對其持負面評價
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: true
+    register: true
+    social_relation: false
+    speaker_intent: false
+  spurious_readings:
+  - 他很會生小孩
+  - 他很會製作人偶
+  required_clarifications:
+  - speaker_intent
+  minimal_pair:
+    id: dev-lex-05d
+    text: 他人際圓融
+    edit: 很會做人 → 人際圓融（鎖定褒義）
+    resolves_to: 他善於處世、人際圓融
+  review_r1:
+    verdict: fix
+    note: 不會有生小孩的說法 有點離譜
+    status: deferred
+    defer_reason: 指出某 spurious_reading 不合理，但「刪除」與「其實是合法讀法」兩種處理相反
+- id: dev-lex-06
+  text: 我沒有意見
+  ambiguity_type: LEXICAL
+  expected_route: slow
+  licensed_readings:
+  - reading: 我同意此提案
+    speaker_intent: AGREE
+    licensed_when: 在表決或徵詢同意的場合
+  - reading: 我不願表態
+    speaker_intent: WITHHOLD
+    licensed_when: 議題敏感或說話者處於不利位置
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: true
+    register: true
+    social_relation: false
+    speaker_intent: false
+  spurious_readings:
+  - 我沒有任何想法
+  - 我沒有抱怨
+  required_clarifications:
+  - speaker_intent
+  - social_relation
+  minimal_pair:
+    id: dev-lex-06d
+    text: 我完全同意
+    edit: 沒有意見 → 完全同意（等長替換）
+    resolves_to: 我同意此提案
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep
+- id: dev-lex-07
+  text: 他手上有東西
+  ambiguity_type: LEXICAL
+  expected_route: slow
+  licensed_readings:
+  - reading: 他手中拿著物品
+    speaker_intent: INFORM
+    licensed_when: 描述當下物理場景
+  - reading: 他握有某人的把柄或籌碼
+    speaker_intent: WARN
+    licensed_when: 談論博弈、談判或衝突情境
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: true
+    register: true
+    social_relation: false
+    speaker_intent: false
+  spurious_readings:
+  - 他手上長了東西（腫瘤）
+  - 他持有武器
+  required_clarifications:
+  - speaker_intent
+  minimal_pair:
+    id: dev-lex-07d
+    text: 他手裡拿著書
+    edit: 有東西 → 拿著書（等長替換，鎖定物理義）
+    resolves_to: 他手中拿著物品
+  review_r1:
+    verdict: fix
+    note: 不會有人替換成書 在中文也不會有把柄或武器啥的 就純粹是有東西占用到他的手了 例如我要求他做事情 就有人可以說他手上有東西 表達不方便做事或幫忙 這部分可能是英文翻譯所造成的問題吧
+    status: deferred
+    defer_reason: 需要研究者提供新的讀法文字或新的消歧句
+- id: dev-lex-08
+  text: 把那份文件處理一下
+  ambiguity_type: LEXICAL
+  expected_route: slow
+  licensed_readings:
+  - reading: 把文件辦理完成
+    speaker_intent: INSTRUCT
+    licensed_when: 一般行政流程
+  - reading: 把文件銷毀
+    speaker_intent: INSTRUCT
+    licensed_when: 涉及需湮滅的內容
+  - reading: 整理文件
+    licensed_when: 文件雜亂需歸檔時
+    speaker_intent: 指示
+  text_determinable: false
+  field_determinable:
+    agent: false
+    tense: true
+    register: false
+    social_relation: false
+    speaker_intent: true
+  spurious_readings:
+  - 把文件影印
+  - 把文件翻譯
+  required_clarifications:
+  - social_relation
+  minimal_pair:
+    id: dev-lex-08d
+    text: 把那份文件辦理完成
+    edit: 處理一下 → 辦理完成（等長替換）
+    resolves_to: 把文件辦理完成
+  review_r1:
+    verdict: fix
+    note: 可以加上整理
+    status: applied
+- id: dev-lex-09
+  text: 他昨天走了
+  ambiguity_type: LEXICAL
+  expected_route: slow
+  licensed_readings:
+  - reading: 他昨天離開（此地／某處）
+    speaker_intent: INFORM
+    licensed_when: 談論行程或去向
+  - reading: 他昨天過世
+    speaker_intent: INFORM
+    licensed_when: 談論健康或喪事，屬委婉語
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: true
+    register: true
+    social_relation: false
+    speaker_intent: true
+  spurious_readings:
+  - 他昨天走路去的
+  - 他昨天辭職
+  required_clarifications: []
+  minimal_pair:
+    id: dev-lex-09d
+    text: 他昨天離開
+    edit: 走 → 離開（等長替換）
+    resolves_to: 他昨天離開（此地／某處）
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep
+- id: dev-ref-01
+  text: 小明告訴小華他考上了
+  ambiguity_type: REFERENTIAL
+  expected_route: slow
+  licensed_readings:
+  - reading: 「他」指小明，小明報告自己的好消息
+    speaker_intent: NARRATE
+    licensed_when: 先前提及小明應考
+  - reading: 「他」指小華，小明通知小華錄取
+    speaker_intent: NARRATE
+    licensed_when: 先前提及小華應考
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: true
+    register: true
+    social_relation: true
+    speaker_intent: true
+  spurious_readings:
+  - 「他」指第三個未提及的人
+  required_clarifications:
+  - coreference
+  minimal_pair:
+    id: dev-ref-01d
+    text: 小明告訴小華，小華考上了
+    edit: 他 → 小華（代名詞換專名）
+    resolves_to: 「他」指小華
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep
+- id: dev-ref-02
+  text: 經理跟助理說他要出差
+  ambiguity_type: REFERENTIAL
+  expected_route: slow
+  licensed_readings:
+  - reading: 「他」指經理，經理告知自己將出差
+    speaker_intent: INFORM
+    licensed_when: 談論經理行程
+  - reading: 「他」指助理，經理指派助理出差
+    speaker_intent: INSTRUCT
+    licensed_when: 談論工作分派
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: true
+    register: true
+    social_relation: true
+    speaker_intent: false
+  spurious_readings:
+  - 經理與助理兩人都要出差
+  required_clarifications:
+  - coreference
+  minimal_pair:
+    id: dev-ref-02d
+    text: 經理跟助理說經理要出差
+    edit: 他 → 經理
+    resolves_to: 「他」指經理
+  review_r1:
+    verdict: fix
+    note: 不會有兩人都出差的情況 因為沒有複數
+    status: deferred
+    defer_reason: 指出某 spurious_reading 不合理，但「刪除」與「其實是合法讀法」兩種處理相反
+- id: dev-ref-03
+  text: 媽媽罵妹妹，因為她把杯子打破了
+  ambiguity_type: REFERENTIAL
+  expected_route: slow
+  licensed_readings:
+  - reading: 「她」指妹妹，妹妹打破杯子而被罵
+    speaker_intent: NARRATE
+    licensed_when: 預設語境（因果最自然）
+  - reading: 「她」指媽媽，媽媽自己打破杯子而遷怒
+    speaker_intent: NARRATE
+    licensed_when: 描述遷怒行為
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: true
+    register: true
+    social_relation: true
+    speaker_intent: true
+  spurious_readings:
+  - 「她」指第三人
+  required_clarifications:
+  - coreference
+  minimal_pair:
+    id: dev-ref-03d
+    text: 媽媽罵妹妹，因為妹妹把杯子打破了
+    edit: 她 → 妹妹
+    resolves_to: 「她」指妹妹
+  review_r1:
+    verdict: fix
+    note: 只有一個結果就是妹妹把杯子打破 畢竟沒理由自己打破還要罵人
+    status: deferred
+    defer_reason: 指出本句其實只有一個讀法，若照做則不再是歧義正例，會改變資料集結構
+- id: dev-ref-04
+  text: 王先生和李先生見面時，他帶了資料
+  ambiguity_type: REFERENTIAL
+  expected_route: slow
+  licensed_readings:
+  - reading: 「他」指王先生
+    speaker_intent: NARRATE
+    licensed_when: 王先生為敘述主體
+  - reading: 「他」指李先生
+    speaker_intent: NARRATE
+    licensed_when: 李先生為敘述主體
+  - reading: 「他」指第三者
+    licensed_when: 在場另有他人
+    speaker_intent: 敘述
+  text_determinable: false
+  field_determinable:
+    agent: false
+    tense: true
+    register: true
+    social_relation: false
+    speaker_intent: true
+  spurious_readings:
+  - 兩人都帶了資料
+  required_clarifications:
+  - coreference
+  minimal_pair:
+    id: dev-ref-04d
+    text: 王先生和李先生見面時，王先生帶了資料
+    edit: 他 → 王先生
+    resolves_to: 「他」指王先生
+  review_r1:
+    verdict: fix
+    note: 不會有兩人都帶資料的情況 因為沒有複數 但是有可能是第三者帶的
+    status: applied
+- id: dev-ref-05
+  text: 醫生看了病人一眼，他嘆了口氣
+  ambiguity_type: REFERENTIAL
+  expected_route: slow
+  licensed_readings:
+  - reading: 「他」指醫生，醫生對病情感到無奈
+    speaker_intent: NARRATE
+    licensed_when: 描述醫生反應
+  - reading: 「他」指病人，病人感到沮喪
+    speaker_intent: NARRATE
+    licensed_when: 描述病人反應
+  text_determinable: false
+  field_determinable:
+    agent: false
+    tense: true
+    register: true
+    social_relation: false
+    speaker_intent: true
+  spurious_readings:
+  - 旁邊的家屬嘆氣
+  required_clarifications:
+  - coreference
+  minimal_pair:
+    id: dev-ref-05d
+    text: 醫生看了病人一眼，醫生嘆了口氣
+    edit: 他 → 醫生
+    resolves_to: 「他」指醫生
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep
+- id: dev-ref-06
+  text: 老闆同意了小張的提案，這是他第一次成功
+  ambiguity_type: REFERENTIAL
+  expected_route: slow
+  licensed_readings:
+  - reading: 「他」指小張，敘述小張的成就
+    speaker_intent: NARRATE
+    licensed_when: 敘述提案人的成就
+  - reading: 「他」指老闆，老闆首度採納他人提案
+    speaker_intent: NARRATE
+    licensed_when: 敘述老闆的轉變
+  text_determinable: false
+  field_determinable:
+    agent: false
+    tense: true
+    register: true
+    social_relation: true
+    speaker_intent: true
+  spurious_readings:
+  - 「這」指老闆本人而非同意一事
+  required_clarifications:
+  - coreference
+  minimal_pair:
+    id: dev-ref-06d
+    text: 老闆同意了小張的提案，這是小張第一次成功
+    edit: 他 → 小張（重複原文既有專名，不引入新名）
+    resolves_to: 「他」指小張
+  review_r1:
+    verdict: fix
+    note: 看起來只能是小張成功 老闆是上位者 成不成功不是同意小張的提案就有的
+    status: deferred
+    defer_reason: 指出本句其實只有一個讀法，若照做則不再是歧義正例，會改變資料集結構
+- id: dev-ref-07
+  text: 我跟阿明去他家
+  ambiguity_type: REFERENTIAL
+  expected_route: slow
+  licensed_readings:
+  - reading: 「他家」指阿明家
+    speaker_intent: NARRATE
+    licensed_when: 預設語境
+  - reading: 「他家」指第三人的家
+    speaker_intent: NARRATE
+    licensed_when: 先前提及兩位男性
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: false
+    register: true
+    social_relation: false
+    speaker_intent: true
+  spurious_readings:
+  - 「他家」指店家或機構
+  required_clarifications:
+  - coreference
+  - tense
+  minimal_pair:
+    id: dev-ref-07d
+    text: 我跟阿明去阿明家
+    edit: 他 → 阿明（重複原文既有專名，不引入新名）
+    resolves_to: 「他家」指阿明家
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep
+- id: dev-ref-08
+  text: 張三認為李四不該相信他
+  ambiguity_type: REFERENTIAL
+  expected_route: slow
+  licensed_readings:
+  - reading: 「他」指張三，張三認為李四不該信任自己
+    speaker_intent: NARRATE
+    licensed_when: 張三自陳不可信或自謙
+  - reading: 「他」指某第三人
+    speaker_intent: NARRATE
+    licensed_when: 先前提及第三方
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: true
+    register: true
+    social_relation: false
+    speaker_intent: true
+  spurious_readings:
+  - 「他」指李四自己
+  required_clarifications:
+  - coreference
+  minimal_pair:
+    id: dev-ref-08d
+    text: 張三認為李四不該相信張三
+    edit: 他 → 張三
+    resolves_to: 「他」指張三
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep
+- id: dev-ref-09
+  text: 小陳和小林吵架後，他就再也沒來過
+  ambiguity_type: REFERENTIAL
+  expected_route: slow
+  licensed_readings:
+  - reading: 「他」指小陳
+    speaker_intent: NARRATE
+    licensed_when: 前文已指明主體
+  - reading: 「他」指小林
+    speaker_intent: NARRATE
+    licensed_when: 前文以另一人為主體
+  text_determinable: false
+  field_determinable:
+    agent: false
+    tense: true
+    register: true
+    social_relation: false
+    speaker_intent: true
+  spurious_readings:
+  - 「他」指第三人
+  - 兩人都沒再來
+  required_clarifications:
+  - coreference
+  minimal_pair:
+    id: dev-ref-09d
+    text: 小陳和小林吵架後，小陳就再也沒來過
+    edit: 他 → 小陳（重複原文既有專名，不引入新名）
+    resolves_to: 「他」指小陳
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep
+- id: dev-prg-01
+  text: 你今天氣色不錯
+  ambiguity_type: PRAGMATIC
+  expected_route: slow
+  licensed_readings:
+  - reading: 真誠關心與讚美
+    speaker_intent: PRAISE
+    licensed_when: 雙方關係友好
+  - reading: 反諷，實則對方看來疲憊
+    speaker_intent: TEASE
+    licensed_when: 熟識者間的玩笑
+  - reading: 暗示先前狀況不佳
+    speaker_intent: IMPLY
+    licensed_when: 對方近日抱恙
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: true
+    register: false
+    social_relation: false
+    speaker_intent: false
+  spurious_readings:
+  - 評論對方的化妝技術
+  - 詢問對方健康狀況
+  required_clarifications:
+  - social_relation
+  - speaker_intent
+  minimal_pair:
+    id: dev-prg-01d
+    text: 你看起來很健康
+    edit: 間接讚美 → 直接陳述健康（等長替換）
+    resolves_to: 真誠關心與讚美
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep
+- id: dev-prg-02
+  text: 這報告我看過了
+  ambiguity_type: PRAGMATIC
+  expected_route: slow
+  licensed_readings:
+  - reading: 單純陳述已閱畢
+    speaker_intent: INFORM
+    licensed_when: 例行回報
+  - reading: 暗示報告有問題，接下來要指正
+    speaker_intent: IMPLY
+    licensed_when: 上對下的審閱場合
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: true
+    register: false
+    social_relation: false
+    speaker_intent: false
+  spurious_readings:
+  - 我看過類似的報告
+  - 我拒絕再看
+  required_clarifications:
+  - social_relation
+  - speaker_intent
+  minimal_pair:
+    id: dev-prg-02d
+    text: 這報告沒有問題
+    edit: 「我看過了」→ 直接給結論（等長替換）
+    resolves_to: 單純陳述已閱畢
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep
+- id: dev-prg-03
+  text: 時間不早了
+  ambiguity_type: PRAGMATIC
+  expected_route: slow
+  licensed_readings:
+  - reading: 單純陳述時間已晚
+    speaker_intent: INFORM
+    licensed_when: 無社交壓力的場合
+  - reading: 委婉的逐客令
+    speaker_intent: SOFT_REFUSAL
+    licensed_when: 說話者為主人且客人久留
+  - reading: 催促對方一同離開
+    speaker_intent: SUGGEST
+    licensed_when: 雙方同為訪客
+  text_determinable: false
+  field_determinable:
+    agent: false
+    tense: true
+    register: false
+    social_relation: false
+    speaker_intent: false
+  spurious_readings:
+  - 抱怨事情進度落後
+  - 提醒對方遲到
+  required_clarifications:
+  - social_relation
+  - speaker_intent
+  minimal_pair:
+    id: dev-prg-03d
+    text: 你們該走了
+    edit: 「時間不早了」→ 直接逐客（等長替換）
+    resolves_to: 委婉的逐客令
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep
+- id: dev-prg-04
+  text: 你的想法很特別
+  ambiguity_type: PRAGMATIC
+  expected_route: slow
+  licensed_readings:
+  - reading: 真心讚賞其創意
+    speaker_intent: PRAISE
+    licensed_when: 說話者確實認同
+  - reading: 委婉否定，實則不認同
+    speaker_intent: SOFT_REFUSAL
+    licensed_when: 正式場合需保留顏面
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: true
+    register: false
+    social_relation: false
+    speaker_intent: false
+  spurious_readings:
+  - 你的想法很奇怪且不可行
+  - 你的想法與眾人相同
+  required_clarifications:
+  - speaker_intent
+  - social_relation
+  minimal_pair:
+    id: dev-prg-04d
+    text: 你的想法很好
+    edit: 「很特別」→ 直接褒義（等長替換）
+    resolves_to: 真心讚賞其創意
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep
+- id: dev-prg-05
+  text: 我盡量
+  ambiguity_type: PRAGMATIC
+  expected_route: slow
+  licensed_readings:
+  - reading: 真誠承諾會努力達成
+    speaker_intent: COMMIT
+    licensed_when: 說話者有意願且有能力
+  - reading: 委婉推託，實則不打算做
+    speaker_intent: SOFT_REFUSAL
+    licensed_when: 難以直接拒絕的場合
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: false
+    register: false
+    social_relation: false
+    speaker_intent: false
+  spurious_readings:
+  - 我已經盡力了
+  - 我拒絕
+  required_clarifications:
+  - speaker_intent
+  - social_relation
+  minimal_pair:
+    id: dev-prg-05d
+    text: 我會做
+    edit: 「盡量」→ 直接承諾（等長替換）
+    resolves_to: 真誠承諾會努力達成
+  review_r1:
+    verdict: fix
+    note: 不會有我拒絕的情況 最多只有假裝有做 但是最後啥成果都沒有
+    status: deferred
+    defer_reason: 同時被標為污染待換，若換句則本 fix 失效
+- id: dev-prg-06
+  text: 這樣也可以啦
+  ambiguity_type: PRAGMATIC
+  expected_route: slow
+  licensed_readings:
+  - reading: 認可此做法
+    speaker_intent: AGREE
+    licensed_when: 說話者確實接受
+  - reading: 勉強接受，實則不滿意
+    speaker_intent: RELUCTANT_AGREE
+    licensed_when: 語氣詞「啦」帶保留意味
+  text_determinable: false
+  field_determinable:
+    agent: false
+    tense: true
+    register: true
+    social_relation: false
+    speaker_intent: false
+  spurious_readings:
+  - 這樣是最好的方式
+  - 我完全反對
+  required_clarifications:
+  - speaker_intent
+  minimal_pair:
+    id: dev-prg-06d
+    text: 這樣我很滿意
+    edit: 「也可以啦」→ 直接肯定（等長替換）
+    resolves_to: 認可此做法
+  review_r1:
+    verdict: fix
+    note: 這樣通常只有很勉強的選項 因為"也...啦" 例如也不是不行啦 也行啦 也是啦
+    status: deferred
+    defer_reason: 指出本句其實只有一個讀法，若照做則不再是歧義正例，會改變資料集結構
+- id: dev-prg-07
+  text: 你要不要再考慮一下
+  ambiguity_type: PRAGMATIC
+  expected_route: slow
+  licensed_readings:
+  - reading: 中性建議對方多思考
+    speaker_intent: SUGGEST
+    licensed_when: 說話者無立場偏好
+  - reading: 委婉表達反對
+    speaker_intent: SOFT_REFUSAL
+    licensed_when: 說話者不贊同該決定
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: false
+    register: false
+    social_relation: false
+    speaker_intent: false
+  spurious_readings:
+  - 你必須改變決定
+  - 詢問對方是否已考慮完
+  required_clarifications:
+  - speaker_intent
+  - social_relation
+  minimal_pair:
+    id: dev-prg-07d
+    text: 我不贊成這決定
+    edit: 反問 → 直接反對（等長替換）
+    resolves_to: 委婉表達反對
+  review_r1:
+    verdict: fix
+    note: 這跟也許吧差不多就是委婉地不想要但是也不是不行 就是感覺很勉強但能接受這個決定 能換掉是最好
+    status: deferred
+    defer_reason: 指出本句其實只有一個讀法，若照做則不再是歧義正例，會改變資料集結構
+- id: dev-prg-08
+  text: 我沒說你錯
+  ambiguity_type: PRAGMATIC
+  expected_route: slow
+  licensed_readings:
+  - reading: 澄清自己並未指責對方
+    speaker_intent: CLARIFY
+    licensed_when: 對方誤會了說話者立場
+  - reading: 暗示對方確實有錯，只是未明說
+    speaker_intent: IMPLY
+    licensed_when: 重音落在「說」上
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: true
+    register: true
+    social_relation: false
+    speaker_intent: false
+  spurious_readings:
+  - 我認為你完全正確
+  - 我要指責你
+  required_clarifications:
+  - speaker_intent
+  minimal_pair:
+    id: dev-prg-08d
+    text: 你的做法沒錯
+    edit: 雙重否定 → 直接肯定（等長替換）
+    resolves_to: 澄清自己並未指責對方
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep
+- id: dev-prg-09
+  text: 大家都很努力
+  ambiguity_type: PRAGMATIC
+  expected_route: slow
+  licensed_readings:
+  - reading: 真心肯定全體表現
+    speaker_intent: PRAISE
+    licensed_when: 總結性場合
+  - reading: 暗示某人未盡力（以全體之名點名）
+    speaker_intent: IMPLY
+    licensed_when: 先前有人表現不佳
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: true
+    register: false
+    social_relation: false
+    speaker_intent: false
+  spurious_readings:
+  - 只有部分人努力
+  - 抱怨工作量過大
+  required_clarifications:
+  - speaker_intent
+  - social_relation
+  minimal_pair:
+    id: dev-prg-09d
+    text: 每個人都達標
+    edit: 全稱讚美 → 客觀陳述（等長替換）
+    resolves_to: 真心肯定全體表現
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep
+- id: dev-prg-10
+  text: 這件衣服很適合你
+  ambiguity_type: PRAGMATIC
+  expected_route: slow
+  licensed_readings:
+  - reading: 真心讚美
+    speaker_intent: PRAISE
+    licensed_when: 朋友間的意見徵詢
+  - reading: 店員的推銷客套話
+    speaker_intent: PERSUADE
+    licensed_when: 商業銷售情境
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: true
+    register: false
+    social_relation: false
+    speaker_intent: false
+  spurious_readings:
+  - 這件衣服尺寸正確
+  - 你應該買下它
+  required_clarifications:
+  - social_relation
+  - speaker_intent
+  minimal_pair:
+    id: dev-prg-10d
+    text: 我覺得這件好看
+    edit: 「適合你」→ 標明為個人意見（等長替換）
+    resolves_to: 真心讚美
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep
+- id: dev-prg-11
+  text: 你先忙
+  ambiguity_type: PRAGMATIC
+  expected_route: slow
+  licensed_readings:
+  - reading: 體貼地讓對方繼續手邊工作
+    speaker_intent: CONSIDERATE
+    licensed_when: 對方明顯忙碌
+  - reading: 結束對話的客套語
+    speaker_intent: END_CONVERSATION
+    licensed_when: 說話者想結束交談
+  text_determinable: false
+  field_determinable:
+    agent: false
+    tense: false
+    register: true
+    social_relation: false
+    speaker_intent: false
+  spurious_readings:
+  - 命令對方去工作
+  - 我比你晚開始工作
+  required_clarifications:
+  - speaker_intent
+  - social_relation
+  minimal_pair:
+    id: dev-prg-11d
+    text: 我先走了
+    edit: 「你先忙」→ 直接告辭（等長替換）
+    resolves_to: 體貼地讓對方繼續手邊工作
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep
+- id: dev-prg-12
+  text: 我知道了
+  ambiguity_type: PRAGMATIC
+  expected_route: slow
+  licensed_readings:
+  - reading: 理解並接受
+    speaker_intent: ACKNOWLEDGE
+    licensed_when: 中性的資訊接收
+  - reading: 帶不悅的敷衍，不想再談
+    speaker_intent: DISMISS
+    licensed_when: 對方反覆叮囑或說教
+  text_determinable: false
+  field_determinable:
+    agent: true
+    tense: true
+    register: false
+    social_relation: false
+    speaker_intent: false
+  spurious_readings:
+  - 我早就知道了
+  - 我同意你的看法
+  required_clarifications:
+  - speaker_intent
+  - social_relation
+  minimal_pair:
+    id: dev-prg-12d
+    text: 我完全理解
+    edit: 「知道了」→ 直接表達理解（等長替換）
+    resolves_to: 理解並接受
+  review_r1:
+    verdict: keep
+    note: null
+    status: keep

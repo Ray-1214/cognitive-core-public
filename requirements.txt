@@ -1,0 +1,36 @@
+# Cognitive-Core — 主線依賴（core + dev + app）
+#
+# 權威來源是 pyproject.toml；本檔是**釘死版本的快照**，
+# 由 conda 環境 `cognitive-core`（Python 3.12.14, win-64）於 2026-08-23 實測凍結。
+# 開發時用 `pip install -e ".[dev,app]"`；要精確重現某次執行的環境時用本檔。
+#
+#   pip install -r requirements.txt
+#
+# ⚠️ 本檔**不含** torch / transformers（scripts/ppl_baseline.py、ppl_variants.py 用，
+#    約 2.5 GB，不在 reproduce.py 主流程內）→ 見 requirements-ppl.txt
+#
+# ⚠️ 本檔**不含** CwnGraph（CWN 2.0 本體，GPL v3）。本專案刻意不依賴它以避免授權傳染，
+#    見 README「資料與授權」。scripts/d1_verify_cwn.py、d1_verify_cwn2.py、
+#    d15_verify_criteria.py 裡的 CwnGraph 匯入都包在 try/except，
+#    缺它只會少印一段對照表，不影響任何結果。
+
+# ── core：跑實驗與產報表的最小集合 ──
+litellm[caching]==1.98.0
+diskcache==5.6.3                    # litellm[caching] 帶的，快取層與 test_cache_key.py 需要
+langgraph==1.2.11
+pydantic==2.13.4
+PyYAML==6.0.3
+python-dotenv==1.2.3
+numpy==2.5.2
+datasets==5.0.1                     # CWN-SemCor
+huggingface_hub==1.28.0             # scripts/d1_verify_cwn.py 直接呼叫
+opencc-python-reimplemented==0.1.7  # 成語表簡轉繁
+
+# ── dev：測試、作圖與報告 ──
+pytest==9.1.1
+matplotlib==3.11.1                  # figs/lost_in_the_middle.png
+python-pptx==1.0.2                  # scripts/make_progress_ppt.py
+
+# ── app：Streamlit demo 與記憶模組（RQ3）──
+streamlit==1.62.0
+chromadb==1.5.9

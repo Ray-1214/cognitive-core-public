@@ -1,0 +1,35 @@
+{
+  "measured_at": "2026-08-23T00:23:29+08:00",
+  "n_prompts": 8,
+  "note": "行為指紋。端點不提供 system_fingerprint，模型換版無法從 API 察覺，只能自己量。",
+  "roles": {
+    "translate": {
+      "model": "ithu/mistral-small-4",
+      "fingerprint": "17a0554b27ade2ac",
+      "samples": [
+        "Due to the rain that poured all night yesterday, the originally scheduled garden party on the river embankment was hastily moved to the activity center, but the notice was sent out too late, leaving many people making a wasted trip.",
+        "He divided the money into three parts: one for paying the rent, one sent back to his hometown, and the rest kept for his own expenses.",
+        "At the meeting, no one spoke up, so the supervisor had to call on people by name, and those who were called reluctantly said a few perfunctory words.",
+        "This camera's lens isn't the top-tier, but at this price point, it's already quite usable.",
+        "While packing her luggage, she kept giving reminders, and in the end, she was the one who teared up first.",
+        "That shop has been open for over thirty years; after the owner retired, his daughter took over, and the taste has changed a little.",
+        "A well-written report, if its data isn't solid, will still be challenged during review.",
+        "They grew up together since childhood, but later had a falling out over a trivial matter and now don't even greet each other when they meet."
+      ]
+    },
+    "judge": {
+      "model": "ithu/gpt-oss-120b",
+      "fingerprint": "9881929ddf685898",
+      "samples": [
+        "Due to the rain that poured all night yesterday, the originally scheduled garden party by the riverbank was moved to the activity center at the last minute. However, the notice was sent out too late, so many people still made a wasted trip.",
+        "He divided the money into three parts: one for paying the rent, one sent back to his hometown, and the rest kept for his own expenses.",
+        "At the meeting, no one spoke up, so the supervisor had to call on people by name, and those who were called reluctantly said a few perfunctory words.",
+        "This camera's lens isn't the top-tier, but at this price point, it's already quite usable.",
+        "While packing her luggage, she kept giving reminders, and in the end, she was the one who teared up first.",
+        "That shop has been open for over thirty years; after the owner retired, his daughter took over, and the taste has changed a little.",
+        "A well-written report, if its data isn't solid, will still be challenged during review.",
+        "They grew up together since childhood, but later had a falling out over a trivial matter and now don't even greet each other when they meet."
+      ]
+    }
+  }
+}

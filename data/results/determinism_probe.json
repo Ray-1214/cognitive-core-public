@@ -1,0 +1,310 @@
+{
+  "n": 20,
+  "repeats": 3,
+  "translate_model": "ithu/mistral-small-4",
+  "judge_model": "ithu/gpt-oss-120b",
+  "translation_stable": 20,
+  "judge_stable": 20,
+  "rows": [
+    {
+      "probe_id": "wsd-包-3321",
+      "translations": [
+        "A pack of A4-sized photo paper containing 20 sheets is suggested to have its price reduced from NT$240 to NT$190.",
+        "A pack of A4-sized photo paper containing 20 sheets is suggested to have its price reduced from NT$240 to NT$190.",
+        "A pack of A4-sized photo paper containing 20 sheets is suggested to have its price reduced from NT$240 to NT$190."
+      ],
+      "choices": [
+        "B",
+        "B",
+        "B"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-歲-c4a5",
+      "translations": [
+        "He's only fifty this year.",
+        "He's only fifty this year.",
+        "He's only fifty this year."
+      ],
+      "choices": [
+        "A",
+        "A",
+        "A"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-就-d8a6",
+      "translations": [
+        "That is why the \"phase\" rarely imprints on my heart.",
+        "That is why the \"phase\" rarely imprints on my heart.",
+        "That is why the \"phase\" rarely imprints on my heart."
+      ],
+      "choices": [
+        "A",
+        "A",
+        "A"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-帶-b6cb",
+      "translations": [
+        "You can bring a girl back.",
+        "You can bring a girl back.",
+        "You can bring a girl back."
+      ],
+      "choices": [
+        "A",
+        "A",
+        "A"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-死-ab87",
+      "translations": [
+        "Perhaps this is the unchanging view you hold of me.",
+        "Perhaps this is the unchanging view you hold of me.",
+        "Perhaps this is the unchanging view you hold of me."
+      ],
+      "choices": [
+        "A",
+        "A",
+        "A"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-度-ad0f",
+      "translations": [
+        "Samples can also be preserved in liquid nitrogen or at -70°C.",
+        "Samples can also be preserved in liquid nitrogen or at -70°C.",
+        "Samples can also be preserved in liquid nitrogen or at -70°C."
+      ],
+      "choices": [
+        "A",
+        "A",
+        "A"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-好-8649",
+      "translations": [
+        "That's so beautiful!",
+        "That's so beautiful!",
+        "That's so beautiful!"
+      ],
+      "choices": [
+        "B",
+        "B",
+        "B"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-作-7705",
+      "translations": [
+        "Perhaps this novel was also written by someone from the Ming Dynasty.",
+        "Perhaps this novel was also written by someone from the Ming Dynasty.",
+        "Perhaps this novel was also written by someone from the Ming Dynasty."
+      ],
+      "choices": [
+        "A",
+        "A",
+        "A"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-小-2e7b",
+      "translations": [
+        "A wild boar is grunting.",
+        "A wild boar is grunting.",
+        "A wild boar is grunting."
+      ],
+      "choices": [
+        "NONE",
+        "NONE",
+        "NONE"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-熱-842c",
+      "translations": [
+        "It appears to have overheated and caught fire.",
+        "It appears to have overheated and caught fire.",
+        "It appears to have overheated and caught fire."
+      ],
+      "choices": [
+        "A",
+        "A",
+        "A"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-回-c3dd",
+      "translations": [
+        "Every night when she returns to the duty team.",
+        "Every night when she returns to the duty team.",
+        "Every night when she returns to the duty team."
+      ],
+      "choices": [
+        "B",
+        "B",
+        "B"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-小-54bb",
+      "translations": [
+        "Otherwise, wasting money is a minor issue.",
+        "Otherwise, wasting money is a minor issue.",
+        "Otherwise, wasting money is a minor issue."
+      ],
+      "choices": [
+        "A",
+        "A",
+        "A"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-下-edb3",
+      "translations": [
+        "It is raining heavily on Earth right now.",
+        "It is raining heavily on Earth right now.",
+        "It is raining heavily on Earth right now."
+      ],
+      "choices": [
+        "B",
+        "B",
+        "B"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-空-f243",
+      "translations": [
+        "This is the unique approach of the Yogācāra school in explaining \"emptiness.\"",
+        "This is the unique approach of the Yogācāra school in explaining \"emptiness.\"",
+        "This is the unique approach of the Yogācāra school in explaining \"emptiness.\""
+      ],
+      "choices": [
+        "A",
+        "A",
+        "A"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-點-b366",
+      "translations": [
+        "Just put it bluntly.",
+        "Just put it bluntly.",
+        "Just put it bluntly."
+      ],
+      "choices": [
+        "A",
+        "A",
+        "A"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-行-4146",
+      "translations": [
+        "As we head north, we gradually move farther away.",
+        "As we head north, we gradually move farther away.",
+        "As we head north, we gradually move farther away."
+      ],
+      "choices": [
+        "A",
+        "A",
+        "A"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-叫-7a40",
+      "translations": [
+        "YUI ordered the guards to watch over the hostages.",
+        "YUI ordered the guards to watch over the hostages.",
+        "YUI ordered the guards to watch over the hostages."
+      ],
+      "choices": [
+        "B",
+        "B",
+        "B"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-道-25f5",
+      "translations": [
+        "Then the white-browed monk burst into laughter and said:",
+        "Then the white-browed monk burst into laughter and said:",
+        "Then the white-browed monk burst into laughter and said:"
+      ],
+      "choices": [
+        "A",
+        "A",
+        "A"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-拍-8759",
+      "translations": [
+        "I hope we can make more narrative films.",
+        "I hope we can make more narrative films.",
+        "I hope we can make more narrative films."
+      ],
+      "choices": [
+        "B",
+        "B",
+        "B"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    },
+    {
+      "probe_id": "wsd-吃-cf63",
+      "translations": [
+        "\"Every person has their own unique value in life.\"\n\"Only through enduring the hardest hardships can one achieve true success.\"",
+        "\"Every person has their own unique value in life.\"\n\"Only through enduring the hardest hardships can one achieve true success.\"",
+        "\"Every person has their own unique value in life.\"\n\"Only through enduring the hardest hardships can one achieve true success.\""
+      ],
+      "choices": [
+        "A",
+        "A",
+        "A"
+      ],
+      "translation_stable": true,
+      "judge_stable": true
+    }
+  ]
+}

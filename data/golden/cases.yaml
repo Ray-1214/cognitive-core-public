@@ -1,0 +1,114 @@
+# 黃金測試案例（實作規格書 §5）
+#
+# ⚠️ 這是**煙霧測試**不是評測。expect 寫的是「預期行為」而非「正確答案」。
+#    不符預期會標紅但不失敗退出——這是觀測工具。
+#
+# ⚠️ 不含 dev-30 的任何句子（地雷 3：標註污染）。
+#    來源為已退役的 spike 句（長度 AUC 0.900，已作廢不可用於評測）
+#    與本檔新寫的丟棄句。這些句子**永遠不得進入 CAD-60**。
+#
+# 負例（明確無歧義句）是必要的：沒有它就看不出「模型對每句都列 3 個讀法」
+# 這種退化行為，而那正是 over-generation 的失敗模式（§8.4）。
+
+meta:
+  name: golden
+  purpose: smoke_test
+  created: 2026-08-14
+  overlaps_with_dev30: false
+  overlaps_with_cad60: false
+  note: 這些句子不得進入任何評測資料集
+
+cases:
+  # ── 正例：應該被偵測為歧義 ─────────────────────────
+
+  # ⚠️ 原本的 g-lex-01「他昨天走了」與 g-lex-02「那家店關門了」已於 2026-08-17 撤換。
+  #    我誤標為 spike_retired，實際上它們是 dev-30 的 dev-lex-09 與 dev-lex-04。
+  #    撤換前已在 golden／batch 跑過多次，那兩句 dev-30 題目已被模型看過。
+  #    詳見 data/dev30/_quarantine/README.md 的污染記錄。
+  - id: g-lex-01
+    text: 他這個人挺有意思的
+    source: spike_retired
+    ambiguity_type: LEXICAL
+    expect:
+      min_readings: 2
+      note: 詞彙歧義，風趣／別有用心／有好感
+
+  - id: g-lex-02
+    text: 這個價錢還可以
+    source: spike_retired
+    ambiguity_type: LEXICAL
+    expect:
+      min_readings: 2
+      note: 「還可以」的評價極性未定，勉強接受／相當不錯
+
+  - id: g-prg-01
+    text: 方便的話明天再說吧
+    source: spike_retired
+    ambiguity_type: PRAGMATIC
+    expect:
+      min_readings: 2
+      unknown_contains: [social_relation]
+      note: 語用歧義，且社會關係無從判定
+
+  - id: g-prg-02
+    text: 這件事你看著辦
+    source: spike_retired
+    ambiguity_type: PRAGMATIC
+    expect:
+      min_readings: 2
+      unknown_contains: [social_relation]
+      note: 授權／帶不滿的警告，取決於上下關係
+
+  - id: g-ref-01
+    text: 老師沒有批評小明，因為他表現很好
+    source: spike_retired
+    ambiguity_type: REFERENTIAL
+    expect:
+      min_readings: 2
+      note: 代名詞回指兩可
+
+  - id: g-ref-02
+    text: 他說他不去
+    source: spike_retired
+    ambiguity_type: REFERENTIAL
+    expect:
+      min_readings: 2
+      note: 兩個「他」是否共指
+
+  # ── 負例：不該被偵測為歧義 ─────────────────────────
+  # 沒有這組就看不出過度生成。模型若對每句都列 3 個讀法，
+  # 正例全過但負例全掛——那才是真正的失敗模式。
+
+  - id: g-neg-01
+    text: 會議改到下週三下午兩點舉行
+    source: spike_retired
+    ambiguity_type: null
+    expect:
+      max_readings: 1
+      note: 對照句。時間、事件皆明確，過度列舉即為 over-generation
+
+  - id: g-neg-02
+    text: 這本書總共有三百二十頁
+    source: spike_retired
+    ambiguity_type: null
+    expect:
+      max_readings: 1
+      note: 對照句。純事實陳述，無語用層次
+
+  - id: g-neg-03
+    text: 我明天早上九點會在辦公室等你
+    source: spike_retired
+    ambiguity_type: null
+    expect:
+      max_readings: 1
+      unknown_not_contains: [agent, time]
+      note: 對照句。施事者與時間皆明確，不該標為 UNKNOWN
+
+  - id: g-neg-04
+    text: 他去年從台北搬到台中
+    source: spike_retired
+    ambiguity_type: null
+    expect:
+      max_readings: 1
+      unknown_not_contains: [time]
+      note: 對照句。時態與起訖地點明確

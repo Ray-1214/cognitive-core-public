@@ -1,0 +1,38 @@
+{
+  "n": 1,
+  "n_sampled": 50,
+  "seed": 20260823,
+  "aborted": "第 2 筆撞到 RateLimit（研判為日配額），已停止且不重試。已完成 1 筆",
+  "base_judge": "ithu/gpt-oss-120b",
+  "alt_judge": "gemini/gemini-flash-latest",
+  "base_error_rate": 1.0,
+  "base_ci": [
+    0.20654329147389294,
+    1.0
+  ],
+  "alt_error_rate": 0.0,
+  "alt_ci": [
+    0.0,
+    0.7934567085261071
+  ],
+  "agreement": 0.0,
+  "agreement_ci": [
+    0.0,
+    0.7934567085261071
+  ],
+  "conclusive": false,
+  "min_n": 30,
+  "insensitive": null,
+  "rows": [
+    {
+      "probe_id": "wsd-用-cc15",
+      "stratum": "non_dominant",
+      "gold_first": false,
+      "base_choice": "A",
+      "base_correct": false,
+      "alt_choice": "B",
+      "alt_correct": true,
+      "alt_conf": 0.9
+    }
+  ]
+}

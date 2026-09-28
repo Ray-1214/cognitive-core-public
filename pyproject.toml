@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cognitive-core"
+version = "0.8.0"
+description = "中文高語境歧義的偵測與診斷（大專生專題研究計畫）"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+# ── core：跑實驗與產報表的最小集合 ──
+dependencies = [
+    "litellm[caching]>=1.96",   # [caching] → diskcache，快取層與 tests/test_cache_key.py 需要
+    "langgraph>=1.2",
+    "pydantic>=2.7",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0",
+    "numpy>=2.0",
+    "datasets>=2.19",        # CWN-SemCor
+    "huggingface-hub>=0.23",  # scripts/d1_verify_cwn.py 直接呼叫
+    "opencc-python-reimplemented>=0.1.7",   # 成語表簡轉繁
+]
+
+[project.optional-dependencies]
+# ── dev：測試、作圖與報告 ──
+dev = [
+    "pytest>=8.0",
+    "matplotlib>=3.8",       # figs/lost_in_the_middle.png
+    "python-pptx>=1.0",      # scripts/make_progress_ppt.py
+]
+# ── app：Demo 與記憶模組（RQ3）──
+app = [
+    "streamlit>=1.40",
+    "chromadb>=1.0",
+]
+# ── ppl：dev30 階段的本地 PPL 基準（scripts/ppl_baseline.py、ppl_variants.py）──
+#   ⚠️ 約 2.5 GB，且**不在 reproduce.py 主流程內**。重現主結果不需要安裝。
+ppl = [
+    "torch>=2.4",
+    "transformers>=4.44",
+]
+
+[project.scripts]
+cognitive-core = "cognitive_core.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# ⚠️ tests/test_cross_check.py 有一支**刻意保留的失敗**：
+#    test_current_deployment_fails_behavioural_cross_check
+#    那是研究發現本身（judge_cross 在部署層被架空），不是要修掉的 bug。
+#    詳見 docs/judge_cross_pitfall.md。

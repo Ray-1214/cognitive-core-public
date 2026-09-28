@@ -1,0 +1,21 @@
+# 在 Windows 上開發、Linux 上跑實驗，統一以 LF 存進 Git，避免整檔 diff 全紅
+* text=auto eol=lf
+
+# Windows 專用腳本保留 CRLF
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# 二進位檔不做換行轉換
+*.pdf binary
+*.png binary
+*.jpg binary
+*.gguf binary
+*.safetensors binary
+
+# 這些檔案在 PR diff 中折疊，避免洗版
+*.lock linguist-generated=true
+package-lock.json linguist-generated=true
+
+# 讓 GitHub 語言統計以原始碼為準，不被文件與資料集蓋過
+docs/** linguist-documentation=true
+data/** linguist-vendored=true

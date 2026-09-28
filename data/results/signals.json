@@ -1,0 +1,7391 @@
+{
+ "n": 200,
+ "note": "S1-S4 純規則訊號；AUC 待 judge 驗證後再算",
+ "items": [
+  {
+   "id": "wsd-收-ea9a",
+   "stratum": "dominant",
+   "raw_length": 7.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4583333333333333,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "支": 13,
+      "收": 22
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 7,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 7,
+     "components": {
+      "len": 0.175,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-條-63fe",
+   "stratum": "non_dominant",
+   "raw_length": 10.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.48333333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "條": 31,
+      "道": 11
+     },
+     "max": 31
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 10,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 10,
+     "components": {
+      "len": 0.25,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-上-10d2",
+   "stratum": "dominant",
+   "raw_length": 14.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.42142857142857143,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "上": 43,
+      "看": 12,
+      "頭": 19
+     },
+     "max": 43
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 14,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 14,
+     "components": {
+      "len": 0.35,
+      "clause": 0.2,
+      "density": 0.7142857142857142
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-心-4a0f",
+   "stratum": "dominant",
+   "raw_length": 19.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4004385964912281,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "中": 22,
+      "心": 12,
+      "說": 15
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 19,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 19,
+     "components": {
+      "len": 0.475,
+      "clause": 0.2,
+      "density": 0.5263157894736842
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-死-fa11",
+   "stratum": "dominant",
+   "raw_length": 12.0,
+   "S1_polysemy": 0.6,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4444444444444444,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "死": 18,
+      "後": 17
+     },
+     "max": 18
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 12,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 12,
+     "components": {
+      "len": 0.3,
+      "clause": 0.2,
+      "density": 0.8333333333333333
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-下-496b",
+   "stratum": "non_dominant",
+   "raw_length": 13.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.5083333333333333,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "打": 121,
+      "下": 46
+     },
+     "max": 121
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 13,
+     "clauses": 1,
+     "punct": 3,
+     "raw_length": 13,
+     "components": {
+      "len": 0.325,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-低-a891",
+   "stratum": "dominant",
+   "raw_length": 25.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4083333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "來": 19,
+      "下": 46,
+      "低": 14,
+      "度": 20,
+      "季": 8,
+      "落": 16
+     },
+     "max": 46
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 25,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 25,
+     "components": {
+      "len": 0.625,
+      "clause": 0.2,
+      "density": 0.4
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-歲-5ae2",
+   "stratum": "dominant",
+   "raw_length": 10.0,
+   "S1_polysemy": 0.13333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.48333333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "歲": 4
+     },
+     "max": 4
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 10,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 10,
+     "components": {
+      "len": 0.25,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-掛-3cf0",
+   "stratum": "dominant",
+   "raw_length": 30.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.65,
+   "S4_cultural": 0.5,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "比": 10,
+      "歲": 4,
+      "上": 43,
+      "掛": 18,
+      "還": 7
+     },
+     "max": 43
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 30,
+     "clauses": 1,
+     "punct": 3,
+     "raw_length": 30,
+     "components": {
+      "len": 0.75,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": [
+      "音容宛在"
+     ]
+    }
+   }
+  },
+  {
+   "id": "wsd-高-f62e",
+   "stratum": "non_dominant",
+   "raw_length": 8.0,
+   "S1_polysemy": 0.6,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4666666666666666,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "高": 18,
+      "說": 15
+     },
+     "max": 18
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 8,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 8,
+     "components": {
+      "len": 0.2,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-坐-fb2b",
+   "stratum": "dominant",
+   "raw_length": 14.0,
+   "S1_polysemy": 0.4,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.42142857142857143,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "坐": 12
+     },
+     "max": 12
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 14,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 14,
+     "components": {
+      "len": 0.35,
+      "clause": 0.2,
+      "density": 0.7142857142857142
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-折-eb31",
+   "stratum": "dominant",
+   "raw_length": 11.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4613636363636364,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "打": 121,
+      "折": 14
+     },
+     "max": 121
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 11,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 11,
+     "components": {
+      "len": 0.275,
+      "clause": 0.2,
+      "density": 0.9090909090909092
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-季-20fd",
+   "stratum": "dominant",
+   "raw_length": 21.0,
+   "S1_polysemy": 0.5,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4003968253968255,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "於": 9,
+      "回": 9,
+      "口": 13,
+      "長": 15,
+      "季": 8
+     },
+     "max": 15
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 21,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 21,
+     "components": {
+      "len": 0.525,
+      "clause": 0.2,
+      "density": 0.47619047619047616
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-心-f1e9",
+   "stratum": "dominant",
+   "raw_length": 8.0,
+   "S1_polysemy": 0.4,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4666666666666666,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "心": 12
+     },
+     "max": 12
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 8,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 8,
+     "components": {
+      "len": 0.2,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-死-f145",
+   "stratum": "dominant",
+   "raw_length": 10.0,
+   "S1_polysemy": 0.6,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.48333333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "死": 18
+     },
+     "max": 18
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 10,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 10,
+     "components": {
+      "len": 0.25,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-場-9bec",
+   "stratum": "non_dominant",
+   "raw_length": 15.0,
+   "S1_polysemy": 0.43333333333333335,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4138888888888889,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "場": 13
+     },
+     "max": 13
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 15,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 15,
+     "components": {
+      "len": 0.375,
+      "clause": 0.2,
+      "density": 0.6666666666666666
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-吃-cf63",
+   "stratum": "non_dominant",
+   "raw_length": 17.0,
+   "S1_polysemy": 0.9333333333333333,
+   "S2_subject_ellipsis": 0.5,
+   "S3_syntactic_complexity": 0.6083333333333333,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "才": 5,
+      "中": 22,
+      "天": 10,
+      "用": 14,
+      "吃": 28,
+      "得": 9,
+      "生": 18
+     },
+     "max": 28
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 2,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 17,
+     "clauses": 2,
+     "punct": 5,
+     "raw_length": 17,
+     "components": {
+      "len": 0.425,
+      "clause": 0.4,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-拿-7496",
+   "stratum": "non_dominant",
+   "raw_length": 15.0,
+   "S1_polysemy": 0.9333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4138888888888889,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "吃": 28,
+      "拿": 13,
+      "心": 12,
+      "人": 11,
+      "好": 15
+     },
+     "max": 28
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 15,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 15,
+     "components": {
+      "len": 0.375,
+      "clause": 0.2,
+      "density": 0.6666666666666666
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-頭-79fa",
+   "stratum": "dominant",
+   "raw_length": 11.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4613636363636364,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "做": 20,
+      "大": 20,
+      "中": 22,
+      "頭": 19,
+      "小": 9
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 11,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 11,
+     "components": {
+      "len": 0.275,
+      "clause": 0.2,
+      "density": 0.9090909090909092
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-粗-a2fc",
+   "stratum": "dominant",
+   "raw_length": 19.0,
+   "S1_polysemy": 0.9333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4004385964912281,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "大": 20,
+      "起": 28,
+      "粗": 19,
+      "水": 7
+     },
+     "max": 28
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 19,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 19,
+     "components": {
+      "len": 0.475,
+      "clause": 0.2,
+      "density": 0.5263157894736842
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-當-d0c0",
+   "stratum": "non_dominant",
+   "raw_length": 13.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.43141025641025643,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "高": 18,
+      "中": 22,
+      "當": 7
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 13,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 13,
+     "components": {
+      "len": 0.325,
+      "clause": 0.2,
+      "density": 0.7692307692307693
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-強-7c81",
+   "stratum": "non_dominant",
+   "raw_length": 15.0,
+   "S1_polysemy": 0.43333333333333335,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4138888888888889,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "行": 13,
+      "強": 10
+     },
+     "max": 13
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 15,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 15,
+     "components": {
+      "len": 0.375,
+      "clause": 0.2,
+      "density": 0.6666666666666666
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-去-f317",
+   "stratum": "non_dominant",
+   "raw_length": 10.0,
+   "S1_polysemy": 0.6333333333333333,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.48333333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "去": 19,
+      "過": 11,
+      "場": 13
+     },
+     "max": 19
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 10,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 10,
+     "components": {
+      "len": 0.25,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-面-43d6",
+   "stratum": "non_dominant",
+   "raw_length": 10.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.48333333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "大": 20,
+      "面": 11
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 10,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 10,
+     "components": {
+      "len": 0.25,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-去-6d5f",
+   "stratum": "dominant",
+   "raw_length": 12.0,
+   "S1_polysemy": 0.6333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4444444444444444,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "用": 14,
+      "去": 19,
+      "使": 9
+     },
+     "max": 19
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 12,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 12,
+     "components": {
+      "len": 0.3,
+      "clause": 0.2,
+      "density": 0.8333333333333333
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-回-596c",
+   "stratum": "dominant",
+   "raw_length": 30.0,
+   "S1_polysemy": 0.5666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.42777777777777776,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "用": 14,
+      "回": 9,
+      "拍": 17
+     },
+     "max": 17
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 30,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 30,
+     "components": {
+      "len": 0.75,
+      "clause": 0.2,
+      "density": 0.3333333333333333
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-深-55e4",
+   "stratum": "non_dominant",
+   "raw_length": 10.0,
+   "S1_polysemy": 0.6333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.48333333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "用": 14,
+      "道": 11,
+      "頭": 19,
+      "深": 15
+     },
+     "max": 19
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 10,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 10,
+     "components": {
+      "len": 0.25,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-去-bdaa",
+   "stratum": "non_dominant",
+   "raw_length": 14.0,
+   "S1_polysemy": 0.6333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.42142857142857143,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "去": 19
+     },
+     "max": 19
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 14,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 14,
+     "components": {
+      "len": 0.35,
+      "clause": 0.2,
+      "density": 0.7142857142857142
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-回-c3dd",
+   "stratum": "dominant",
+   "raw_length": 13.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.43141025641025643,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "天": 10,
+      "回": 9,
+      "上": 43
+     },
+     "max": 43
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 13,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 13,
+     "components": {
+      "len": 0.325,
+      "clause": 0.2,
+      "density": 0.7692307692307693
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-拍-241f",
+   "stratum": "dominant",
+   "raw_length": 12.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4444444444444444,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "大": 20,
+      "拍": 17
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 12,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 12,
+     "components": {
+      "len": 0.3,
+      "clause": 0.2,
+      "density": 0.8333333333333333
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-破-6095",
+   "stratum": "non_dominant",
+   "raw_length": 13.0,
+   "S1_polysemy": 0.9666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.43141025641025643,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "發": 21,
+      "破": 29
+     },
+     "max": 29
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 13,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 13,
+     "components": {
+      "len": 0.325,
+      "clause": 0.2,
+      "density": 0.7692307692307693
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-去-9e53",
+   "stratum": "dominant",
+   "raw_length": 8.0,
+   "S1_polysemy": 0.6333333333333333,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4666666666666666,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "去": 19
+     },
+     "max": 19
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 8,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 8,
+     "components": {
+      "len": 0.2,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-頭-6975",
+   "stratum": "dominant",
+   "raw_length": 8.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4666666666666666,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "條": 31,
+      "上": 43,
+      "頭": 19,
+      "還": 7,
+      "要": 8
+     },
+     "max": 43
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 8,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 8,
+     "components": {
+      "len": 0.2,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-拍-8759",
+   "stratum": "dominant",
+   "raw_length": 10.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.48333333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "拍": 17,
+      "片": 20
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 10,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 10,
+     "components": {
+      "len": 0.25,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-歲-b893",
+   "stratum": "dominant",
+   "raw_length": 21.0,
+   "S1_polysemy": 0.5333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4003968253968255,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "歲": 4,
+      "會": 11,
+      "前": 16,
+      "人": 11
+     },
+     "max": 16
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 21,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 21,
+     "components": {
+      "len": 0.525,
+      "clause": 0.2,
+      "density": 0.47619047619047616
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-條-2146",
+   "stratum": "non_dominant",
+   "raw_length": 29.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.42327586206896556,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "法": 7,
+      "條": 31,
+      "部": 10
+     },
+     "max": 31
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 29,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 29,
+     "components": {
+      "len": 0.725,
+      "clause": 0.2,
+      "density": 0.3448275862068966
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-做-862f",
+   "stratum": "non_dominant",
+   "raw_length": 11.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4613636363636364,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "做": 20,
+      "本": 9
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 11,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 11,
+     "components": {
+      "len": 0.275,
+      "clause": 0.2,
+      "density": 0.9090909090909092
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-支-1fe0",
+   "stratum": "dominant",
+   "raw_length": 10.0,
+   "S1_polysemy": 0.43333333333333335,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.48333333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "支": 13
+     },
+     "max": 13
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 10,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 10,
+     "components": {
+      "len": 0.25,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-上-e2ba",
+   "stratum": "dominant",
+   "raw_length": 13.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.43141025641025643,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "就": 14,
+      "上": 43
+     },
+     "max": 43
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 13,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 13,
+     "components": {
+      "len": 0.325,
+      "clause": 0.2,
+      "density": 0.7692307692307693
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-坐-1452",
+   "stratum": "dominant",
+   "raw_length": 7.0,
+   "S1_polysemy": 0.5333333333333333,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4583333333333333,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "前": 16,
+      "坐": 12
+     },
+     "max": 16
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 7,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 7,
+     "components": {
+      "len": 0.175,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-行-45ab",
+   "stratum": "dominant",
+   "raw_length": 10.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.48333333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "就": 14,
+      "下": 46,
+      "行": 13
+     },
+     "max": 46
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 10,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 10,
+     "components": {
+      "len": 0.25,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-度-378e",
+   "stratum": "non_dominant",
+   "raw_length": 46.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.6173913043478261,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "就": 14,
+      "行": 13,
+      "那": 6,
+      "面": 11,
+      "度": 20,
+      "平": 30
+     },
+     "max": 30
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 46,
+     "clauses": 1,
+     "punct": 3,
+     "raw_length": 46,
+     "components": {
+      "len": 1.0,
+      "clause": 0.2,
+      "density": 0.6521739130434783
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-起-b672",
+   "stratum": "dominant",
+   "raw_length": 9.0,
+   "S1_polysemy": 0.9333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.47500000000000003,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "日": 10,
+      "起": 28
+     },
+     "max": 28
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 9,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 9,
+     "components": {
+      "len": 0.225,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-中-4175",
+   "stratum": "non_dominant",
+   "raw_length": 4.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.43333333333333335,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "中": 22
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 4,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 4,
+     "components": {
+      "len": 0.1,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-去-d84e",
+   "stratum": "non_dominant",
+   "raw_length": 4.0,
+   "S1_polysemy": 0.6333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.43333333333333335,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "天": 10,
+      "去": 19
+     },
+     "max": 19
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 4,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 4,
+     "components": {
+      "len": 0.1,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-做-2f80",
+   "stratum": "non_dominant",
+   "raw_length": 16.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.6,
+   "S4_cultural": 0.5,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "做": 20,
+      "生": 18,
+      "好": 15
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 2,
+     "no_subject": 2
+    },
+    "S3_syntactic_complexity": {
+     "chars": 16,
+     "clauses": 2,
+     "punct": 2,
+     "raw_length": 16,
+     "components": {
+      "len": 0.4,
+      "clause": 0.4,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": [
+      "品學兼優"
+     ]
+    }
+   }
+  },
+  {
+   "id": "wsd-粗-704b",
+   "stratum": "non_dominant",
+   "raw_length": 9.0,
+   "S1_polysemy": 0.6333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.47500000000000003,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "支": 13,
+      "字": 11,
+      "還": 7,
+      "粗": 19
+     },
+     "max": 19
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 9,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 9,
+     "components": {
+      "len": 0.225,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-回-1e59",
+   "stratum": "non_dominant",
+   "raw_length": 17.0,
+   "S1_polysemy": 0.6333333333333333,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4044117647058824,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "支": 13,
+      "去": 19,
+      "回": 9
+     },
+     "max": 19
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 17,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 17,
+     "components": {
+      "len": 0.425,
+      "clause": 0.2,
+      "density": 0.5882352941176471
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-小-54bb",
+   "stratum": "non_dominant",
+   "raw_length": 9.0,
+   "S1_polysemy": 0.3,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.47500000000000003,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "錢": 7,
+      "小": 9
+     },
+     "max": 9
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 9,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 9,
+     "components": {
+      "len": 0.225,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-高-1f42",
+   "stratum": "dominant",
+   "raw_length": 5.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.44166666666666665,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "高": 18,
+      "大": 20
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 5,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 5,
+     "components": {
+      "len": 0.125,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-心-ce2d",
+   "stratum": "dominant",
+   "raw_length": 8.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4666666666666666,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "中": 22,
+      "心": 12
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 8,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 8,
+     "components": {
+      "len": 0.2,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-下-4f94",
+   "stratum": "non_dominant",
+   "raw_length": 20.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.39999999999999997,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "下": 46,
+      "小": 9,
+      "格": 9
+     },
+     "max": 46
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 20,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 20,
+     "components": {
+      "len": 0.5,
+      "clause": 0.2,
+      "density": 0.5
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-破-f6ff",
+   "stratum": "non_dominant",
+   "raw_length": 11.0,
+   "S1_polysemy": 0.9666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4613636363636364,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "會": 11,
+      "破": 29,
+      "過": 11,
+      "說": 15
+     },
+     "max": 29
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 11,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 11,
+     "components": {
+      "len": 0.275,
+      "clause": 0.2,
+      "density": 0.9090909090909092
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-道-ef48",
+   "stratum": "non_dominant",
+   "raw_length": 20.0,
+   "S1_polysemy": 0.5,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.39999999999999997,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "比": 10,
+      "道": 11,
+      "面": 11,
+      "人": 11,
+      "好": 15
+     },
+     "max": 15
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 20,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 20,
+     "components": {
+      "len": 0.5,
+      "clause": 0.2,
+      "density": 0.5
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-說-6e24",
+   "stratum": "dominant",
+   "raw_length": 18.0,
+   "S1_polysemy": 0.6333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4018518518518519,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "去": 19,
+      "重": 14,
+      "說": 15
+     },
+     "max": 19
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 18,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 18,
+     "components": {
+      "len": 0.45,
+      "clause": 0.2,
+      "density": 0.5555555555555556
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-中-3be9",
+   "stratum": "non_dominant",
+   "raw_length": 6.0,
+   "S1_polysemy": 0.8666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.45,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "中": 22,
+      "發": 21,
+      "正": 26
+     },
+     "max": 26
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 6,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 6,
+     "components": {
+      "len": 0.15,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-明-b43b",
+   "stratum": "dominant",
+   "raw_length": 24.0,
+   "S1_polysemy": 0.9333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4055555555555556,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "邊": 15,
+      "起": 28,
+      "明": 20,
+      "場": 13
+     },
+     "max": 28
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 24,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 24,
+     "components": {
+      "len": 0.6,
+      "clause": 0.2,
+      "density": 0.41666666666666663
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-條-50d4",
+   "stratum": "non_dominant",
+   "raw_length": 15.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4138888888888889,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "條": 31,
+      "就": 14,
+      "下": 46,
+      "小": 9,
+      "開": 81
+     },
+     "max": 81
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 15,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 15,
+     "components": {
+      "len": 0.375,
+      "clause": 0.2,
+      "density": 0.6666666666666666
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-條-fb09",
+   "stratum": "non_dominant",
+   "raw_length": 14.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.42142857142857143,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "條": 31,
+      "那": 6,
+      "得": 9
+     },
+     "max": 31
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 14,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 14,
+     "components": {
+      "len": 0.35,
+      "clause": 0.2,
+      "density": 0.7142857142857142
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-過-46a1",
+   "stratum": "non_dominant",
+   "raw_length": 19.0,
+   "S1_polysemy": 0.36666666666666664,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.6916666666666668,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "花": 11,
+      "過": 11
+     },
+     "max": 11
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 3,
+     "no_subject": 3
+    },
+    "S3_syntactic_complexity": {
+     "chars": 19,
+     "clauses": 3,
+     "punct": 3,
+     "raw_length": 19,
+     "components": {
+      "len": 0.475,
+      "clause": 0.6,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-熱-fafd",
+   "stratum": "non_dominant",
+   "raw_length": 19.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.625,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "熱": 22
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 2,
+     "no_subject": 2
+    },
+    "S3_syntactic_complexity": {
+     "chars": 19,
+     "clauses": 2,
+     "punct": 2,
+     "raw_length": 19,
+     "components": {
+      "len": 0.475,
+      "clause": 0.4,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-中-85bc",
+   "stratum": "dominant",
+   "raw_length": 13.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.43141025641025643,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "中": 22
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 13,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 13,
+     "components": {
+      "len": 0.325,
+      "clause": 0.2,
+      "density": 0.7692307692307693
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-去-3d3f",
+   "stratum": "non_dominant",
+   "raw_length": 6.0,
+   "S1_polysemy": 0.6333333333333333,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.45,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "去": 19
+     },
+     "max": 19
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 6,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 6,
+     "components": {
+      "len": 0.15,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-條-7771",
+   "stratum": "non_dominant",
+   "raw_length": 12.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4444444444444444,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "條": 31,
+      "回": 9,
+      "生": 18
+     },
+     "max": 31
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 12,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 12,
+     "components": {
+      "len": 0.3,
+      "clause": 0.2,
+      "density": 0.8333333333333333
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-就-fe97",
+   "stratum": "non_dominant",
+   "raw_length": 8.0,
+   "S1_polysemy": 0.4666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4666666666666666,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "天": 10,
+      "就": 14,
+      "要": 8
+     },
+     "max": 14
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 8,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 8,
+     "components": {
+      "len": 0.2,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-面-572d",
+   "stratum": "non_dominant",
+   "raw_length": 23.0,
+   "S1_polysemy": 0.5666666666666667,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.40326086956521734,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "後": 17,
+      "得": 9,
+      "面": 11
+     },
+     "max": 17
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 23,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 23,
+     "components": {
+      "len": 0.575,
+      "clause": 0.2,
+      "density": 0.43478260869565216
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-長-d38d",
+   "stratum": "dominant",
+   "raw_length": 14.0,
+   "S1_polysemy": 0.7666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.42142857142857143,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "來": 19,
+      "間": 9,
+      "花": 11,
+      "長": 15,
+      "作": 23
+     },
+     "max": 23
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 14,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 14,
+     "components": {
+      "len": 0.35,
+      "clause": 0.2,
+      "density": 0.7142857142857142
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-部-8828",
+   "stratum": "non_dominant",
+   "raw_length": 9.0,
+   "S1_polysemy": 0.7,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.47500000000000003,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "部": 10,
+      "包": 21
+     },
+     "max": 21
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 9,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 9,
+     "components": {
+      "len": 0.225,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-空-f243",
+   "stratum": "dominant",
+   "raw_length": 13.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.5083333333333333,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "空": 35
+     },
+     "max": 35
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 13,
+     "clauses": 1,
+     "punct": 3,
+     "raw_length": 13,
+     "components": {
+      "len": 0.325,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-中-90d9",
+   "stratum": "dominant",
+   "raw_length": 12.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4444444444444444,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "中": 22,
+      "人": 11
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 12,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 12,
+     "components": {
+      "len": 0.3,
+      "clause": 0.2,
+      "density": 0.8333333333333333
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-歲-d243",
+   "stratum": "dominant",
+   "raw_length": 24.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4055555555555556,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "大": 20,
+      "歲": 4,
+      "下": 46,
+      "老": 17,
+      "水": 7
+     },
+     "max": 46
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 24,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 24,
+     "components": {
+      "len": 0.6,
+      "clause": 0.2,
+      "density": 0.41666666666666663
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-點-b366",
+   "stratum": "non_dominant",
+   "raw_length": 6.0,
+   "S1_polysemy": 0.8,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.45,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "點": 24,
+      "得": 9,
+      "說": 15
+     },
+     "max": 24
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 6,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 6,
+     "components": {
+      "len": 0.15,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-分-1598",
+   "stratum": "non_dominant",
+   "raw_length": 8.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4666666666666666,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "分": 10,
+      "真": 12,
+      "清": 30
+     },
+     "max": 30
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 8,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 8,
+     "components": {
+      "len": 0.2,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-回-e38e",
+   "stratum": "dominant",
+   "raw_length": 11.0,
+   "S1_polysemy": 0.36666666666666664,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4613636363636364,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "回": 9,
+      "會": 11
+     },
+     "max": 11
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 11,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 11,
+     "components": {
+      "len": 0.275,
+      "clause": 0.2,
+      "density": 0.9090909090909092
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-大-6041",
+   "stratum": "non_dominant",
+   "raw_length": 25.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4083333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "大": 20
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 25,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 25,
+     "components": {
+      "len": 0.625,
+      "clause": 0.2,
+      "density": 0.4
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-行-8a47",
+   "stratum": "non_dominant",
+   "raw_length": 14.0,
+   "S1_polysemy": 0.43333333333333335,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.5833333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "行": 13
+     },
+     "max": 13
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 2,
+     "no_subject": 2
+    },
+    "S3_syntactic_complexity": {
+     "chars": 14,
+     "clauses": 2,
+     "punct": 2,
+     "raw_length": 14,
+     "components": {
+      "len": 0.35,
+      "clause": 0.4,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-中-d396",
+   "stratum": "dominant",
+   "raw_length": 21.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4003968253968255,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "中": 22,
+      "去": 19,
+      "那": 6,
+      "過": 11
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 21,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 21,
+     "components": {
+      "len": 0.525,
+      "clause": 0.2,
+      "density": 0.47619047619047616
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-會-f21d",
+   "stratum": "dominant",
+   "raw_length": 20.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.39999999999999997,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "大": 20,
+      "天": 10,
+      "會": 11,
+      "約": 10,
+      "平": 30,
+      "子": 16
+     },
+     "max": 30
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 20,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 20,
+     "components": {
+      "len": 0.5,
+      "clause": 0.2,
+      "density": 0.5
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-吃-4c65",
+   "stratum": "non_dominant",
+   "raw_length": 18.0,
+   "S1_polysemy": 0.9333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4018518518518519,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "來": 19,
+      "回": 9,
+      "吃": 28,
+      "人": 11,
+      "要": 8
+     },
+     "max": 28
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 18,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 18,
+     "components": {
+      "len": 0.45,
+      "clause": 0.2,
+      "density": 0.5555555555555556
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-字-c8e1",
+   "stratum": "dominant",
+   "raw_length": 9.0,
+   "S1_polysemy": 0.36666666666666664,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.47500000000000003,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "字": 11
+     },
+     "max": 11
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 9,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 9,
+     "components": {
+      "len": 0.225,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-片-add4",
+   "stratum": "non_dominant",
+   "raw_length": 9.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.47500000000000003,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "片": 20,
+      "前": 16
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 9,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 9,
+     "components": {
+      "len": 0.225,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-破-bae1",
+   "stratum": "non_dominant",
+   "raw_length": 5.0,
+   "S1_polysemy": 0.9666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.44166666666666665,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "破": 29
+     },
+     "max": 29
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 5,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 5,
+     "components": {
+      "len": 0.125,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-就-6f06",
+   "stratum": "dominant",
+   "raw_length": 7.0,
+   "S1_polysemy": 0.4666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4583333333333333,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "就": 14
+     },
+     "max": 14
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 7,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 7,
+     "components": {
+      "len": 0.175,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-就-0a6d",
+   "stratum": "non_dominant",
+   "raw_length": 7.0,
+   "S1_polysemy": 0.4666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4583333333333333,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "就": 14
+     },
+     "max": 14
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 7,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 7,
+     "components": {
+      "len": 0.175,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-法-7bbd",
+   "stratum": "non_dominant",
+   "raw_length": 44.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 0.5,
+   "S3_syntactic_complexity": 0.6181818181818182,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "本": 9,
+      "法": 7,
+      "分": 10,
+      "下": 46,
+      "人": 11,
+      "代": 10
+     },
+     "max": 46
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 2,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 44,
+     "clauses": 2,
+     "punct": 2,
+     "raw_length": 44,
+     "components": {
+      "len": 1.0,
+      "clause": 0.4,
+      "density": 0.4545454545454546
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-日-d0ba",
+   "stratum": "dominant",
+   "raw_length": 14.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.42142857142857143,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "日": 10,
+      "天": 10,
+      "上": 43
+     },
+     "max": 43
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 14,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 14,
+     "components": {
+      "len": 0.35,
+      "clause": 0.2,
+      "density": 0.7142857142857142
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-口-7cfe",
+   "stratum": "dominant",
+   "raw_length": 5.0,
+   "S1_polysemy": 0.43333333333333335,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.44166666666666665,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "口": 13
+     },
+     "max": 13
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 5,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 5,
+     "components": {
+      "len": 0.125,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-熱-a4e3",
+   "stratum": "non_dominant",
+   "raw_length": 21.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4003968253968255,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "於": 9,
+      "比": 10,
+      "對": 20,
+      "熱": 22
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 21,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 21,
+     "components": {
+      "len": 0.525,
+      "clause": 0.2,
+      "density": 0.47619047619047616
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-代-5679",
+   "stratum": "non_dominant",
+   "raw_length": 22.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.40151515151515155,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "於": 9,
+      "本": 9,
+      "會": 11,
+      "收": 22,
+      "生": 18,
+      "代": 10
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 22,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 22,
+     "components": {
+      "len": 0.55,
+      "clause": 0.2,
+      "density": 0.4545454545454546
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-股-32a8",
+   "stratum": "dominant",
+   "raw_length": 14.0,
+   "S1_polysemy": 0.5666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.5833333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "後": 17,
+      "股": 12,
+      "約": 10,
+      "季": 8
+     },
+     "max": 17
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 2,
+     "no_subject": 2
+    },
+    "S3_syntactic_complexity": {
+     "chars": 14,
+     "clauses": 2,
+     "punct": 2,
+     "raw_length": 14,
+     "components": {
+      "len": 0.35,
+      "clause": 0.4,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-中-6473",
+   "stratum": "dominant",
+   "raw_length": 9.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.47500000000000003,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "中": 22,
+      "上": 43
+     },
+     "max": 43
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 9,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 9,
+     "components": {
+      "len": 0.225,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-大-6481",
+   "stratum": "non_dominant",
+   "raw_length": 9.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.47500000000000003,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "大": 20,
+      "開": 81
+     },
+     "max": 81
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 9,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 9,
+     "components": {
+      "len": 0.225,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-拿-b7ca",
+   "stratum": "dominant",
+   "raw_length": 15.0,
+   "S1_polysemy": 0.4666666666666667,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4138888888888889,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "重": 14,
+      "拿": 13,
+      "小": 9
+     },
+     "max": 14
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 15,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 15,
+     "components": {
+      "len": 0.375,
+      "clause": 0.2,
+      "density": 0.6666666666666666
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-畫-0f20",
+   "stratum": "dominant",
+   "raw_length": 8.0,
+   "S1_polysemy": 0.5,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4666666666666666,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "畫": 15
+     },
+     "max": 15
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 8,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 8,
+     "components": {
+      "len": 0.2,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-做-8944",
+   "stratum": "dominant",
+   "raw_length": 12.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4444444444444444,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "做": 20,
+      "分": 10
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 12,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 12,
+     "components": {
+      "len": 0.3,
+      "clause": 0.2,
+      "density": 0.8333333333333333
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-用-dfc4",
+   "stratum": "non_dominant",
+   "raw_length": 9.0,
+   "S1_polysemy": 0.9333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.47500000000000003,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "用": 14,
+      "吃": 28
+     },
+     "max": 28
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 9,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 9,
+     "components": {
+      "len": 0.225,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-叫-0122",
+   "stratum": "non_dominant",
+   "raw_length": 6.0,
+   "S1_polysemy": 0.3333333333333333,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.45,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "叫": 10
+     },
+     "max": 10
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 6,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 6,
+     "components": {
+      "len": 0.15,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-拉-4697",
+   "stratum": "non_dominant",
+   "raw_length": 15.0,
+   "S1_polysemy": 0.7,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4138888888888889,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "拉": 21,
+      "那": 6,
+      "說": 15
+     },
+     "max": 21
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 15,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 15,
+     "components": {
+      "len": 0.375,
+      "clause": 0.2,
+      "density": 0.6666666666666666
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-上-e882",
+   "stratum": "dominant",
+   "raw_length": 21.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4003968253968255,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "用": 14,
+      "發": 21,
+      "上": 43
+     },
+     "max": 43
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 21,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 21,
+     "components": {
+      "len": 0.525,
+      "clause": 0.2,
+      "density": 0.47619047619047616
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-行-a94f",
+   "stratum": "dominant",
+   "raw_length": 15.0,
+   "S1_polysemy": 0.5,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4138888888888889,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "就": 14,
+      "行": 13,
+      "好": 15,
+      "要": 8
+     },
+     "max": 15
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 15,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 15,
+     "components": {
+      "len": 0.375,
+      "clause": 0.2,
+      "density": 0.6666666666666666
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-拉-3034",
+   "stratum": "dominant",
+   "raw_length": 15.0,
+   "S1_polysemy": 0.8333333333333334,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4138888888888889,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "拉": 21,
+      "去": 19,
+      "帶": 25
+     },
+     "max": 25
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 15,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 15,
+     "components": {
+      "len": 0.375,
+      "clause": 0.2,
+      "density": 0.6666666666666666
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-坐-202b",
+   "stratum": "dominant",
+   "raw_length": 12.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4444444444444444,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "大": 20,
+      "抽": 20,
+      "上": 43,
+      "坐": 12
+     },
+     "max": 43
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 12,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 12,
+     "components": {
+      "len": 0.3,
+      "clause": 0.2,
+      "density": 0.8333333333333333
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-點-ba53",
+   "stratum": "dominant",
+   "raw_length": 18.0,
+   "S1_polysemy": 0.8,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4018518518518519,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "點": 24,
+      "重": 14,
+      "股": 12
+     },
+     "max": 24
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 18,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 18,
+     "components": {
+      "len": 0.45,
+      "clause": 0.2,
+      "density": 0.5555555555555556
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-拿-752a",
+   "stratum": "non_dominant",
+   "raw_length": 17.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4044117647058824,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "拿": 13,
+      "生": 18,
+      "場": 13,
+      "放": 37,
+      "開": 81
+     },
+     "max": 81
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 17,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 17,
+     "components": {
+      "len": 0.425,
+      "clause": 0.2,
+      "density": 0.5882352941176471
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-歲-1d48",
+   "stratum": "dominant",
+   "raw_length": 8.0,
+   "S1_polysemy": 0.3333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4666666666666666,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "比": 10,
+      "歲": 4,
+      "小": 9
+     },
+     "max": 10
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 8,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 8,
+     "components": {
+      "len": 0.2,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-帶-de6d",
+   "stratum": "dominant",
+   "raw_length": 14.0,
+   "S1_polysemy": 0.8333333333333334,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.42142857142857143,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "後": 17,
+      "部": 10,
+      "回": 9,
+      "帶": 25,
+      "老": 17
+     },
+     "max": 25
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 14,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 14,
+     "components": {
+      "len": 0.35,
+      "clause": 0.2,
+      "density": 0.7142857142857142
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-上-21f2",
+   "stratum": "non_dominant",
+   "raw_length": 14.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.42142857142857143,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "上": 43,
+      "度": 20,
+      "作": 23
+     },
+     "max": 43
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 14,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 14,
+     "components": {
+      "len": 0.35,
+      "clause": 0.2,
+      "density": 0.7142857142857142
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-大-1ed5",
+   "stratum": "non_dominant",
+   "raw_length": 8.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4666666666666666,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "於": 9,
+      "大": 20
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 8,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 8,
+     "components": {
+      "len": 0.2,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-發-5680",
+   "stratum": "non_dominant",
+   "raw_length": 43.0,
+   "S1_polysemy": 0.7,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.47751937984496123,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "來": 19,
+      "法": 7,
+      "卡": 11,
+      "發": 21,
+      "對": 20,
+      "行": 13,
+      "約": 10
+     },
+     "max": 21
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 43,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 43,
+     "components": {
+      "len": 1.0,
+      "clause": 0.2,
+      "density": 0.23255813953488372
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-吃-6163",
+   "stratum": "dominant",
+   "raw_length": 29.0,
+   "S1_polysemy": 0.9333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.42327586206896556,
+   "S4_cultural": 1.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "大": 20,
+      "才": 5,
+      "行": 13,
+      "吃": 28,
+      "要": 8
+     },
+     "max": 28
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 29,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 29,
+     "components": {
+      "len": 0.725,
+      "clause": 0.2,
+      "density": 0.3448275862068966
+     }
+    },
+    "S4_cultural": {
+     "hits": [
+      "不虛此行",
+      "無論如何"
+     ]
+    }
+   }
+  },
+  {
+   "id": "wsd-去-a508",
+   "stratum": "dominant",
+   "raw_length": 9.0,
+   "S1_polysemy": 0.6333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.47500000000000003,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "去": 19
+     },
+     "max": 19
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 9,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 9,
+     "components": {
+      "len": 0.225,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-就-5f17",
+   "stratum": "non_dominant",
+   "raw_length": 8.0,
+   "S1_polysemy": 0.4666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4666666666666666,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "就": 14
+     },
+     "max": 14
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 8,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 8,
+     "components": {
+      "len": 0.2,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-作-7705",
+   "stratum": "non_dominant",
+   "raw_length": 14.0,
+   "S1_polysemy": 0.7666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.42142857142857143,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "部": 10,
+      "明": 20,
+      "小": 9,
+      "人": 11,
+      "作": 23,
+      "說": 15
+     },
+     "max": 23
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 14,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 14,
+     "components": {
+      "len": 0.35,
+      "clause": 0.2,
+      "density": 0.7142857142857142
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-平-cb19",
+   "stratum": "non_dominant",
+   "raw_length": 9.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.47500000000000003,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "平": 30,
+      "子": 16
+     },
+     "max": 30
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 9,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 9,
+     "components": {
+      "len": 0.225,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-高-1c47",
+   "stratum": "non_dominant",
+   "raw_length": 26.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4115384615384616,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "高": 18,
+      "上": 43,
+      "人": 11
+     },
+     "max": 43
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 26,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 26,
+     "components": {
+      "len": 0.65,
+      "clause": 0.2,
+      "density": 0.38461538461538464
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-錢-f034",
+   "stratum": "dominant",
+   "raw_length": 16.0,
+   "S1_polysemy": 0.43333333333333335,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4083333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "錢": 7,
+      "口": 13,
+      "人": 11
+     },
+     "max": 13
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 16,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 16,
+     "components": {
+      "len": 0.4,
+      "clause": 0.2,
+      "density": 0.625
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-過-2e45",
+   "stratum": "dominant",
+   "raw_length": 9.0,
+   "S1_polysemy": 0.36666666666666664,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.47500000000000003,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "從": 10,
+      "過": 11
+     },
+     "max": 11
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 9,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 9,
+     "components": {
+      "len": 0.225,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-掛-c83e",
+   "stratum": "non_dominant",
+   "raw_length": 8.0,
+   "S1_polysemy": 0.6,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4666666666666666,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "掛": 18,
+      "要": 8
+     },
+     "max": 18
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 8,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 8,
+     "components": {
+      "len": 0.2,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-度-334e",
+   "stratum": "dominant",
+   "raw_length": 18.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4018518518518519,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "後": 17,
+      "天": 10,
+      "度": 20,
+      "明": 20
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 18,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 18,
+     "components": {
+      "len": 0.45,
+      "clause": 0.2,
+      "density": 0.5555555555555556
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-畫-5021",
+   "stratum": "dominant",
+   "raw_length": 12.0,
+   "S1_polysemy": 0.6333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4444444444444444,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "來": 19,
+      "用": 14,
+      "畫": 15
+     },
+     "max": 19
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 12,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 12,
+     "components": {
+      "len": 0.3,
+      "clause": 0.2,
+      "density": 0.8333333333333333
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-破-d556",
+   "stratum": "non_dominant",
+   "raw_length": 17.0,
+   "S1_polysemy": 0.9666666666666667,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4044117647058824,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "大": 20,
+      "破": 29,
+      "過": 11
+     },
+     "max": 29
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 17,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 17,
+     "components": {
+      "len": 0.425,
+      "clause": 0.2,
+      "density": 0.5882352941176471
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-歲-57c8",
+   "stratum": "dominant",
+   "raw_length": 7.0,
+   "S1_polysemy": 0.13333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4583333333333333,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "歲": 4
+     },
+     "max": 4
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 7,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 7,
+     "components": {
+      "len": 0.175,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-去-715b",
+   "stratum": "dominant",
+   "raw_length": 8.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4666666666666666,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "做": 20,
+      "就": 14,
+      "去": 19
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 8,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 8,
+     "components": {
+      "len": 0.2,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-中-797e",
+   "stratum": "dominant",
+   "raw_length": 11.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4613636363636364,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "中": 22,
+      "看": 12,
+      "清": 30
+     },
+     "max": 30
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 11,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 11,
+     "components": {
+      "len": 0.275,
+      "clause": 0.2,
+      "density": 0.9090909090909092
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-真-4c47",
+   "stratum": "non_dominant",
+   "raw_length": 12.0,
+   "S1_polysemy": 0.4,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4444444444444444,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "那": 6,
+      "真": 12
+     },
+     "max": 12
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 12,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 12,
+     "components": {
+      "len": 0.3,
+      "clause": 0.2,
+      "density": 0.8333333333333333
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-行-ed32",
+   "stratum": "non_dominant",
+   "raw_length": 40.0,
+   "S1_polysemy": 0.7,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.48333333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "比": 10,
+      "法": 7,
+      "拉": 21,
+      "行": 13,
+      "會": 11,
+      "過": 11
+     },
+     "max": 21
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 40,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 40,
+     "components": {
+      "len": 1.0,
+      "clause": 0.2,
+      "density": 0.25
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-度-4fa1",
+   "stratum": "dominant",
+   "raw_length": 24.0,
+   "S1_polysemy": 0.7666666666666667,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4055555555555556,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "度": 20,
+      "活": 15,
+      "生": 18,
+      "作": 23
+     },
+     "max": 23
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 24,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 24,
+     "components": {
+      "len": 0.6,
+      "clause": 0.2,
+      "density": 0.41666666666666663
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-邊-fb5e",
+   "stratum": "non_dominant",
+   "raw_length": 15.0,
+   "S1_polysemy": 0.5,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4138888888888889,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "法": 7,
+      "邊": 15
+     },
+     "max": 15
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 15,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 15,
+     "components": {
+      "len": 0.375,
+      "clause": 0.2,
+      "density": 0.6666666666666666
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-層-8006",
+   "stratum": "non_dominant",
+   "raw_length": 16.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.5333333333333333,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "中": 22,
+      "那": 6,
+      "間": 9,
+      "層": 11
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 16,
+     "clauses": 1,
+     "punct": 3,
+     "raw_length": 16,
+     "components": {
+      "len": 0.4,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-中-c90e",
+   "stratum": "non_dominant",
+   "raw_length": 42.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.6253968253968254,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "中": 22,
+      "得": 9,
+      "過": 11
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 2,
+     "no_subject": 2
+    },
+    "S3_syntactic_complexity": {
+     "chars": 42,
+     "clauses": 2,
+     "punct": 2,
+     "raw_length": 42,
+     "components": {
+      "len": 1.0,
+      "clause": 0.4,
+      "density": 0.47619047619047616
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-股-47e8",
+   "stratum": "dominant",
+   "raw_length": 22.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.6196969696969697,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "中": 22,
+      "股": 12
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 2,
+     "no_subject": 2
+    },
+    "S3_syntactic_complexity": {
+     "chars": 22,
+     "clauses": 2,
+     "punct": 2,
+     "raw_length": 22,
+     "components": {
+      "len": 0.55,
+      "clause": 0.4,
+      "density": 0.9090909090909092
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-季-58ca",
+   "stratum": "dominant",
+   "raw_length": 18.0,
+   "S1_polysemy": 0.26666666666666666,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4018518518518519,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "季": 8
+     },
+     "max": 8
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 18,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 18,
+     "components": {
+      "len": 0.45,
+      "clause": 0.2,
+      "density": 0.5555555555555556
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-行-8bb0",
+   "stratum": "non_dominant",
+   "raw_length": 16.0,
+   "S1_polysemy": 0.43333333333333335,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4083333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "行": 13,
+      "會": 11
+     },
+     "max": 13
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 16,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 16,
+     "components": {
+      "len": 0.4,
+      "clause": 0.2,
+      "density": 0.625
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-中-cde3",
+   "stratum": "dominant",
+   "raw_length": 9.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.47500000000000003,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "中": 22
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 9,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 9,
+     "components": {
+      "len": 0.225,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-點-e7f6",
+   "stratum": "dominant",
+   "raw_length": 21.0,
+   "S1_polysemy": 0.8,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4003968253968255,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "點": 24,
+      "行": 13,
+      "間": 9,
+      "作": 23
+     },
+     "max": 24
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 21,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 21,
+     "components": {
+      "len": 0.525,
+      "clause": 0.2,
+      "density": 0.47619047619047616
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-吃-c740",
+   "stratum": "dominant",
+   "raw_length": 12.0,
+   "S1_polysemy": 0.9333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4444444444444444,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "去": 19,
+      "吃": 28
+     },
+     "max": 28
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 12,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 12,
+     "components": {
+      "len": 0.3,
+      "clause": 0.2,
+      "density": 0.8333333333333333
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-明-3724",
+   "stratum": "dominant",
+   "raw_length": 13.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.43141025641025643,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "明": 20,
+      "代": 10
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 13,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 13,
+     "components": {
+      "len": 0.325,
+      "clause": 0.2,
+      "density": 0.7692307692307693
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-季-9ea6",
+   "stratum": "non_dominant",
+   "raw_length": 22.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.40151515151515155,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "就": 14,
+      "從": 10,
+      "場": 13,
+      "季": 8,
+      "開": 81
+     },
+     "max": 81
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 22,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 22,
+     "components": {
+      "len": 0.55,
+      "clause": 0.2,
+      "density": 0.4545454545454546
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-子-daed",
+   "stratum": "non_dominant",
+   "raw_length": 11.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4613636363636364,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "法": 7,
+      "中": 22,
+      "長": 15,
+      "子": 16
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 11,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 11,
+     "components": {
+      "len": 0.275,
+      "clause": 0.2,
+      "density": 0.9090909090909092
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-明-2c5b",
+   "stratum": "non_dominant",
+   "raw_length": 21.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4003968253968255,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "間": 9,
+      "明": 20
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 21,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 21,
+     "components": {
+      "len": 0.525,
+      "clause": 0.2,
+      "density": 0.47619047619047616
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-叫-2b66",
+   "stratum": "dominant",
+   "raw_length": 12.0,
+   "S1_polysemy": 0.5333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4444444444444444,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "叫": 10,
+      "小": 9,
+      "子": 16
+     },
+     "max": 16
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 12,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 12,
+     "components": {
+      "len": 0.3,
+      "clause": 0.2,
+      "density": 0.8333333333333333
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-條-5afb",
+   "stratum": "dominant",
+   "raw_length": 13.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.43141025641025643,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "條": 31,
+      "上": 43,
+      "還": 7
+     },
+     "max": 43
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 13,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 13,
+     "components": {
+      "len": 0.325,
+      "clause": 0.2,
+      "density": 0.7692307692307693
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-叫-9a50",
+   "stratum": "non_dominant",
+   "raw_length": 11.0,
+   "S1_polysemy": 0.5666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4613636363636364,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "後": 17,
+      "當": 7,
+      "叫": 10
+     },
+     "max": 17
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 11,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 11,
+     "components": {
+      "len": 0.275,
+      "clause": 0.2,
+      "density": 0.9090909090909092
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-好-93cc",
+   "stratum": "dominant",
+   "raw_length": 14.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.5166666666666667,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "來": 19,
+      "後": 17,
+      "下": 46,
+      "上": 43,
+      "那": 6,
+      "場": 13,
+      "好": 15
+     },
+     "max": 46
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 14,
+     "clauses": 1,
+     "punct": 2,
+     "raw_length": 14,
+     "components": {
+      "len": 0.35,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-吃-8bc8",
+   "stratum": "dominant",
+   "raw_length": 6.0,
+   "S1_polysemy": 0.9333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.45,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "死": 18,
+      "吃": 28
+     },
+     "max": 28
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 6,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 6,
+     "components": {
+      "len": 0.15,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-正-e48f",
+   "stratum": "non_dominant",
+   "raw_length": 24.0,
+   "S1_polysemy": 0.8666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4055555555555556,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "於": 9,
+      "比": 10,
+      "用": 14,
+      "人": 11,
+      "正": 26
+     },
+     "max": 26
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 24,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 24,
+     "components": {
+      "len": 0.6,
+      "clause": 0.2,
+      "density": 0.41666666666666663
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-日-bc94",
+   "stratum": "dominant",
+   "raw_length": 38.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 0.8333333333333334,
+   "S3_syntactic_complexity": 0.9833333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "大": 20,
+      "日": 10
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 6,
+     "no_subject": 5
+    },
+    "S3_syntactic_complexity": {
+     "chars": 38,
+     "clauses": 6,
+     "punct": 6,
+     "raw_length": 38,
+     "components": {
+      "len": 0.95,
+      "clause": 1.0,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-吃-0542",
+   "stratum": "dominant",
+   "raw_length": 11.0,
+   "S1_polysemy": 0.9333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4613636363636364,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "吃": 28,
+      "好": 15
+     },
+     "max": 28
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 11,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 11,
+     "components": {
+      "len": 0.275,
+      "clause": 0.2,
+      "density": 0.9090909090909092
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-拍-4bd6",
+   "stratum": "non_dominant",
+   "raw_length": 12.0,
+   "S1_polysemy": 0.6333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.5,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "來": 19,
+      "拍": 17
+     },
+     "max": 19
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 12,
+     "clauses": 1,
+     "punct": 2,
+     "raw_length": 12,
+     "components": {
+      "len": 0.3,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-場-50f3",
+   "stratum": "dominant",
+   "raw_length": 38.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.47105263157894733,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "本": 9,
+      "高": 18,
+      "大": 20,
+      "分": 10,
+      "下": 46,
+      "前": 16,
+      "明": 20,
+      "人": 11,
+      "場": 13,
+      "季": 8
+     },
+     "max": 46
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 38,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 38,
+     "components": {
+      "len": 0.95,
+      "clause": 0.2,
+      "density": 0.2631578947368421
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-花-da24",
+   "stratum": "non_dominant",
+   "raw_length": 19.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4004385964912281,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "中": 22,
+      "花": 11,
+      "放": 37
+     },
+     "max": 37
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 19,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 19,
+     "components": {
+      "len": 0.475,
+      "clause": 0.2,
+      "density": 0.5263157894736842
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-就-d690",
+   "stratum": "non_dominant",
+   "raw_length": 11.0,
+   "S1_polysemy": 0.4666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4613636363636364,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "就": 14,
+      "道": 11,
+      "心": 12
+     },
+     "max": 14
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 11,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 11,
+     "components": {
+      "len": 0.275,
+      "clause": 0.2,
+      "density": 0.9090909090909092
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-支-77e3",
+   "stratum": "non_dominant",
+   "raw_length": 23.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.40326086956521734,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "支": 13,
+      "明": 20
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 23,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 23,
+     "components": {
+      "len": 0.575,
+      "clause": 0.2,
+      "density": 0.43478260869565216
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-度-bf97",
+   "stratum": "non_dominant",
+   "raw_length": 15.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4138888888888889,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "前": 16,
+      "面": 11,
+      "度": 20
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 15,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 15,
+     "components": {
+      "len": 0.375,
+      "clause": 0.2,
+      "density": 0.6666666666666666
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-來-4a0d",
+   "stratum": "non_dominant",
+   "raw_length": 19.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4004385964912281,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "大": 20,
+      "來": 19,
+      "中": 22,
+      "生": 18,
+      "要": 8
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 19,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 19,
+     "components": {
+      "len": 0.475,
+      "clause": 0.2,
+      "density": 0.5263157894736842
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-度-c33f",
+   "stratum": "dominant",
+   "raw_length": 10.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.48333333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "度": 20
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 10,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 10,
+     "components": {
+      "len": 0.25,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-包-07f6",
+   "stratum": "dominant",
+   "raw_length": 16.0,
+   "S1_polysemy": 0.7,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4083333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "後": 17,
+      "回": 9,
+      "拿": 13,
+      "包": 21
+     },
+     "max": 21
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 16,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 16,
+     "components": {
+      "len": 0.4,
+      "clause": 0.2,
+      "density": 0.625
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-拉-04f0",
+   "stratum": "dominant",
+   "raw_length": 16.0,
+   "S1_polysemy": 0.7,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4083333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "天": 10,
+      "拉": 21,
+      "那": 6,
+      "還": 7
+     },
+     "max": 21
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 16,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 16,
+     "components": {
+      "len": 0.4,
+      "clause": 0.2,
+      "density": 0.625
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-正-7248",
+   "stratum": "non_dominant",
+   "raw_length": 20.0,
+   "S1_polysemy": 0.8666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.39999999999999997,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "本": 9,
+      "後": 17,
+      "人": 11,
+      "正": 26
+     },
+     "max": 26
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 20,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 20,
+     "components": {
+      "len": 0.5,
+      "clause": 0.2,
+      "density": 0.5
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-代-38c7",
+   "stratum": "non_dominant",
+   "raw_length": 20.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.39999999999999997,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "比": 10,
+      "新": 5,
+      "發": 21,
+      "上": 43,
+      "生": 18,
+      "人": 11,
+      "代": 10
+     },
+     "max": 43
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 20,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 20,
+     "components": {
+      "len": 0.5,
+      "clause": 0.2,
+      "density": 0.5
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-好-8649",
+   "stratum": "non_dominant",
+   "raw_length": 5.0,
+   "S1_polysemy": 0.5,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.44166666666666665,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "好": 15
+     },
+     "max": 15
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 5,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 5,
+     "components": {
+      "len": 0.125,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-上-94b4",
+   "stratum": "non_dominant",
+   "raw_length": 13.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.43141025641025643,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "上": 43,
+      "人": 11
+     },
+     "max": 43
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 13,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 13,
+     "components": {
+      "len": 0.325,
+      "clause": 0.2,
+      "density": 0.7692307692307693
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-帶-b6cb",
+   "stratum": "dominant",
+   "raw_length": 9.0,
+   "S1_polysemy": 0.8333333333333334,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.47500000000000003,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "來": 19,
+      "就": 14,
+      "回": 9,
+      "帶": 25
+     },
+     "max": 25
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 9,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 9,
+     "components": {
+      "len": 0.225,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-分-a4e1",
+   "stratum": "non_dominant",
+   "raw_length": 21.0,
+   "S1_polysemy": 0.43333333333333335,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4003968253968255,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "分": 10,
+      "面": 11,
+      "口": 13
+     },
+     "max": 13
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 21,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 21,
+     "components": {
+      "len": 0.525,
+      "clause": 0.2,
+      "density": 0.47619047619047616
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-正-8b50",
+   "stratum": "dominant",
+   "raw_length": 6.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.45,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "正": 26,
+      "開": 81
+     },
+     "max": 81
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 6,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 6,
+     "components": {
+      "len": 0.15,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-做-c9ba",
+   "stratum": "non_dominant",
+   "raw_length": 13.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.43141025641025643,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "做": 20,
+      "就": 14
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 13,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 13,
+     "components": {
+      "len": 0.325,
+      "clause": 0.2,
+      "density": 0.7692307692307693
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-條-f9f4",
+   "stratum": "non_dominant",
+   "raw_length": 10.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.48333333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "條": 31
+     },
+     "max": 31
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 10,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 10,
+     "components": {
+      "len": 0.25,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-發-68d0",
+   "stratum": "non_dominant",
+   "raw_length": 15.0,
+   "S1_polysemy": 0.7,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4138888888888889,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "才": 5,
+      "發": 21,
+      "要": 8
+     },
+     "max": 21
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 15,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 15,
+     "components": {
+      "len": 0.375,
+      "clause": 0.2,
+      "density": 0.6666666666666666
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-大-7fac",
+   "stratum": "dominant",
+   "raw_length": 15.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4138888888888889,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "大": 20,
+      "就": 14
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 15,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 15,
+     "components": {
+      "len": 0.375,
+      "clause": 0.2,
+      "density": 0.6666666666666666
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-大-5cfd",
+   "stratum": "non_dominant",
+   "raw_length": 10.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.48333333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "大": 20,
+      "上": 43
+     },
+     "max": 43
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 10,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 10,
+     "components": {
+      "len": 0.25,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-分-1813",
+   "stratum": "dominant",
+   "raw_length": 14.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.42142857142857143,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "中": 22,
+      "分": 10
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 14,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 14,
+     "components": {
+      "len": 0.35,
+      "clause": 0.2,
+      "density": 0.7142857142857142
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-就-f48f",
+   "stratum": "non_dominant",
+   "raw_length": 13.0,
+   "S1_polysemy": 0.4666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.43141025641025643,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "就": 14
+     },
+     "max": 14
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 13,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 13,
+     "components": {
+      "len": 0.325,
+      "clause": 0.2,
+      "density": 0.7692307692307693
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-打-b1b9",
+   "stratum": "non_dominant",
+   "raw_length": 17.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4044117647058824,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "大": 20,
+      "用": 14,
+      "打": 121,
+      "就": 14,
+      "得": 9,
+      "人": 11
+     },
+     "max": 121
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 17,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 17,
+     "components": {
+      "len": 0.425,
+      "clause": 0.2,
+      "density": 0.5882352941176471
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-拉-81ba",
+   "stratum": "dominant",
+   "raw_length": 9.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.47500000000000003,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "大": 20,
+      "拉": 21,
+      "下": 46,
+      "包": 21
+     },
+     "max": 46
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 9,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 9,
+     "components": {
+      "len": 0.225,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-代-2206",
+   "stratum": "non_dominant",
+   "raw_length": 9.0,
+   "S1_polysemy": 0.3333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.47500000000000003,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "代": 10
+     },
+     "max": 10
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 9,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 9,
+     "components": {
+      "len": 0.225,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-好-5071",
+   "stratum": "dominant",
+   "raw_length": 6.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.45,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "做": 20,
+      "好": 15
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 6,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 6,
+     "components": {
+      "len": 0.15,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-大-dc2c",
+   "stratum": "non_dominant",
+   "raw_length": 8.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4666666666666666,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "大": 20,
+      "好": 15
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 8,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 8,
+     "components": {
+      "len": 0.2,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-收-bbb4",
+   "stratum": "non_dominant",
+   "raw_length": 8.0,
+   "S1_polysemy": 0.9333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4666666666666666,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "來": 19,
+      "起": 28,
+      "得": 9,
+      "還": 7,
+      "收": 22
+     },
+     "max": 28
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 8,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 8,
+     "components": {
+      "len": 0.2,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-對-85c8",
+   "stratum": "non_dominant",
+   "raw_length": 10.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.48333333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "對": 20
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 10,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 10,
+     "components": {
+      "len": 0.25,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-上-2481",
+   "stratum": "dominant",
+   "raw_length": 15.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4138888888888889,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "會": 11,
+      "上": 43
+     },
+     "max": 43
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 15,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 15,
+     "components": {
+      "len": 0.375,
+      "clause": 0.2,
+      "density": 0.6666666666666666
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-說-bb11",
+   "stratum": "dominant",
+   "raw_length": 8.0,
+   "S1_polysemy": 0.5,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4666666666666666,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "過": 11,
+      "說": 15
+     },
+     "max": 15
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 8,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 8,
+     "components": {
+      "len": 0.2,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-中-b982",
+   "stratum": "dominant",
+   "raw_length": 19.0,
+   "S1_polysemy": 0.7333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4004385964912281,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "比": 10,
+      "中": 22,
+      "會": 11
+     },
+     "max": 22
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 19,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 19,
+     "components": {
+      "len": 0.475,
+      "clause": 0.2,
+      "density": 0.5263157894736842
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-人-64c0",
+   "stratum": "non_dominant",
+   "raw_length": 19.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4004385964912281,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "高": 18,
+      "用": 14,
+      "上": 43,
+      "人": 11
+     },
+     "max": 43
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 19,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 19,
+     "components": {
+      "len": 0.475,
+      "clause": 0.2,
+      "density": 0.5263157894736842
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-道-e472",
+   "stratum": "non_dominant",
+   "raw_length": 18.0,
+   "S1_polysemy": 0.5666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4018518518518519,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "後": 17,
+      "道": 11,
+      "過": 11
+     },
+     "max": 17
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 18,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 18,
+     "components": {
+      "len": 0.45,
+      "clause": 0.2,
+      "density": 0.5555555555555556
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-小-11fc",
+   "stratum": "dominant",
+   "raw_length": 10.0,
+   "S1_polysemy": 0.6666666666666666,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.48333333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "片": 20,
+      "小": 9
+     },
+     "max": 20
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 10,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 10,
+     "components": {
+      "len": 0.25,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-叫-7924",
+   "stratum": "dominant",
+   "raw_length": 13.0,
+   "S1_polysemy": 0.4,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.43141025641025643,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "心": 12,
+      "叫": 10,
+      "要": 8
+     },
+     "max": 12
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 13,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 13,
+     "components": {
+      "len": 0.325,
+      "clause": 0.2,
+      "density": 0.7692307692307693
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-折-0273",
+   "stratum": "dominant",
+   "raw_length": 10.0,
+   "S1_polysemy": 0.4666666666666667,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.48333333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "折": 14
+     },
+     "max": 14
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 10,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 10,
+     "components": {
+      "len": 0.25,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-會-9ba2",
+   "stratum": "dominant",
+   "raw_length": 16.0,
+   "S1_polysemy": 0.43333333333333335,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4083333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "行": 13,
+      "會": 11
+     },
+     "max": 13
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 16,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 16,
+     "components": {
+      "len": 0.4,
+      "clause": 0.2,
+      "density": 0.625
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-轉-cbbd",
+   "stratum": "non_dominant",
+   "raw_length": 17.0,
+   "S1_polysemy": 0.7666666666666667,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4044117647058824,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "那": 6,
+      "轉": 23
+     },
+     "max": 23
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 17,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 17,
+     "components": {
+      "len": 0.425,
+      "clause": 0.2,
+      "density": 0.5882352941176471
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-重-b652",
+   "stratum": "non_dominant",
+   "raw_length": 17.0,
+   "S1_polysemy": 0.9333333333333333,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4044117647058824,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "大": 20,
+      "就": 14,
+      "重": 14,
+      "行": 13,
+      "起": 28,
+      "得": 9,
+      "拿": 13,
+      "包": 21,
+      "小": 9
+     },
+     "max": 28
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 17,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 17,
+     "components": {
+      "len": 0.425,
+      "clause": 0.2,
+      "density": 0.5882352941176471
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-行-ce53",
+   "stratum": "non_dominant",
+   "raw_length": 9.0,
+   "S1_polysemy": 0.43333333333333335,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.47500000000000003,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "行": 13
+     },
+     "max": 13
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 9,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 9,
+     "components": {
+      "len": 0.225,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-畫-7d89",
+   "stratum": "non_dominant",
+   "raw_length": 8.0,
+   "S1_polysemy": 0.5,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4666666666666666,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "畫": 15
+     },
+     "max": 15
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 8,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 8,
+     "components": {
+      "len": 0.2,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-空-6f79",
+   "stratum": "non_dominant",
+   "raw_length": 8.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4666666666666666,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "頭": 19,
+      "轉": 23,
+      "空": 35
+     },
+     "max": 35
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 8,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 8,
+     "components": {
+      "len": 0.2,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-去-44b6",
+   "stratum": "dominant",
+   "raw_length": 6.0,
+   "S1_polysemy": 0.6333333333333333,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.45,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "去": 19,
+      "當": 7
+     },
+     "max": 19
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 6,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 6,
+     "components": {
+      "len": 0.15,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-歲-ec31",
+   "stratum": "dominant",
+   "raw_length": 13.0,
+   "S1_polysemy": 0.6,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.43141025641025643,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "歲": 4,
+      "老": 17,
+      "看": 12,
+      "生": 18
+     },
+     "max": 18
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 13,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 13,
+     "components": {
+      "len": 0.325,
+      "clause": 0.2,
+      "density": 0.7692307692307693
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-去-eeed",
+   "stratum": "dominant",
+   "raw_length": 7.0,
+   "S1_polysemy": 0.6333333333333333,
+   "S2_subject_ellipsis": 0.0,
+   "S3_syntactic_complexity": 0.4583333333333333,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "去": 19,
+      "行": 13,
+      "要": 8
+     },
+     "max": 19
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 0
+    },
+    "S3_syntactic_complexity": {
+     "chars": 7,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 7,
+     "components": {
+      "len": 0.175,
+      "clause": 0.2,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-條-a722",
+   "stratum": "dominant",
+   "raw_length": 14.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.42142857142857143,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "高": 18,
+      "條": 31
+     },
+     "max": 31
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 14,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 14,
+     "components": {
+      "len": 0.35,
+      "clause": 0.2,
+      "density": 0.7142857142857142
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-條-6af3",
+   "stratum": "non_dominant",
+   "raw_length": 15.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4138888888888889,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "條": 31,
+      "拉": 21
+     },
+     "max": 31
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 15,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 15,
+     "components": {
+      "len": 0.375,
+      "clause": 0.2,
+      "density": 0.6666666666666666
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-強-95c5",
+   "stratum": "dominant",
+   "raw_length": 16.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.6,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "強": 10,
+      "當": 7,
+      "水": 7,
+      "清": 30
+     },
+     "max": 30
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 2,
+     "no_subject": 2
+    },
+    "S3_syntactic_complexity": {
+     "chars": 16,
+     "clauses": 2,
+     "punct": 2,
+     "raw_length": 16,
+     "components": {
+      "len": 0.4,
+      "clause": 0.4,
+      "density": 1.0
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  },
+  {
+   "id": "wsd-人-9047",
+   "stratum": "dominant",
+   "raw_length": 16.0,
+   "S1_polysemy": 1.0,
+   "S2_subject_ellipsis": 1.0,
+   "S3_syntactic_complexity": 0.4083333333333334,
+   "S4_cultural": 0.0,
+   "_detail": {
+    "S1_polysemy": {
+     "hits": {
+      "上": 43,
+      "人": 11
+     },
+     "max": 43
+    },
+    "S2_subject_ellipsis": {
+     "clauses": 1,
+     "no_subject": 1
+    },
+    "S3_syntactic_complexity": {
+     "chars": 16,
+     "clauses": 1,
+     "punct": 1,
+     "raw_length": 16,
+     "components": {
+      "len": 0.4,
+      "clause": 0.2,
+      "density": 0.625
+     }
+    },
+    "S4_cultural": {
+     "hits": []
+    }
+   }
+  }
+ ]
+}

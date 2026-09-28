@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "purpose": "S0 spike 測試句集（技術設計文件 §8.1）",
+    "created": "2026-08-09",
+    "note": "高歧義 10 句 + 低歧義對照 5 句。undeterminable_field 為 T2 判準：該欄位在原文中確實無從判定，模型應填 UNKNOWN 而非猜測。本檔非 CAD-100，僅供 spike 使用。"
+  },
+  "ambiguous": [
+    {
+      "id": "amb-01",
+      "text": "方便的話明天再說吧",
+      "ambiguity_type": "PRAGMATIC",
+      "readings": ["委婉推託，實際不想談", "字面詢問對方明天是否有空"],
+      "undeterminable_field": "social_relation",
+      "why": "無稱謂與敬語線索，上下關係無從判定，但直接影響日文譯法"
+    },
+    {
+      "id": "amb-02",
+      "text": "這件事你看著辦",
+      "ambiguity_type": "PRAGMATIC",
+      "readings": ["授權對方自行決定", "帶不滿的警告"],
+      "undeterminable_field": "social_relation",
+      "why": "授權與警告兩讀取決於上下關係，原文無線索"
+    },
+    {
+      "id": "amb-03",
+      "text": "他這個人挺有意思的",
+      "ambiguity_type": "LEXICAL",
+      "readings": ["風趣幽默", "別有用心", "對其有好感"],
+      "undeterminable_field": "speaker_intent",
+      "why": "「有意思」三義並存，缺語境無法擇一"
+    },
+    {
+      "id": "amb-04",
+      "text": "我改天請你吃飯",
+      "ambiguity_type": "PRAGMATIC",
+      "readings": ["真實邀約", "客套話，無實際安排"],
+      "undeterminable_field": "speaker_intent",
+      "why": "承諾強度無從判定，影響英譯的時態與情態選擇"
+    },
+    {
+      "id": "amb-05",
+      "text": "老師沒有批評小明，因為他表現很好",
+      "ambiguity_type": "REFERENTIAL",
+      "readings": ["「他」指小明", "「他」指老師"],
+      "undeterminable_field": "agent",
+      "why": "代名詞回指對象兩可，英譯必須擇一而中文可懸置"
+    },
+    {
+      "id": "amb-06",
+      "text": "他說他不去",
+      "ambiguity_type": "REFERENTIAL",
+      "readings": ["兩個「他」為同一人", "兩個「他」為不同人"],
+      "undeterminable_field": "agent",
+      "why": "同形代名詞是否共指無法判定"
+    },
+    {
+      "id": "amb-07",
+      "text": "意思意思就好了",
+      "ambiguity_type": "LEXICAL",
+      "readings": ["象徵性地表示心意（送禮／紅包）", "隨便應付一下即可"],
+      "undeterminable_field": "agent",
+      "why": "施事者與受事物件皆省略，且「意思」為文化專有用法"
+    },
+    {
+      "id": "amb-08",
+      "text": "這個價錢還可以",
+      "ambiguity_type": "LEXICAL",
+      "readings": ["勉強能接受", "相當不錯"],
+      "undeterminable_field": "speaker_intent",
+      "why": "「還可以」的評價極性在中文為弱標記，英譯必須擇一"
+    },
+    {
+      "id": "amb-09",
+      "text": "你怎麼才來",
+      "ambiguity_type": "PRAGMATIC",
+      "readings": ["責備遲到", "關心對方路上狀況", "熟人間的玩笑"],
+      "undeterminable_field": "social_relation",
+      "why": "語氣取決於關係親疏，日譯的敬語層級因此無法決定"
+    },
+    {
+      "id": "amb-10",
+      "text": "我等你消息",
+      "ambiguity_type": "PRAGMATIC",
+      "readings": ["真的在等待回覆", "結束對話的客套語"],
+      "undeterminable_field": "speaker_intent",
+      "why": "是否構成實質承諾無從判定"
+    }
+  ],
+  "control": [
+    {
+      "id": "ctl-01",
+      "text": "我明天早上九點會在辦公室等你",
+      "note": "時間、地點、施事者、時態皆明確"
+    },
+    {
+      "id": "ctl-02",
+      "text": "這本書總共有三百二十頁",
+      "note": "純事實陳述，無語用層次"
+    },
+    {
+      "id": "ctl-03",
+      "text": "請把窗戶關上，外面很吵",
+      "note": "祈使句，意圖與理由皆顯性"
+    },
+    {
+      "id": "ctl-04",
+      "text": "他去年從台北搬到台中",
+      "note": "時態、起訖地點明確"
+    },
+    {
+      "id": "ctl-05",
+      "text": "會議改到下週三下午兩點舉行",
+      "note": "事件與時間明確，無省略"
+    }
+  ]
+}

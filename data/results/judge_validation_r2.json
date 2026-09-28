@@ -1,0 +1,56 @@
+{
+  "n": 20,
+  "design": "binary_forced_choice",
+  "contaminated": false,
+  "judge_cross_behavioural": {
+    "is_cross": false,
+    "names_differ": true,
+    "cuts_identical": true
+  },
+  "judge_vs_human": 0.75,
+  "human_vs_gold": 0.9,
+  "judge_vs_gold": 0.7,
+  "judge_vs_human_ci": [
+    0.5312949900419365,
+    0.888139947210597
+  ],
+  "both_plausible_rate": 0.15,
+  "judge_model": "ithu/gpt-oss-120b",
+  "disagreements": [
+    {
+      "n": 9,
+      "probe_id": "wsd-條-50d4",
+      "word": "條",
+      "human": "A",
+      "judge": "B"
+    },
+    {
+      "n": 12,
+      "probe_id": "wsd-明-9c84",
+      "word": "明",
+      "human": "A",
+      "judge": "B"
+    },
+    {
+      "n": 13,
+      "probe_id": "wsd-股-32a8",
+      "word": "股",
+      "human": "B",
+      "judge": "A"
+    },
+    {
+      "n": 16,
+      "probe_id": "wsd-就-d690",
+      "word": "就",
+      "human": "A",
+      "judge": "B"
+    },
+    {
+      "n": 19,
+      "probe_id": "wsd-字-c8e1",
+      "word": "字",
+      "human": "NONE",
+      "judge": "B"
+    }
+  ]
+}

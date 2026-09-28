@@ -1,0 +1,308 @@
+{
+  "model": "ckiplab/gpt2-base-chinese",
+  "auc_high": 0.48444444444444446,
+  "auc_low": 0.5155555555555555,
+  "n": 30,
+  "rows": [
+    {
+      "id": "dev-lex-01",
+      "type": "LEXICAL",
+      "amb_text": "這個人很難說",
+      "dis_text": "此人難以評斷",
+      "amb_ppl": 582.7216796875,
+      "dis_ppl": 1009.157470703125,
+      "amb_len": 6,
+      "dis_len": 6
+    },
+    {
+      "id": "dev-lex-02",
+      "type": "LEXICAL",
+      "amb_text": "他終於放下了",
+      "dis_text": "他終於釋懷了",
+      "amb_ppl": 582.1839599609375,
+      "dis_ppl": 959.0286865234375,
+      "amb_len": 6,
+      "dis_len": 6
+    },
+    {
+      "id": "dev-lex-03",
+      "type": "LEXICAL",
+      "amb_text": "我們研究研究",
+      "dis_text": "我們實際研議",
+      "amb_ppl": 552.55517578125,
+      "dis_ppl": 2188.5400390625,
+      "amb_len": 6,
+      "dis_len": 6
+    },
+    {
+      "id": "dev-lex-04",
+      "type": "LEXICAL",
+      "amb_text": "那家店關門了",
+      "dis_text": "那家店歇業了",
+      "amb_ppl": 2158.724365234375,
+      "dis_ppl": 2444.004150390625,
+      "amb_len": 6,
+      "dis_len": 6
+    },
+    {
+      "id": "dev-lex-05",
+      "type": "LEXICAL",
+      "amb_text": "他很會做人",
+      "dis_text": "他人際圓融",
+      "amb_ppl": 2205.3642578125,
+      "dis_ppl": 7527.71484375,
+      "amb_len": 5,
+      "dis_len": 5
+    },
+    {
+      "id": "dev-lex-06",
+      "type": "LEXICAL",
+      "amb_text": "我沒有意見",
+      "dis_text": "我完全同意",
+      "amb_ppl": 944.3309936523438,
+      "dis_ppl": 764.6317138671875,
+      "amb_len": 5,
+      "dis_len": 5
+    },
+    {
+      "id": "dev-lex-07",
+      "type": "LEXICAL",
+      "amb_text": "他手上有東西",
+      "dis_text": "他手裡拿著書",
+      "amb_ppl": 618.1455688476562,
+      "dis_ppl": 712.5203857421875,
+      "amb_len": 6,
+      "dis_len": 6
+    },
+    {
+      "id": "dev-lex-08",
+      "type": "LEXICAL",
+      "amb_text": "把那份文件處理一下",
+      "dis_text": "把那份文件辦理完成",
+      "amb_ppl": 316.31396484375,
+      "dis_ppl": 308.6680603027344,
+      "amb_len": 9,
+      "dis_len": 9
+    },
+    {
+      "id": "dev-lex-09",
+      "type": "LEXICAL",
+      "amb_text": "他昨天走了",
+      "dis_text": "他昨天離開",
+      "amb_ppl": 1930.489501953125,
+      "dis_ppl": 1071.331787109375,
+      "amb_len": 5,
+      "dis_len": 5
+    },
+    {
+      "id": "dev-ref-01",
+      "type": "REFERENTIAL",
+      "amb_text": "小明告訴小華他考上了",
+      "dis_text": "小明告訴小華，小華考上了",
+      "amb_ppl": 1502.739990234375,
+      "dis_ppl": 407.1392517089844,
+      "amb_len": 10,
+      "dis_len": 12
+    },
+    {
+      "id": "dev-ref-02",
+      "type": "REFERENTIAL",
+      "amb_text": "經理跟助理說他要出差",
+      "dis_text": "經理跟助理說經理要出差",
+      "amb_ppl": 627.4806518554688,
+      "dis_ppl": 487.24957275390625,
+      "amb_len": 10,
+      "dis_len": 11
+    },
+    {
+      "id": "dev-ref-03",
+      "type": "REFERENTIAL",
+      "amb_text": "媽媽罵妹妹，因為她把杯子打破了",
+      "dis_text": "媽媽罵妹妹，因為妹妹把杯子打破了",
+      "amb_ppl": 153.10072326660156,
+      "dis_ppl": 142.8170623779297,
+      "amb_len": 15,
+      "dis_len": 16
+    },
+    {
+      "id": "dev-ref-04",
+      "type": "REFERENTIAL",
+      "amb_text": "王先生和李先生見面時，他帶了資料",
+      "dis_text": "王先生和李先生見面時，王先生帶了資料",
+      "amb_ppl": 111.8885269165039,
+      "dis_ppl": 64.59799194335938,
+      "amb_len": 16,
+      "dis_len": 18
+    },
+    {
+      "id": "dev-ref-05",
+      "type": "REFERENTIAL",
+      "amb_text": "醫生看了病人一眼，他嘆了口氣",
+      "dis_text": "醫生看了病人一眼，醫生嘆了口氣",
+      "amb_ppl": 260.190673828125,
+      "dis_ppl": 195.37689208984375,
+      "amb_len": 14,
+      "dis_len": 15
+    },
+    {
+      "id": "dev-ref-06",
+      "type": "REFERENTIAL",
+      "amb_text": "老闆同意了他的提案，這是他第一次成功",
+      "dis_text": "老闆同意了小張的提案，這是小張第一次成功",
+      "amb_ppl": 51.265506744384766,
+      "dis_ppl": 76.12001037597656,
+      "amb_len": 18,
+      "dis_len": 20
+    },
+    {
+      "id": "dev-ref-07",
+      "type": "REFERENTIAL",
+      "amb_text": "我跟他去他家",
+      "dis_text": "我跟阿明去阿明家",
+      "amb_ppl": 2467.096435546875,
+      "dis_ppl": 1580.61767578125,
+      "amb_len": 6,
+      "dis_len": 8
+    },
+    {
+      "id": "dev-ref-08",
+      "type": "REFERENTIAL",
+      "amb_text": "張三認為李四不該相信他",
+      "dis_text": "張三認為李四不該相信張三",
+      "amb_ppl": 548.2172241210938,
+      "dis_ppl": 359.7398681640625,
+      "amb_len": 11,
+      "dis_len": 12
+    },
+    {
+      "id": "dev-ref-09",
+      "type": "REFERENTIAL",
+      "amb_text": "他們兩個吵架後，他就再也沒來過",
+      "dis_text": "小陳和小林吵架後，小陳就再也沒來過",
+      "amb_ppl": 136.82595825195312,
+      "dis_ppl": 240.98667907714844,
+      "amb_len": 15,
+      "dis_len": 17
+    },
+    {
+      "id": "dev-prg-01",
+      "type": "PRAGMATIC",
+      "amb_text": "你今天氣色不錯",
+      "dis_text": "你看起來很健康",
+      "amb_ppl": 1139.207763671875,
+      "dis_ppl": 580.4647827148438,
+      "amb_len": 7,
+      "dis_len": 7
+    },
+    {
+      "id": "dev-prg-02",
+      "type": "PRAGMATIC",
+      "amb_text": "這報告我看過了",
+      "dis_text": "這報告沒有問題",
+      "amb_ppl": 1111.3321533203125,
+      "dis_ppl": 754.0360107421875,
+      "amb_len": 7,
+      "dis_len": 7
+    },
+    {
+      "id": "dev-prg-03",
+      "type": "PRAGMATIC",
+      "amb_text": "時間不早了",
+      "dis_text": "你們該走了",
+      "amb_ppl": 2900.710693359375,
+      "dis_ppl": 3412.0576171875,
+      "amb_len": 5,
+      "dis_len": 5
+    },
+    {
+      "id": "dev-prg-04",
+      "type": "PRAGMATIC",
+      "amb_text": "你的想法很特別",
+      "dis_text": "你的想法很好",
+      "amb_ppl": 692.0188598632812,
+      "dis_ppl": 832.5263671875,
+      "amb_len": 7,
+      "dis_len": 6
+    },
+    {
+      "id": "dev-prg-05",
+      "type": "PRAGMATIC",
+      "amb_text": "我盡量",
+      "dis_text": "我會做",
+      "amb_ppl": 19926.162109375,
+      "dis_ppl": 12158.2080078125,
+      "amb_len": 3,
+      "dis_len": 3
+    },
+    {
+      "id": "dev-prg-06",
+      "type": "PRAGMATIC",
+      "amb_text": "這樣也可以啦",
+      "dis_text": "這樣我很滿意",
+      "amb_ppl": 1363.1358642578125,
+      "dis_ppl": 868.2750854492188,
+      "amb_len": 6,
+      "dis_len": 6
+    },
+    {
+      "id": "dev-prg-07",
+      "type": "PRAGMATIC",
+      "amb_text": "你要不要再考慮一下",
+      "dis_text": "我不贊成這決定",
+      "amb_ppl": 223.14688110351562,
+      "dis_ppl": 1054.32568359375,
+      "amb_len": 9,
+      "dis_len": 7
+    },
+    {
+      "id": "dev-prg-08",
+      "type": "PRAGMATIC",
+      "amb_text": "我沒說你錯",
+      "dis_text": "你的做法沒錯",
+      "amb_ppl": 9015.4423828125,
+      "dis_ppl": 1778.2900390625,
+      "amb_len": 5,
+      "dis_len": 6
+    },
+    {
+      "id": "dev-prg-09",
+      "type": "PRAGMATIC",
+      "amb_text": "大家都很努力",
+      "dis_text": "每個人都達標",
+      "amb_ppl": 299.1243896484375,
+      "dis_ppl": 1225.992431640625,
+      "amb_len": 6,
+      "dis_len": 6
+    },
+    {
+      "id": "dev-prg-10",
+      "type": "PRAGMATIC",
+      "amb_text": "這件衣服很適合你",
+      "dis_text": "我覺得這件好看",
+      "amb_ppl": 522.3440551757812,
+      "dis_ppl": 1524.67333984375,
+      "amb_len": 8,
+      "dis_len": 7
+    },
+    {
+      "id": "dev-prg-11",
+      "type": "PRAGMATIC",
+      "amb_text": "你先忙",
+      "dis_text": "我先走了",
+      "amb_ppl": 111206.21875,
+      "dis_ppl": 7015.53759765625,
+      "amb_len": 3,
+      "dis_len": 4
+    },
+    {
+      "id": "dev-prg-12",
+      "type": "PRAGMATIC",
+      "amb_text": "我知道了",
+      "dis_text": "我完全理解",
+      "amb_ppl": 2282.323486328125,
+      "dis_ppl": 1674.9429931640625,
+      "amb_len": 4,
+      "dis_len": 5
+    }
+  ]
+}

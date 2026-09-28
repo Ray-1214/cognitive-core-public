@@ -1,0 +1,36 @@
+{
+  "n": 1,
+  "accuracy": NaN,
+  "n_correct": 0,
+  "n_judgeable": 0,
+  "translation_failed": 0,
+  "none": 0,
+  "error": 1,
+  "by_stratum": {
+    "dominant": {
+      "n": 0,
+      "correct": 0,
+      "acc": NaN,
+      "ci": [
+        NaN,
+        NaN
+      ]
+    },
+    "non_dominant": {
+      "n": 0,
+      "correct": 0,
+      "acc": NaN,
+      "ci": [
+        NaN,
+        NaN
+      ]
+    }
+  },
+  "diff": NaN,
+  "diff_ci": [
+    NaN,
+    NaN
+  ],
+  "p": NaN,
+  "aborted": "第 1 筆連續兩次 429（間隔 25s），研判為日配額耗盡，已中止。累計 429 1 次"
+}

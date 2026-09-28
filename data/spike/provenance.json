@@ -1,0 +1,112 @@
+{
+  "recorded_at": "2026-08-14T03:31:01+08:00",
+  "git": {
+    "commit": "528754a87a7fe9778c95766671a6ac381f122f15",
+    "branch": "main",
+    "dirty": true
+  },
+  "scripts": {
+    "scripts/spike_s0.py": {
+      "file_sha256_16": "eb26e5fb3b9171af",
+      "lines": 386,
+      "prompts": {
+        "ANCHOR_SYSTEM": {
+          "sha256_16": "6396c7abab2e154f",
+          "chars": 441,
+          "preview": "你是語言學分析助手。分析使用者提供的中文句子，輸出語意錨點 JSON。  最重要的規則： - 若某欄位無法從句子本身確定，必須填 \"UNKN"
+        },
+        "inline_00": {
+          "sha256_16": "fa89d79547db57eb",
+          "chars": 42,
+          "preview": "  T1 通過   → G6 目標 ≥99%；tier 分布看降級階梯實際走到第幾級"
+        },
+        "inline_01": {
+          "sha256_16": "38bf91732899a662",
+          "chars": 60,
+          "preview": "  T2 precis → tp/(tp+fp)，同時看誠實與節制；只看 recall 會被『全標 UNKNOWN』騙過"
+        },
+        "inline_02": {
+          "sha256_16": "80806318de88c6c7",
+          "chars": 45,
+          "preview": "  T2 recall → 該欄位確實無從判定，填 UNKNOWN 才對；低代表模型會亂猜"
+        },
+        "inline_03": {
+          "sha256_16": "690d532123da03f1",
+          "chars": 43,
+          "preview": "  T3 落差   → 判別力請看 spike_s0b 的 AUC，落差大不等於可分離"
+        },
+        "inline_04": {
+          "sha256_16": "c4100145bead8ab1",
+          "chars": 49,
+          "preview": "  對照誤標  → 對照句全欄位皆可判定，標 UNKNOWN 即偽陽性；高代表濫用 UNKNOWN"
+        },
+        "inline_05": {
+          "sha256_16": "ee9d55cf913b39f8",
+          "chars": 436,
+          "preview": "S0 能力 spike — 技術設計文件 §8.1。  在蓋 provider 抽象層之前，先確認校內各模型撐不撐得住反思任務。測三件事： "
+        },
+        "inline_06": {
+          "sha256_16": "6396c7abab2e154f",
+          "chars": 441,
+          "preview": "你是語言學分析助手。分析使用者提供的中文句子，輸出語意錨點 JSON。  最重要的規則： - 若某欄位無法從句子本身確定，必須填 \"UNKN"
+        },
+        "inline_07": {
+          "sha256_16": "b405d6ba4a2a40ec",
+          "chars": 43,
+          "preview": "依降級階梯取得錨點。回傳 {tier, ok, anchor, raw, meta}。"
+        },
+        "inline_08": {
+          "sha256_16": "185c4f7b79008fd2",
+          "chars": 57,
+          "preview": "回傳 (content, meta)。meta 含 tokens / finish_reason / error。"
+        },
+        "inline_09": {
+          "sha256_16": "2f15c4bbc2c24eb1",
+          "chars": 35,
+          "preview": "錯誤：未設定 ITHU_API_KEY（請放入 .env 或環境變數）"
+        }
+      }
+    },
+    "scripts/spike_s0b.py": {
+      "file_sha256_16": "681e37659b2fd268",
+      "lines": 286,
+      "prompts": {
+        "inline_00": {
+          "sha256_16": "09ebc1fb26a495a4",
+          "chars": 40,
+          "preview": " ⚠️ n=10 vs 5，檢定力極低；dev-30 完成後必須重跑。完整結果："
+        },
+        "inline_01": {
+          "sha256_16": "93eee527788ba71e",
+          "chars": 50,
+          "preview": "P(隨機 pos 分數 > 隨機 neg 分數)，同分算 0.5。1.0=完全分離，0.5=無訊號。"
+        },
+        "inline_02": {
+          "sha256_16": "6fa497f6a4133a65",
+          "chars": 614,
+          "preview": "S0b — T3 訊號追查（技術設計文件 §8.3）。  S0 發現多視角回譯一致性訊號 separable=False，威脅演算法 1 的"
+        },
+        "inline_03": {
+          "sha256_16": "6ee4c5df7b5f742c",
+          "chars": 92,
+          "preview": "以下兩句都是同一句中文經由不同語言轉譯後再譯回中文的結果。判斷它們所表達的「說話者意圖」是否相同。只輸出一個 0 到 1 的數字，1 表示意"
+        },
+        "inline_04": {
+          "sha256_16": "4a86690828d36da3",
+          "chars": 79,
+          "preview": "判斷使用者提供的中文句子是否存在語意歧義（同一句話可能有多種互不相容的解讀）。只輸出一個 0 到 1 的數字，1 表示高度歧義，0 表示完全"
+        },
+        "inline_05": {
+          "sha256_16": "421dee52b3017b8b",
+          "chars": 33,
+          "preview": "翻譯 → 回譯 → 四種量測。翻譯只做一次，四種尺規套同一批結果。"
+        }
+      }
+    }
+  },
+  "data": {
+    "data/spike/sentences.json": {
+      "sha256_16": "31a2ca7d90854e5d"
+    }
+  }
+}

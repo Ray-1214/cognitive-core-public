@@ -1,0 +1,36 @@
+{
+  "n": 30,
+  "accuracy": NaN,
+  "n_correct": 0,
+  "n_judgeable": 0,
+  "translation_failed": 0,
+  "none": 0,
+  "error": 30,
+  "by_stratum": {
+    "dominant": {
+      "n": 0,
+      "correct": 0,
+      "acc": NaN,
+      "ci": [
+        NaN,
+        NaN
+      ]
+    },
+    "non_dominant": {
+      "n": 0,
+      "correct": 0,
+      "acc": NaN,
+      "ci": [
+        NaN,
+        NaN
+      ]
+    }
+  },
+  "diff": NaN,
+  "diff_ci": [
+    NaN,
+    NaN
+  ],
+  "p": NaN,
+  "aborted": null
+}
