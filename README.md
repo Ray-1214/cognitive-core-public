@@ -43,8 +43,8 @@
 
 而且我們**知道**那是真的 null 而不是搞砸了，因為：
 
-- **訊號設計在看到任何 AUC 之前凍結**（[預先登記檔](data/results/signal_preregistration.md)附
-  commit hash 與 `labels_used: false`）
+- **訊號設計在首次計算訊號 AUC 之前凍結**（登記於 2026-08-21，首次 AUC 於 2026-08-22）；
+  純句長與標籤的關係在登記前已於長度稽核中看過（[預先登記檔](data/results/signal_preregistration.md)）
 - **並列上限分析**事先算出哪些訊號在數學上不可能顯著（S4 上限 0.520 < 門檻）
 - **純句長基準**與 DeLong 相關樣本檢定全程並列
 
