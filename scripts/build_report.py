@@ -1068,9 +1068,8 @@ def main(out: pathlib.Path | None = None) -> int:
 
     a("### 4.2　預先登記")
     a("")
-    a(f"訊號設計在看到任何 AUC 之前凍結。登記檔 "
-      f"`data/results/signal_preregistration.md`，commit "
-      f"`{prereg.get('commit', '—')}`，`labels_used: false`。")
+    a("訊號設計在首次計算訊號 AUC 之前凍結（登記於 2026-08-21，首次 AUC 於 2026-08-22）；"
+      "純句長與標籤的關係在登記前已於長度稽核中看過。")
     a("")
     a(section(RESULTS / "signal_preregistration.md", "## 登記表", "## 處置理由"))
     a("")
